@@ -1,0 +1,6 @@
+syn match cssTextProp contained "\<hanging-punctuation\>"
+syn match cssTextProp contained "\<line-break\>"
+syn match cssTextProp contained "\<punctuation-trim\>"
+syn match cssTextProp contained "\<white-space-collapsing\>"
+syn match cssTextProp contained "\<word-\(break\|wrap\)\>"
+syn match cssTextProp contained "\<text-\(align-last\|autospace\|justify\|outline\|overflow\|shadow\|underline-position\|wrap\|emphasis\(-\(color\|position\|style\)\)\=\|decoration-\(color\|line\|skip\|style\)\>"
