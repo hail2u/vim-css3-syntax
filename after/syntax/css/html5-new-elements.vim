@@ -1,0 +1,2 @@
+" HTML5 new elements
+syn keyword section article aside hgroup header footer nav figure figcaption video audio source embed mark progress meter time ruby rt rp bdi wbr canvas command details summary datalist keygen output
