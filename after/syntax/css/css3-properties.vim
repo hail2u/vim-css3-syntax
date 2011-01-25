@@ -1,8 +1,3 @@
-syn match cssBoxProp contained "\<border-\(color\|image\|radius\)\>"
-syn match cssBoxProp contained "\<box-shadow\>"
-
-syn match cssColorProp contained "\<background-\(origin\|clip\|size\)\>"
-
 syn match cssTextProp contained "\<text-\(shadow\|overflow\)\>"
 syn match cssTextProp contained "\<word-wrap\>"
 
