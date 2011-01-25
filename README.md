@@ -26,6 +26,10 @@ Git and pathogen
 HISTORY
 =======
 
+v0.2
+----
+  * almost all CSS3 features added
+
 v0.1
 ----
   * Initial release
