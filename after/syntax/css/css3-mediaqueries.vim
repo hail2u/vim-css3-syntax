@@ -1,4 +1,3 @@
 syn region cssMediaType start='(' end=')' contains=css.*Attr,css.*Prop,cssComment,cssValue.*,cssColor,cssURL,cssImportant,cssError,cssStringQ,cssStringQQ,cssFunction,cssUnicodeEscape nextgroup=cssMediaComma,cssMediaAnd,cssMediaBlock skipwhite skipnl
-" ToDo: Works almost good (for me), but this could be dangerous
-syn region cssMediaBlock transparent matchgroup=cssBraces start='{' end='}' contains=ALL
+syn region cssMediaBlock contained transparent matchgroup=cssBraces start='{' end='}' contains=cssTagName,cssError,cssComment,cssDefinition,cssURL,cssUnicodeEscape,cssIdentifier,cssClassName
 syn match cssMediaAnd "and" nextgroup=cssMediaType skipwhite skipnl
