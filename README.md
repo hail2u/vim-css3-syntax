@@ -10,6 +10,20 @@ DESCRIPTION
 Add CSS3 syntax support to vim's built-in `syntax/css.vim`.
 
 
+About Vendor Extension
+----------------------
+
+I don't hava a plan to support a CSS 3 property (and function) with
+vendor extension, such as -webkit- or -moz-. These are hard to maintain
+because:
+
+  * Added frequently
+  * Changed unexpectedly
+  * Removed silently
+
+These must be supported by seperate syntax plugin.
+
+
 INSTALLATION
 ============
 
