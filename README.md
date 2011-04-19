@@ -96,6 +96,18 @@ Create `~/.vim/after/syntax/scss.vim` and write these lines:
 HISTORY
 =======
 
+v0.3
+----
+
+  * Add CSS3 Presentation Levels Module features
+  * Add CSS3 Lists Module features
+  * Add CSS3 Generated and Replaced Content Module features
+  * Add CSS Template Layout Module features
+  * Add CSS Image Values and Replaced Content Module Level 3 features
+  * Fix: can't highlight class names inside @media block
+  * some minor bug fixes
+
+
 v0.2
 ----
 
