@@ -34,7 +34,7 @@ Git and pathogen
 ----------------
 
     $ cd ~/.vim/bundle
-    $ git clone https://hail2u@github.com/hail2u/vim-css3-syntax.git
+    $ git clone https://github.com/hail2u/vim-css3-syntax.git
 
 
 With HTML file
