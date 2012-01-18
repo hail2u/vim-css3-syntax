@@ -1,44 +1,23 @@
-TITLE
-=====
-
 vim-css3-syntax
+===============
 
-
-DESCRIPTION
-===========
 
 Add CSS3 syntax support to vim's built-in `syntax/css.vim`.
 
 
-About Vendor Extension
-----------------------
-
-I don't hava a plan to support a CSS 3 property (and function) with
-vendor extension, such as -webkit- or -moz-. These are hard to maintain
-because:
-
-  * Added frequently
-  * Changed unexpectedly
-  * Removed silently
-
-These must be supported by seperate syntax plugin.
-
-
 INSTALLATION
-============
+------------
 
 Extract vim-css3-syntax.tar.gz and copy contents to `~/.vim` directory.
 
 
-Git and pathogen
-----------------
+### Git and pathogen
 
     $ cd ~/.vim/bundle
     $ git clone https://github.com/hail2u/vim-css3-syntax.git
 
 
-With HTML file
---------------
+### With HTML file
 
 Create `~/.vim/after/syntax/html.vim` and write these line:
 
@@ -65,8 +44,7 @@ Create `~/.vim/after/syntax/html.vim` and write these line:
     syn include @htmlCss syntax/css/css3-writing-modes.vim
 
 
-With SCSS (Sassy CSS) file
---------------------------
+### With SCSS (Sassy CSS) file
 
 Create `~/.vim/after/syntax/scss.vim` and write these lines:
 
@@ -93,11 +71,22 @@ Create `~/.vim/after/syntax/scss.vim` and write these lines:
     runtime! syntax/css/css3-writing-modes.vim
 
 
-HISTORY
-=======
+About Vendor Extension
+----------------------
 
-v0.3
-----
+I don't hava a plan to support a CSS 3 property (and function) with vendor extension, such as -webkit- or -moz-. These are hard to maintain because:
+
+  * Added frequently
+  * Changed unexpectedly
+  * Removed silently
+
+These must be supported by seperate syntax plugin.
+
+
+HISTORY
+-------
+
+### v0.3
 
   * Add CSS3 Presentation Levels Module features
   * Add CSS3 Lists Module features
@@ -108,19 +97,23 @@ v0.3
   * some minor bug fixes
 
 
-v0.2
-----
+### v0.2
 
   * almost all CSS3 features added
 
 
-v0.1
-----
+### v0.1
 
   * Initial release
 
 
 AUTHOR
-======
+------
 
-  * Kyo Namegashima <kyo@hail2u.net>
+Kyo Namegashima <kyo@hail2u.net>
+
+
+LICENSE
+-------
+
+MIT: http://hail2u.mit-license.org/2011
