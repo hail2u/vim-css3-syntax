@@ -1,5 +1,6 @@
 " TODO: create cssImagesProp group and cssImagesAttr group
-syn match cssFontProp contained "\<object-fit\>"
-syn keyword cssFontAttr contained contain cover
+syn match cssFontProp contained "\<object-\(fit\|position\)\>"
+syn match cssFontProp contained "\<image-\(resolution\|orientation\)\>"
+syn keyword cssFontAttr contained contain cover snap
 syn match cssFontAttr contained "\<scale-down\>"
-syn region cssFunction contained matchgroup=cssFunctionName start="\<\(image\|element\|cross-fade\|\(repeating-\)\=\(linear\|radial\)-gradient\)\s*(" end=")" oneline keepend
+syn region cssFunction contained matchgroup=cssFunctionName start="\<\(image\|element\|\(repeating-\)\=\(linear\|radial\)-gradient\)\s*(" end=")" oneline keepend
