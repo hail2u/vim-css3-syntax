@@ -28,7 +28,6 @@ Create `~/.vim/after/syntax/html.vim` and write these line:
     syn include @htmlCss syntax/css/css3-colors.vim
     syn include @htmlCss syntax/css/css3-content.vim
     syn include @htmlCss syntax/css/css3-flexbox.vim
-    syn include @htmlCss syntax/css/css3-functions.vim
     syn include @htmlCss syntax/css/css3-gcpm.vim
     syn include @htmlCss syntax/css/css3-grid.vim
     syn include @htmlCss syntax/css/css3-hyperlinks.vim
@@ -46,6 +45,7 @@ Create `~/.vim/after/syntax/html.vim` and write these line:
     syn include @htmlCss syntax/css/css3-transforms.vim
     syn include @htmlCss syntax/css/css3-transitions.vim
     syn include @htmlCss syntax/css/css3-ui.vim
+    syn include @htmlCss syntax/css/css3-values.vim
     syn include @htmlCss syntax/css/css3-writing-modes.vim
 
 
@@ -60,7 +60,6 @@ Create `~/.vim/after/syntax/scss.vim` and write these lines:
     runtime! syntax/css/css3-colors.vim
     runtime! syntax/css/css3-content.vim
     runtime! syntax/css/css3-flexbox.vim
-    runtime! syntax/css/css3-functions.vim
     runtime! syntax/css/css3-gcpm.vim
     runtime! syntax/css/css3-grid.vim
     runtime! syntax/css/css3-hyperlinks.vim
@@ -78,6 +77,7 @@ Create `~/.vim/after/syntax/scss.vim` and write these lines:
     runtime! syntax/css/css3-transforms.vim
     runtime! syntax/css/css3-transitions.vim
     runtime! syntax/css/css3-ui.vim
+    runtime! syntax/css/css3-values.vim
     runtime! syntax/css/css3-writing-modes.vim
 
 
