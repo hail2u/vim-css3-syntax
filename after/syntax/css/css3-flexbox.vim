@@ -1,10 +1,6 @@
-" TODO: create cssFlexBoxProp group and cssFlexBoxAttr group
-syn match cssFontProp contained "\<box-\(align\|direction\|flex\|flex-group\|lines\|ordinal-group\|orient\|pack\)\>"
-syn keyword cssFontAttr contained single multiple
-syn match cssFontAttr contained "\<\(inline\|box\)-axis\>"
-
-" WD-css3-flexbox-20110322
-syn match cssFontProp contained "\<flex-\(align\|direction\|order\|pack\)\>"
-syn keyword cssFontAttr contained flexbox lr rl tb bt
+" TODO: create cssFlexboxProp group and cssFlexboxAttr group
+syn match cssFontProp contained "\<flex-\(align\|flow\|line-pack\|order\|pack\)\>"
+syn keyword cssFontAttr contained flexbox row wrap
 syn match cssFontAttr contained "\<inline-flexbox\>"
-syn match cssFontAttr contained "\<\(inline\|block\)-reverse\>"
+syn match cssFontAttr contained "\<\(row\|column\|wrap\)-reverse\>"
+syn region cssFunction contained matchgroup=cssFunctionName start="\<flex\s*(" end=")" oneline keepend
