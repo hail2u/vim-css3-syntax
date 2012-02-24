@@ -1,0 +1,326 @@
+/* Test Stylesheet for vim-css3-syntax */
+@media screen and (min-width: 768px) {
+  .test {
+    alignment-baseline: auto;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: 0s;
+    animation-fill-mode: none;
+    animation-iteration-count: 1;
+    animation-name: none;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    appearance: none;
+  }
+
+  .test {
+    backface-visibility: visible;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-composite: source-over;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-size: auto;
+  }
+
+  .test {
+    baseline-shift: baseline;
+    border-bottom-color: black;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-collapse: separate;
+    border-fit: border;
+    border-horizontal-spacing: 0px;
+    border-image-outset: 0px;
+  }
+
+  .test {
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image: none;
+    border-left-color: black;
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: black;
+    border-right-style: none;
+  }
+
+  .test {
+    border-right-width: 0px;
+    border-top-color: black;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-vertical-spacing: 0px;
+    bottom: auto;
+    box-align: stretch;
+    box-direction: normal;
+  }
+
+  .test {
+    box-flex-group: 1;
+    box-flex: 0;
+    box-lines: single;
+    box-ordinal-group: 1;
+    box-orient: horizontal;
+    box-pack: start;
+    box-reflect: none;
+    box-shadow: none;
+    box-sizing: content-box;
+    caption-side: top;
+  }
+
+  .test {
+    clear: none;
+    clip-path: none;
+    clip-rule: nonzero;
+    clip: auto;
+    color-correction: default;
+    color-interpolation-filters: linearrgb;
+    color-interpolation: srgb;
+    color-rendering: auto;
+    color: black;
+    column-axis: auto;
+  }
+
+  .test {
+    column-break-after: auto;
+    column-break-before: auto;
+    column-break-inside: auto;
+    column-count: auto;
+    column-gap: normal;
+    column-rule-color: rgb(0, 0, 0);
+    column-rule-style: none;
+    column-rule-width: 0px;
+    column-span: 1;
+    column-width: auto;
+  }
+
+  .test {
+    cursor: auto;
+    direction: ltr;
+    display: block;
+    dominant-baseline: auto;
+    empty-cells: show;
+    fill-opacity: 1;
+    fill-rule: nonzero;
+    fill: #000000;
+    filter: none;
+    flex-align: stretch;
+  }
+
+  .test {
+    flex-flow: row;
+    flex-order: 0;
+    flex-pack: start;
+    float: none;
+    flood-color: rgb(0, 0, 0);
+    flood-opacity: 1;
+    flow-from: none;
+    flow-into: auto;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+
+  .test {
+    font-smoothing: auto;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    glyph-orientation-horizontal: 0deg;
+    glyph-orientation-vertical: auto;
+    height: auto;
+    highlight: none;
+    hyphenate-character: auto;
+    hyphenate-limit-after: auto;
+  }
+
+  .test {
+    hyphenate-limit-before: auto;
+    hyphenate-limit-lines: no-limit;
+    hyphens: manual;
+    image-rendering: auto;
+    kerning: 0;
+    left: auto;
+    letter-spacing: normal;
+    lighting-color: rgb(255, 255, 255);
+    line-box-contain: block inline replaced;
+    line-break: normal;
+  }
+
+  .test {
+    line-clamp: none;
+    line-grid-snap: none;
+    line-grid: none;
+    line-height: normal;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    locale: auto;
+    margin-after-collapse: collapse;
+    margin-before-collapse: collapse;
+  }
+
+  .test {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    marker-end: none;
+    marker-mid: none;
+    marker-start: none;
+    marquee-direction: auto;
+    marquee-increment: 6px;
+    marquee-repetition: infinite;
+  }
+
+  .test {
+    marquee-style: scroll;
+    mask-attachment: scroll;
+    mask-box-image-outset: 0px;
+    mask-box-image-repeat: stretch;
+    mask-box-image-slice: 0 fill;
+    mask-box-image-source: none;
+    mask-box-image-width: auto;
+    mask-box-image: none;
+    mask-clip: border-box;
+    mask-composite: source-over;
+  }
+
+  .test {
+    mask-image: none;
+    mask-origin: border-box;
+    mask-position: 0% 0%;
+    mask-repeat: repeat;
+    mask-size: auto;
+    mask: none;
+    max-height: none;
+    max-width: none;
+    min-height: 0px;
+    min-width: 0px;
+  }
+
+  .test {
+    nbsp-mode: normal;
+    opacity: 1;
+    orphans: 2;
+    outline-color: black;
+    outline-style: none;
+    outline-width: 0px;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+
+  .test {
+    padding-right: 0px;
+    padding-top: 0px;
+    page-break-after: auto;
+    page-break-before: auto;
+    page-break-inside: auto;
+    perspective-origin: 623px 1066px;
+    perspective: none;
+    pointer-events: auto;
+    position: static;
+    print-color-adjust: economy;
+  }
+
+  .test {
+    region-break-after: auto;
+    region-break-before: auto;
+    region-break-inside: auto;
+    region-overflow: auto;
+    resize: none;
+    right: auto;
+    rtl-ordering: logical;
+    shape-rendering: auto;
+    speak: normal;
+    stop-color: rgb(0, 0, 0);
+  }
+
+  .test {
+    stop-opacity: 1;
+    stroke-dasharray: none;
+    stroke-dashoffset: 0;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-miterlimit: 4;
+    stroke-opacity: 1;
+    stroke-width: 1;
+    stroke: none;
+    svg-shadow: none;
+  }
+
+  .test {
+    table-layout: auto;
+    tap-highlight-color: rgba(0, 0, 0, 0.199219);
+    text-align: -webkit-auto;
+    text-anchor: start;
+    text-combine: none;
+    text-decoration: none;
+    text-decorations-in-effect: none;
+    text-emphasis-color: black;
+    text-emphasis-position: over;
+    text-emphasis-style: none;
+  }
+
+  .test {
+    text-fill-color: rgb(0, 0, 0);
+    text-indent: 0px;
+    text-orientation: vertical-right;
+    text-overflow: clip;
+    text-rendering: auto;
+    text-security: none;
+    text-shadow: none;
+    text-stroke-color: rgb(0, 0, 0);
+    text-stroke-width: 0px;
+    text-transform: none;
+  }
+
+  .test {
+    top: auto;
+    transform-origin: 623px 1066px;
+    transform-style: flat;
+    transform: none;
+    transition-delay: 0s;
+    transition-duration: 0s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    unicode-bidi: normal;
+    user-drag: auto;
+  }
+
+  .test {
+    user-modify: read-only;
+    user-select: text;
+    vector-effect: none;
+    vertical-align: baseline;
+    visibility: visible;
+    white-space: normal;
+    widows: 2;
+    width: auto;
+    word-break: normal;
+    word-spacing: 0px;
+  }
+
+  .test {
+    word-wrap: normal;
+    wrap-flow: auto;
+    wrap-margin: 0px;
+    wrap-padding: 0px;
+    wrap-through: wrap;
+    writing-mode: horizontal-tb;
+    writing-mode: lr-tb;
+    z-index: 0;
+    zoom: 1;
+  }
+}
