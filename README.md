@@ -39,8 +39,8 @@ Create `~/.vim/after/syntax/html.vim` and write these line:
     " syn include @htmlCss syntax/css/css3-mediaqueries.vim
     syn include @htmlCss syntax/css/css3-multicol.vim
     syn include @htmlCss syntax/css/css3-preslev.vim
-    syn include @htmlCss syntax/css/css3-pseudo-classes.vim
     syn include @htmlCss syntax/css/css3-ruby.vim
+    syn include @htmlCss syntax/css/css3-selectors.vim
     syn include @htmlCss syntax/css/css3-text.vim
     syn include @htmlCss syntax/css/css3-transforms.vim
     syn include @htmlCss syntax/css/css3-transitions.vim
@@ -71,8 +71,8 @@ Create `~/.vim/after/syntax/scss.vim` and write these lines:
     " runtime! syntax/css/css3-mediaqueries.vim
     runtime! syntax/css/css3-multicol.vim
     runtime! syntax/css/css3-preslev.vim
-    runtime! syntax/css/css3-pseudo-classes.vim
     runtime! syntax/css/css3-ruby.vim
+    runtime! syntax/css/css3-selectors.vim
     runtime! syntax/css/css3-text.vim
     runtime! syntax/css/css3-transforms.vim
     runtime! syntax/css/css3-transitions.vim
