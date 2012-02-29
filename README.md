@@ -1,7 +1,6 @@
 vim-css3-syntax
 ===============
 
-
 Add CSS3 syntax support to vim's built-in `syntax/css.vim`.
 
 
@@ -25,6 +24,7 @@ Create `~/.vim/after/syntax/html.vim` and write these line:
     syn include @htmlCss syntax/css/css3-animations.vim
     syn include @htmlCss syntax/css/css3-background.vim
     syn include @htmlCss syntax/css/css3-box.vim
+    syn include @htmlCss syntax/css/css3-break.vim
     syn include @htmlCss syntax/css/css3-colors.vim
     syn include @htmlCss syntax/css/css3-content.vim
     syn include @htmlCss syntax/css/css3-flexbox.vim
@@ -57,6 +57,7 @@ Create `~/.vim/after/syntax/scss.vim` and write these lines:
     runtime! syntax/css/css3-animations.vim
     runtime! syntax/css/css3-background.vim
     runtime! syntax/css/css3-box.vim
+    runtime! syntax/css/css3-break.vim
     runtime! syntax/css/css3-colors.vim
     runtime! syntax/css/css3-content.vim
     runtime! syntax/css/css3-flexbox.vim
@@ -84,7 +85,7 @@ Create `~/.vim/after/syntax/scss.vim` and write these lines:
 About Vendor Extension
 ----------------------
 
-I don't hava a plan to support a CSS 3 property (and function) with vendor extension, such as -webkit- or -moz-. These are hard to maintain because:
+I don't hava a plan to support a CSS 3 property (and function) with vendor extension, such as `-webkit-` or `-moz-`. These are hard to maintain because:
 
   * Added frequently
   * Changed unexpectedly
@@ -96,6 +97,16 @@ These must be supported by seperate syntax plugin.
 HISTORY
 -------
 
+### v0.4
+
+  * Add CSS Fragmentation Module Level 3 features
+  * Fix a problem on pseudo-class and pseudo-element names inside @media block
+  * Fix a problem on media type and expression
+  * Add CSS Values and Units Module Level 3 features
+  * Follow spec updates
+  * Some minor big fixes
+
+
 ### v0.3
 
   * Add CSS3 Presentation Levels Module features
@@ -103,13 +114,13 @@ HISTORY
   * Add CSS3 Generated and Replaced Content Module features
   * Add CSS Template Layout Module features
   * Add CSS Image Values and Replaced Content Module Level 3 features
-  * Fix: can't highlight class names inside @media block
-  * some minor bug fixes
+  * Fix a problem on class names inside @media block
+  * Some minor bug fixes
 
 
 ### v0.2
 
-  * almost all CSS3 features added
+  * Almost all CSS3 features added
 
 
 ### v0.1
