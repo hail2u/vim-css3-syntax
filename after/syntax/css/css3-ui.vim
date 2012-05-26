@@ -5,4 +5,3 @@ syn match cssUIProp contained "\<nav-\(index\|up\|right\|down\|left\)"
 syn match cssUIProp contained "\<outline\(-\(color\|offset\|style\|width\)\)\="
 syn match cssUIProp contained "\<text-overflow\>"
 syn keyword cssUIAttr contained active inactive disabled root horizontal vertical clip ellipsis
-syn match cssUIAttr contained "\<\(content\|border\)-box\>" 

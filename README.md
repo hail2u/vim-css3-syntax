@@ -104,6 +104,7 @@ HISTORY
   * Add CSS Grid Layout features
   * Add `gr` unit
   * Follow spec updates
+  * Some minor bug fixes
 
 ### v0.4
 
@@ -112,7 +113,7 @@ HISTORY
   * Fix a problem on media type and expression
   * Add CSS Values and Units Module Level 3 features
   * Follow spec updates
-  * Some minor big fixes
+  * Some minor bug fixes
 
 
 ### v0.3
