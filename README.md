@@ -100,8 +100,9 @@ HISTORY
 -------
 
 ### WIP
-  
+
   * Add CSS Grid Layout features
+  * Add CSS Box Alignment features
   * Add `gr` unit
   * Follow spec updates
   * Some minor bug fixes
