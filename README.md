@@ -108,7 +108,7 @@ These commands highlight vendor prefixed properties and functions instantly with
 HISTORY
 -------
 
-### WIP
+### v0.5
 
   * Add CSS Regions Module Level 3 features
   * Add CSS Exclusions and Shapes Module Level 3 features
