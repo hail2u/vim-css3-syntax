@@ -27,6 +27,7 @@ Create `~/.vim/after/syntax/html.vim` and write these line:
     syn include @htmlCss syntax/css/css3-break.vim
     syn include @htmlCss syntax/css/css3-colors.vim
     syn include @htmlCss syntax/css/css3-content.vim
+    syn include @htmlCss syntax/css/css3-exclusions.vim
     syn include @htmlCss syntax/css/css3-flexbox.vim
     syn include @htmlCss syntax/css/css3-gcpm.vim
     syn include @htmlCss syntax/css/css3-grid.vim
@@ -61,6 +62,7 @@ Create `~/.vim/after/syntax/scss.vim` and write these lines:
     runtime! syntax/css/css3-break.vim
     runtime! syntax/css/css3-colors.vim
     runtime! syntax/css/css3-content.vim
+    runtime! syntax/css/css3-exclusions.vim
     runtime! syntax/css/css3-flexbox.vim
     runtime! syntax/css/css3-gcpm.vim
     runtime! syntax/css/css3-grid.vim
@@ -101,6 +103,7 @@ HISTORY
 
 ### WIP
 
+  * Add CSS Exclusions and Shapes Module Level 3 features
   * Add CSS Grid Layout features
   * Add CSS Box Alignment features
   * Add `gr` unit
