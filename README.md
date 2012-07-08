@@ -41,6 +41,7 @@ Create `~/.vim/after/syntax/html.vim` and write these line:
     " syn include @htmlCss syntax/css/css3-mediaqueries.vim
     syn include @htmlCss syntax/css/css3-multicol.vim
     syn include @htmlCss syntax/css/css3-preslev.vim
+    syn include @htmlCss syntax/css/css3-regions.vim
     syn include @htmlCss syntax/css/css3-ruby.vim
     syn include @htmlCss syntax/css/css3-selectors.vim
     syn include @htmlCss syntax/css/css3-text.vim
@@ -76,6 +77,7 @@ Create `~/.vim/after/syntax/scss.vim` and write these lines:
     " runtime! syntax/css/css3-mediaqueries.vim
     runtime! syntax/css/css3-multicol.vim
     runtime! syntax/css/css3-preslev.vim
+    runtime! syntax/css/css3-regions.vim
     runtime! syntax/css/css3-ruby.vim
     runtime! syntax/css/css3-selectors.vim
     runtime! syntax/css/css3-text.vim
@@ -103,6 +105,7 @@ HISTORY
 
 ### WIP
 
+  * Add CSS Regions Module Level 3 features
   * Add CSS Exclusions and Shapes Module Level 3 features
   * Add CSS Grid Layout features
   * Add CSS Box Alignment features
