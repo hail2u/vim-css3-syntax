@@ -109,6 +109,7 @@ HISTORY
 ### v0.6
 
   * Remove deprecated CSS Grid Positioning Module
+  * Follow spec updates
 
 ### v0.5
 
