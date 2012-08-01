@@ -30,7 +30,6 @@ Create `~/.vim/after/syntax/html.vim` and write these line:
     syn include @htmlCss syntax/css/css3-exclusions.vim
     syn include @htmlCss syntax/css/css3-flexbox.vim
     syn include @htmlCss syntax/css/css3-gcpm.vim
-    syn include @htmlCss syntax/css/css3-grid.vim
     syn include @htmlCss syntax/css/css3-grid-layout.vim
     syn include @htmlCss syntax/css/css3-hyperlinks.vim
     syn include @htmlCss syntax/css/css3-images.vim
@@ -66,7 +65,6 @@ Create `~/.vim/after/syntax/scss.vim` and write these lines:
     runtime! syntax/css/css3-exclusions.vim
     runtime! syntax/css/css3-flexbox.vim
     runtime! syntax/css/css3-gcpm.vim
-    runtime! syntax/css/css3-grid.vim
     runtime! syntax/css/css3-grid-layout.vim
     runtime! syntax/css/css3-hyperlinks.vim
     runtime! syntax/css/css3-images.vim
@@ -107,6 +105,10 @@ These commands highlight vendor prefixed properties and functions instantly with
 
 HISTORY
 -------
+
+### v0.6
+
+  * Remove deprecated CSS Grid Positioning Module
 
 ### v0.5
 
