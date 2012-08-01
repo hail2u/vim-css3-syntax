@@ -1,0 +1,487 @@
+.align {
+  justify-self: head;
+  justify-content: foot;
+  justify-items: true;
+  align-self: flex-start;
+  align-content: flex-end;
+  align-items: space-between;
+  display: space-around;
+}
+
+.animations {
+  animation: forwards;
+  animation-delay: backwards;
+  animation-direction: running;
+  animation-duration: paused;
+  animation-fill-mode: alternate-reverse;
+  animation-iteration-count: auto;
+  animation-name: auto;
+  animation-play-state: auto;
+  animation-timing-function: auto;
+}
+
+.background {
+  background-clip: space;
+  background-origin: round;
+  background-size: local;
+  border-image: fill;
+  border-image-source: stretch;
+  border-image-slice: clone;
+  border-image-width: slice;
+  border-image-outset: padding-box;
+  border-image-repeat: border-box;
+  border-radius: content-box;
+  border-top-right-radius: auto;
+  border-bottom-right-radius: auto;
+  border-bottom-left-radius: auto;
+  border-top-left-radius: auto;
+  box-decoration-break: auto;
+  box-shadow: auto;
+}
+
+.box {
+  overflow-style: scrollbar;
+  overflow-x: panner;
+  overflow-y: move;
+  rotation-point: marquee;
+  display: ruby;
+  display: ruby-base;
+  display: ruby-text;
+  display: ruby-base-group;
+  display: ruby-text-group;
+  display: no-display;
+  display: no-content;
+}
+
+.break {
+  break-after: auto;
+  break-before: auto;
+  break-inside: auto;
+}
+
+.colors {
+  opacity: rgba(0, 0, 0, 1);
+  display: hsla(0, 0, 0, 1)
+  display: currentColor;
+}
+
+.content {
+  move-to: inhibit;
+  page-polcy: here;
+  display: first;
+  display: last;
+}
+
+.exclusions {
+  shape-image-threshold: maximum;
+  shape-inside: outside-shape;
+  shape-outside: auto;
+  wrap: auto;
+  wrap-flow: auto;
+  wrap-margin: auto;
+  wrap-padding: auto;
+  wrap-through: auto;
+}
+
+.flexbox {
+  order: flex;
+  flex: row;
+  flex-basis: wrap;
+  flex-direction: inline-flex;
+  flex-flow: row-reverse;
+  flex-grow: column-reverse;
+  flex-shrink: wrap-reverse;
+  flex-wrap: auto;
+}
+
+.gcpm {
+  bleed: target-counter(attr(href, url), page, decimal);
+  hyphens: target-counters(attr(href, url), section, ".", decimal);
+  marks: target-text(attr(href), content());
+  bookmark-label: open;
+  bookmark-level: closed;
+  bookmark-state: manual;
+  bookmark-target: crop;
+  float-offset: cross;
+  hyphenate-before: no-limit;
+  hyphenate-character: super-decimal;
+  hyphenate-lines: auto;
+  hyphenate-resource: auto;
+  image-resolution: auto;
+  string-set: auto;
+}
+
+.grid-layout {
+  grid-cell: grid;
+  grid-column: rows;
+  grid-row: inline-grid;
+  grid-column-align: auto;
+  grid-row-align: auto;
+  grid-column-sizing: auto;
+  grid-row-sizing: auto;
+  grid-column-span: auto;
+  grid-row-span: auto;
+  grid-columns: auto;
+  grid-flow: auto;
+  grid-rows: auto;
+  grid-template: auto;
+}
+
+.hyperlinks {
+  target: current;
+  target-name: new;
+  target-new: modal;
+  target-position: window;
+  display: tab;
+  display: front;
+  display: back;
+}
+
+.images {
+  object-fit: contain;
+  object-position: cover;
+  image-resolution: snap;
+  image-orientation: scale-down;
+  display: from-image;
+  display: image("sprite.svg#xywh=40,0,20,20");
+  display: linear-gradient(to bottom, yellow, blue);
+  display: radial-gradient(farthest-corner at 50% 50%, yellow, green);
+  display: repeating-linear-gradient(to bottom, yellow, blue);
+  display: repeating-radial-gradient(farthest-corner at 50% 50%, yellow, green);
+}
+
+.layout::slot(b) {
+  display: same;
+}
+
+.linebox {
+  alignment-adjust: central;
+  alignment-baseline: mathematical;
+  baseline-shift: before-edge;
+  dominate-baseline: after-edge;
+  drop-initial-after-adjust: text-before-edge;
+  drop-initial-after-align: text-after-edge;
+  drop-initial-before-adjust: use-script;
+  drop-initial-before-align: caps-height;
+  drop-initial-size: exclude-ruby;
+  drop-initial-value: include-ruby;
+  inline-box-align: consider-shift;
+  line-stacking: disregard-shift;
+  line-stacking-ruby: inline-line-height;
+  line-stacking-shift: block-line-height;
+  line-stacking-strategy: max-height;
+  text-height: grid-height;
+  display: font-size;
+  display: text-size;
+  display: max-size;
+}
+
+.lists::marker {
+  display: box;
+  display: check;
+  display: diamond;
+  display: hyphen;
+  display: syriac;
+  display: tamil;
+  display: lower-armenian;
+  display: upper-armenian;
+  display: ethiopic-numeric;
+  display: japanese-formal;
+  display: japanese-informal;
+  display: simp-chinese-formal;
+  display: simp-chinese-informal;
+  display: trad-chinese-formal;
+  display: trad-chinese-informal;
+  display: binary;
+  display: bengali;
+  display: cambodian;
+  display: devanagari;
+  display: gujarati;
+  display: gurmukhi;
+  display: kannada;
+  display: khmer;
+  display: lao;
+  display: malayalam;
+  display: mongolian;
+  display: myanmar;
+  display: octal;
+  display: oriya;
+  display: persian;
+  display: telugu;
+  display: tibetan;
+  display: thai;
+  display: urdu;
+  display: arabic-indic;
+  display: lower-hexadecimal;
+  display: upper-hexadecimal;
+  display: afar;
+  display: amharic;
+  display: oromo;
+  display: sidama;
+  display: somali;
+  display: tigre;
+  display: ethiopic;
+  display: ethiopic-abegede;
+  display: ethiopic-abegede-am-et;
+  display: ethiopic-abegede-gez;
+  display: ethiopic-abegede-ti-er;
+  display: ethiopic-abegede-ti-et;
+  display: ethiopic-halehame-aa-er;
+  display: ethiopic-halehame-aa-et;
+  display: ethiopic-halehame-am-et;
+  display: ethiopic-halehame-gez;
+  display: ethiopic-halehame-om-et;
+  display: ethiopic-halehame-sid-et;
+  display: ethiopic-halehame-so-et;
+  display: ethiopic-halehame-ti-er;
+  display: ethiopic-halehame-ti-et;
+  display: ethiopic-halehame-tig;
+  display: hangul;
+  display: hangul-consonant;
+  display: lower-norwegian;
+  display: upper-norwegian;
+  display: tigrinya-er;
+  display: tigrinya-er-abegede;
+  display: tigrinya-et;
+  display: tigrinya-et-abegede;
+  display: asterisks;
+  display: footnotes;
+  display: circled-decimal;
+  display: dotted-decimal;
+  display: double-circled-decimal;
+  display: filled-circled-decimal;
+  display: parenthesised-decimal;
+  display: circled-lower-latin;
+  display: circled-upper-latin;
+  display: parenthesised-lower-latin;
+}
+
+.marquee {
+  marquee-direction: forward;
+  marquee-play-count: reverse;
+  marquee-speed: infinite;
+  marquee-style: slow;
+  display: fast;
+  display: slide;
+  display: alternate;
+  display: marquee-line;
+  display: marquee-block;
+}
+
+@media screen and (min-width: 999px) {
+  .mediaqueries {
+    display: auto;
+  }
+}
+
+.multicol {
+  columns: page;
+  column-count: column;
+  column-fill: balance;
+  column-gap: avoid-column;
+  column-rule: avoid-page;
+  column-rule-color: auto;
+  column-rule-style: auto;
+  column-rule-width: auto;
+  column-span: auto;
+  column-width: auto;
+}
+
+.preslev {
+  presentation-level: increment;
+}
+
+@region .regions {
+  flow-from: break;
+  flow-into: region;
+  region-overflow: avoid-region;
+}
+
+.ruby {
+  ruby-align: start;
+  ruby-overhang: end;
+  ruby-position: distribute-letter;
+  ruby-span: distribute-space;
+  display: line-edge;
+}
+
+.selectors:target,
+.selectors:enabled,
+.selectors:disabled,
+.selectors:checked,
+.selectors:indeterminate,
+.selectors:root,
+.selectors:empty,
+.selectors:first-of-type,
+.selectors:last-child,
+.selectors:last-of-type,
+.selectors:only-child,
+.selectors:only-of-type,
+.selectors:nth-child(2n+1),
+.selectors:nth-of-type(odd),
+.selectors:nth-last-child(2n+0),
+.selectors:nth-last-of-type(even),
+.selectors:not([DISABLED]), {
+  display: auto;
+}
+
+.text {
+  hanging-punctuation: loose;
+  line-break: strict;
+  overflow-wrap: objects;
+  tab-size: ink;
+  text-align-last: edges;
+  text-autospace: wavy;
+  text-decoration-color: filled;
+  text-decoration-line: dot;
+  text-decoration-skip: triangle;
+  text-decoration-style: sesame;
+  text-emphasis: hanging;
+  text-emphasis-color: distribute;
+  text-emphasis-position: kashida;
+  text-emphasis-style: preserve;
+  text-justify: alphabetic;
+  text-shadow: allow-end;
+  text-space-collapse: force-end;
+  text-underline-position: keep-all;
+  text-wrap: match-parent;
+  word-break: double-circle;
+  display: each-line;
+  display: inter-word;
+  display: inter-ideograph;
+  display: inter-cluster;
+  display: preserve-breaks;
+  display: full-width;
+  display: full-size-kana;
+  display: pre-wrap;
+  display: pre-line;
+  display: break-all;
+  display: break-word;
+}
+
+.transforms {
+  backface-visibility: flat;
+  perspective: preserve-3d;
+  perspective-origin: matrix(1);
+  transform: matrix3d(1);
+  transform-origin: translate(1);
+  transform-style: translate3d(1);
+  display: translateX(1);
+  display: translateY(1);
+  display: translateZ(1);
+  display: scale(1);
+  display: scale3d(1);
+  display: scaleX(1);
+  display: scaleY(1);
+  display: scaleZ(1);
+  display: rotate(1);
+  display: rotate3d(1);
+  display: rotateX(1);
+  display: rotateY(1);
+  display: rotateZ(1);
+  display: skew(1);
+  display: skewX(1);
+  display: skewY(1);
+  display: perspective(1);
+}
+
+.transitions {
+  transition: linear;
+  transition-property: ease;
+  transition-duration: ease-in;
+  transition-timing-function: ease-out;
+  transition-delay: ease-in-out;
+  display: step-start;
+  display: step-end;
+  display: steps(1, start);
+  display: cubic-bezier(0.25, 0.1, 0.25, 1.0);
+}
+
+.ui {
+  icon: active;
+  resize: inactive;
+  box-sizing: disabled;
+  ime-mode: root;
+  nav-index: horizontal;
+  nav-up: vertical;
+  nav-right: clip;
+  nav-down: ellipsis;
+  nav-left: auto;
+  outline-offset: auto;
+}
+
+.values {
+  display: 1ch;
+  display: 1rem;
+  display: 1vw;
+  display: 1vh;
+  display: 1vmin;
+  display: 1turn;
+  display: 1dpi;
+  display: 1dpcm;
+  display: 1dppx;
+  display: calc(100%/3 - 2*1em - 2*1px);
+  display: cycle(italic, normal);
+  display: initial;
+}
+
+.writing-modes {
+  text-orientation: before;
+  text-combine-horizontal: after;
+  text-combine-mode: numeric;
+  writing-mode: alpha;
+  display: latin;
+  display: alphanumeric;
+  display: isolate;
+  display: plaintext;
+  display: min-content
+  display: max-content;
+  display: fit-content;
+  display: fill-available;
+  display: compress;
+  display: no-compress;
+  display: use-glyphs;
+  display: mixed-right;
+  display: upright;
+  display: sideways;
+  display: sideways-right;
+  display: sideways-left;
+  display: use-glyph-orientation;
+  display: horizontal-tb;
+  display: vertical-rl;
+  display: vertical-lr;
+}
+
+.html5-elements,
+section,
+article,
+aside,
+hgroup,
+header,
+footer,
+nav,
+figure,
+figcaption,
+video,
+audio,
+source,
+embed,
+mark,
+progress,
+meter,
+data,
+time,
+ruby,
+rt,
+rp,
+bdi,
+wbr,
+canvas,
+command,
+details,
+summary,
+datalist,
+keygen,
+output {
+  display: auto;
+}
