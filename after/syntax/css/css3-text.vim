@@ -4,7 +4,7 @@ syn match cssTextProp contained "\<overflow-wrap\>"
 syn match cssTextProp contained "\<tab-size\>"
 syn match cssTextProp contained "\<text-\(align-last\|autospace\|decoration\(-\(color\|line\|skip\|style\)\)\=\|emphasis\(-\(color\|position\|style\)\)\=\|justify\|shadow\|space-collapse\|underline-position\|wrap\)\>"
 syn match cssTextProp contained "\<word-break\>"
-syn keyword cssTextAttr contained loose strict start end blink objects spaces ink edges wavy filled open dot circle triangle sesame hanging distribute kashida preserve alphabetic
+syn keyword cssTextAttr contained loose strict objects ink edges wavy filled dot triangle sesame hanging distribute kashida preserve alphabetic
 syn match cssTextAttr contained "\<\(allow\|force\)-end\>"
 syn match cssTextAttr contained "\<keep-all\>"
 syn match cssTextAttr contained "\<match-parent\>"
