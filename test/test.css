@@ -96,18 +96,12 @@
 
 .gcpm {
   bleed: target-counter(attr(href, url), page, decimal);
-  hyphens: target-counters(attr(href, url), section, ".", decimal);
   marks: target-text(attr(href), content());
   bookmark-label: open;
   bookmark-level: closed;
-  bookmark-state: manual;
+  bookmark-state: target-text(attr(href), content());
   bookmark-target: crop;
   float-offset: cross;
-  hyphenate-before: no-limit;
-  hyphenate-character: super-decimal;
-  hyphenate-lines: auto;
-  hyphenate-resource: auto;
-  image-resolution: auto;
   string-set: auto;
 }
 
@@ -214,6 +208,7 @@
   display: arabic-indic;
   display: lower-hexadecimal;
   display: upper-hexadecimal;
+  display: super-decimal;
   display: afar;
   display: amharic;
   display: oromo;

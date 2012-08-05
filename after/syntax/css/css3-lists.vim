@@ -7,6 +7,7 @@ syn match cssGeneratedContentAttr contained "\<\(simp\|trad\)-chinese-\(formal\|
 syn keyword cssGeneratedContentAttr contained binary bengali cambodian devanagari gujarati gurmukhi kannada khmer lao malayalam mongolian myanmar octal oriya persian telugu tibetan thai urdu
 syn match cssGeneratedContentAttr contained "\<arabic-indic\>"
 syn match cssGeneratedContentAttr contained "\<\(lower\|upper\)-hexadecimal\>"
+syn match cssGeneratedContentAttr contained "\<super-decimal\>"
 syn keyword cssGeneratedContentAttr contained afar amharic oromo sidama somali tigre
 syn match cssGeneratedContentAttr contained "\<ethiopic\(-\(abegede\|abegede-am-et\|abegede-gez\|abegede-ti-er\|abegede-ti-et\|halehame-aa-er\|halehame-aa-et\|halehame-am-et\|halehame-gez\|halehame-om-et\|halehame-sid-et\|halehame-so-et\|halehame-ti-er\|halehame-ti-et\|halehame-tig\)\)\=\>"
 syn match cssGeneratedContentAttr contained "\<hangul\(-consonant\)\=\>"
