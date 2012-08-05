@@ -106,12 +106,19 @@ These commands highlight vendor prefixed properties and functions instantly with
 HISTORY
 -------
 
+### v0.7 (in progress)
+
+  * Follow spec updates
+  * Some minor bug fixes
+
+
 ### v0.6
 
   * Add Test
   * Remove deprecated CSS Grid Positioning Module
   * Follow spec updates
   * Some minor bug fixes
+
 
 ### v0.5
 
@@ -122,6 +129,7 @@ HISTORY
   * Add `gr` unit
   * Follow spec updates
   * Some minor bug fixes
+
 
 ### v0.4
 
