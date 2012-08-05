@@ -255,9 +255,7 @@
   marquee-direction: forward;
   marquee-play-count: reverse;
   marquee-speed: infinite;
-  marquee-style: slow;
-  display: fast;
-  display: slide;
+  marquee-style: slide;
   display: alternate;
   display: marquee-line;
   display: marquee-block;
