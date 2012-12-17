@@ -18,7 +18,10 @@ Download from GitHub, extract `vim-css3-syntax.tar.gz`, and copy the contents to
     $ git clone https://github.com/hail2u/vim-css3-syntax.git
 
 
-### With HTML file
+### Enabling CSS3 Syntax in Other Filetypes
+
+
+#### Inline CSS in HTML files
 
 Create `~/.vim/after/syntax/html.vim` with the following contents:
 
@@ -53,7 +56,7 @@ Create `~/.vim/after/syntax/html.vim` with the following contents:
     syn include @htmlCss syntax/css/css3-writing-modes.vim
 
 
-### With SCSS (Sassy CSS) file
+#### SCSS (Sass) files
 
 Create `~/.vim/after/syntax/scss.vim` with the following contents:
 
