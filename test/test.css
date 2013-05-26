@@ -358,12 +358,11 @@
 }
 
 .sizing {
-  width: fill-available;
-  width: max-content;
-  width: min-content;
-  width: fit-content;
-  width: repudiate-floats;
-  min-width: contain-floats;
+  display: max-content;
+  display: fit-content;
+  display: fill-available;
+  display: repudiate-floats;
+  display: contain-floats;
 }
 
 @supports (display: auto) or
@@ -477,20 +476,10 @@
 .writing-modes {
   text-orientation: before;
   text-combine-horizontal: after;
-  text-combine-mode: numeric;
-  writing-mode: alpha;
-  display: latin;
-  display: alphanumeric;
+  writing-mode: isolate;
   display: isolate;
   display: plaintext;
-  display: min-content
-  display: max-content;
-  display: fit-content;
-  display: fill-available;
-  display: compress;
-  display: no-compress;
-  display: use-glyphs;
-  display: mixed-right;
+  display: mixed;
   display: upright;
   display: sideways;
   display: sideways-right;
