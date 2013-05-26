@@ -38,8 +38,15 @@ These commands highlight vendor prefixed properties and functions instantly with
 HISTORY
 -------
 
-### v0.7 (in progress)
+### v0.7
 
+  * Add CSS Conditional Rules Module Level 3 features
+  * Add CSS Intrinsic & Extrinsic Sizing Module Level 3 features
+  * Add CSS Cascading and Inheritance Level 3 features
+  * Add CSS Paged Media Module Level 3 features
+  * Add CSS Custom Properties for Cascading Variables Module Level 1 features
+  * Add CSS Overflow Module Level 3 features
+  * Seperate CSS Text Decoration Module Level 3 features
   * Follow spec updates
   * Bundle `after/syntax/html.vim` and `after/syntax/scss.vim`
   * Some minor bug fixes
