@@ -59,6 +59,10 @@
   break-inside: auto;
 }
 
+.cascade {
+  all: default;
+}
+
 .colors {
   opacity: rgba(0, 0, 0, 1);
   display: hsla(0, 0, 0, 1)
