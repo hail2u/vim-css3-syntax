@@ -475,6 +475,10 @@
   display: initial;
 }
 
+.variables {
+  var-foo: var(foo);
+}
+
 .writing-modes {
   text-orientation: before;
   text-combine-horizontal: after;
