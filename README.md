@@ -7,25 +7,27 @@ Add CSS3 syntax support to vim's built-in `syntax/css.vim`.
 INSTALLATION
 ------------
 
-Download from GitHub, extract `vim-css3-syntax.tar.gz`, and copy contents to `~/.vim` directory.
+### Manual Installation
+
+Download from GitHub, extract `vim-css3-syntax.tar.gz`, and copy the contents to your `~/.vim` directory.
 
 
-### Git and pathogen
+### Installing with Git and pathogen
 
     $ cd ~/.vim/bundle
     $ git clone https://github.com/hail2u/vim-css3-syntax.git
 
 
-About Vendor Extension
-----------------------
+About Vendor Prefixes
+---------------------
 
-I do not hava a plan to support a CSS 3 property (and function) with vendor extension, such as `-webkit-` or `-moz-`, etc.. These are hard to maintain because:
+I do not plan to support CSS3 properties (or functions) with vendor prefixes, such as `-webkit-` or `-moz-`, etc. These are hard to maintain because they are:
 
   * Added frequently
   * Changed unexpectedly
   * Removed silently
 
-These must be supported by seperate syntax plugin. Or, if you want to highlight prefixed properties or functions, `:highlight` and `:match` would help.
+These must be supported by seperate syntax plugins. Or, if you want to highlight prefixed properties or functions, `:highlight` and `:match` would help.
 
     :highlight VendorPrefix guifg=#00ffff gui=bold
     :match VendorPrefix /-\(moz\|webkit\|o\|ms\)-[a-zA-Z-]\+/
@@ -39,6 +41,7 @@ HISTORY
 ### v0.7 (in progress)
 
   * Follow spec updates
+  * Bundle `after/syntax/html.vim` and `after/syntax/scss.vim`
   * Some minor bug fixes
 
 
