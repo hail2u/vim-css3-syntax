@@ -1,11 +1,13 @@
 .align {
-  justify-self: head;
-  justify-content: foot;
-  justify-items: true;
-  align-self: flex-start;
-  align-content: flex-end;
-  align-items: space-between;
+  justify-self: safe;
+  justify-content: true;
+  justify-items: self-start;
+  align-self: self-end;
+  align-content: flex-start;
+  align-items: flex-end;
   display: space-around;
+  display: space-between;
+  display: space-evenly;
 }
 
 .animations {
