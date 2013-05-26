@@ -353,6 +353,12 @@
   display: auto;
 }
 
+@supports (display: auto) or
+  (display: auto) not
+  (display: auto) {
+    display: auto;
+}
+
 .text {
   hanging-punctuation: loose;
   line-break: strict;
