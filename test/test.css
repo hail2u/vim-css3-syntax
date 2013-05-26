@@ -110,18 +110,18 @@
 }
 
 .grid-layout {
-  grid-cell: grid;
-  grid-column: rows;
-  grid-row: inline-grid;
-  grid-column-align: auto;
-  grid-row-align: auto;
-  grid-column-sizing: auto;
-  grid-row-sizing: auto;
-  grid-column-span: auto;
-  grid-row-span: auto;
-  grid-columns: auto;
-  grid-flow: auto;
-  grid-rows: auto;
+  grid-after: grid;
+  grid-area: subgrid;
+  grid-auto-columns: rows;
+  grid-auto-flow: inline-grid;
+  grid-auto-rows: auto;
+  grid-before: auto;
+  grid-column: auto;
+  grid-definition-columns: auto;
+  grid-definition-rows: auto;
+  grid-end: auto;
+  grid-row: auto;
+  grid-start: auto;
   grid-template: auto;
 }
 
