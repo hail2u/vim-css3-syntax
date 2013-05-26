@@ -479,7 +479,7 @@
   display: 1dpcm;
   display: 1dppx;
   display: calc(100%/3 - 2*1em - 2*1px);
-  display: cycle(italic, normal);
+  display: toggle(italic, normal);
   display: initial;
 }
 
