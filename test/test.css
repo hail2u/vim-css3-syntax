@@ -353,6 +353,15 @@
   display: auto;
 }
 
+.sizing {
+  width: fill-available;
+  width: max-content;
+  width: min-content;
+  width: fit-content;
+  width: repudiate-floats;
+  min-width: contain-floats;
+}
+
 @supports (display: auto) or
   (display: auto) not
   (display: auto) {
