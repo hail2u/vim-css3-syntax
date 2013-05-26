@@ -389,9 +389,7 @@
   text-emphasis-style: preserve;
   text-justify: alphabetic;
   text-shadow: allow-end;
-  text-space-collapse: force-end;
   text-underline-position: keep-all;
-  text-wrap: match-parent;
   word-break: double-circle;
   display: each-line;
   display: inter-word;
