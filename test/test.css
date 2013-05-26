@@ -375,31 +375,37 @@
 .text {
   hanging-punctuation: loose;
   line-break: strict;
-  overflow-wrap: objects;
-  tab-size: ink;
-  text-align-last: edges;
-  text-autospace: wavy;
-  text-decoration-color: filled;
-  text-decoration-line: dot;
-  text-decoration-skip: triangle;
-  text-decoration-style: sesame;
-  text-emphasis: hanging;
-  text-emphasis-color: distribute;
-  text-emphasis-position: kashida;
-  text-emphasis-style: preserve;
-  text-justify: alphabetic;
+  overflow-wrap: hanging;
+  tab-size: distribute;
+  text-align-last: kashida;
+  text-autospace: preserve;
+  text-justify: each-line;
   text-shadow: allow-end;
   text-underline-position: keep-all;
   word-break: double-circle;
-  display: each-line;
   display: inter-word;
   display: inter-ideograph;
   display: inter-cluster;
   display: preserve-breaks;
   display: full-width;
-  display: full-size-kana;
   display: break-all;
   display: break-word;
+}
+
+.text-decor-3 {
+  text-decoration-color: filled;
+  text-decoration-line: dot;
+  text-decoration-skip: triangle;
+  text-decoration-style: sesame;
+  text-emphasis: objects;
+  text-emphasis-color: ink;
+  text-emphasis-position: edges;
+  text-emphasis-style: wavy;
+  display: alphabetic;
+  display: spaces;
+  display: box-decoration;
+  display: under;
+  display: over;
 }
 
 .transforms {

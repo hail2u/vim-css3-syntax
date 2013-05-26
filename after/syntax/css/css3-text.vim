@@ -2,9 +2,9 @@ syn match cssTextProp contained "\<hanging-punctuation\>"
 syn match cssTextProp contained "\<line-break\>"
 syn match cssTextProp contained "\<overflow-wrap\>"
 syn match cssTextProp contained "\<tab-size\>"
-syn match cssTextProp contained "\<text-\(align-last\|autospace\|decoration\(-\(color\|line\|skip\|style\)\)\=\|emphasis\(-\(color\|position\|style\)\)\=\|justify\|shadow\|underline-position\)\>"
+syn match cssTextProp contained "\<text-\(align-last\|autospace\|justify\|shadow\|underline-position\)\>"
 syn match cssTextProp contained "\<word-break\>"
-syn keyword cssTextAttr contained loose strict objects ink edges wavy filled dot triangle sesame hanging distribute kashida preserve alphabetic
+syn keyword cssTextAttr contained loose strict hanging distribute kashida preserve alphabetic
 syn match cssTextAttr contained "\<\(allow\|force\)-end\>"
 syn match cssTextAttr contained "\<keep-all\>"
 syn match cssTextAttr contained "\<match-parent\>"
