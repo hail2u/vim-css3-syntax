@@ -319,6 +319,14 @@
   column-width: auto;
 }
 
+.overflow {
+  max-lines: paged-x;
+  display: paged-y;
+  display: paged-x-controls;
+  display: paged-y-controls;
+  display: fragments;
+}
+
 .preslev {
   presentation-level: increment;
 }
