@@ -79,14 +79,8 @@
 }
 
 .exclusions {
-  shape-image-threshold: maximum;
-  shape-inside: outside-shape;
-  shape-outside: auto;
-  wrap: auto;
-  wrap-flow: auto;
-  wrap-margin: auto;
-  wrap-padding: auto;
-  wrap-through: auto;
+  wrap-flow: minimum;
+  wrap-through: maximum;
 }
 
 .flexbox {
