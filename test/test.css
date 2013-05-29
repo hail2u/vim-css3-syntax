@@ -327,10 +327,13 @@
   presentation-level: increment;
 }
 
-@region .regions {
+.regions:region(p),
+.regions::region(p) {
   flow-from: break;
   flow-into: region;
-  region-overflow: avoid-region;
+  region-fragment: avoid-region;
+  display: element;
+  display: content;
 }
 
 .ruby {
