@@ -38,6 +38,12 @@ These commands highlight vendor prefixed properties and functions instantly with
 HISTORY
 -------
 
+### v0.8 (in progress)
+
+  * Add CSS Shapes Module Level 1 features
+  * Follow spec updates
+
+
 ### v0.7
 
   * Add CSS Conditional Rules Module Level 3 features
