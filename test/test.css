@@ -412,6 +412,7 @@
 .text {
   hanging-punctuation: loose;
   line-break: strict;
+  word-wrap: auto;
   overflow-wrap: hanging;
   tab-size: distribute;
   text-align-last: kashida;

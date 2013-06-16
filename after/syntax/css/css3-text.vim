@@ -1,6 +1,6 @@
 syn match cssTextProp contained "\<hanging-punctuation\>"
 syn match cssTextProp contained "\<line-break\>"
-syn match cssTextProp contained "\<overflow-wrap\>"
+syn match cssTextProp contained "\<\(word\|overflow\)-wrap\>"
 syn match cssTextProp contained "\<tab-size\>"
 syn match cssTextProp contained "\<text-\(align-last\|autospace\|justify\|shadow\|underline-position\)\>"
 syn match cssTextProp contained "\<word-break\>"

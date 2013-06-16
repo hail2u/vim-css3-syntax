@@ -42,6 +42,7 @@ HISTORY
 
   * Add CSS Shapes Module Level 1 features
   * Follow spec updates
+  * Add missing properties
 
 
 ### v0.7
