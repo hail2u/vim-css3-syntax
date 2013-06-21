@@ -296,6 +296,26 @@
   display: marquee-block;
 }
 
+.masking {
+  mask-image: evenodd;
+  mask-source-type: luminance;
+  mask-repeat: alpha;
+  mask-position: auto;
+  mask-clip: auto;
+  mask-origin: auto;
+  mask-size: auto;
+  mask: auto;
+  mask-type: auto;
+  mask-box-image-source: auto;
+  mask-box-image-slice: auto;
+  mask-box-image-width: auto;
+  mask-box-image-outset: auto;
+  mask-box-image-repeat: auto;
+  mask-box-image: auto;
+  clip-path: auto;
+  clip-rule: auto;
+}
+
 @media screen and (min-width: 999px) {
   .mediaqueries {
     display: auto;

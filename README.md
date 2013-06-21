@@ -40,9 +40,11 @@ HISTORY
 
 ### v0.8 (in progress)
 
+  * Add CSS Masking Level 1 features
   * Add CSS Shapes Module Level 1 features
   * Follow spec updates
   * Add missing properties
+  * Some minor bug fixes
 
 
 ### v0.7
