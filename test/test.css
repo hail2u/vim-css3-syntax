@@ -73,7 +73,7 @@
 
 .content {
   move-to: inhibit;
-  page-polcy: here;
+  page-policy: here;
   display: first;
   display: last;
 }
