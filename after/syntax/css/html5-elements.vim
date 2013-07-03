@@ -1,4 +1,7 @@
 " HTML5 new elements
+" Scripting
+syn keyword cssTagName template
+
 " Sections
 syn keyword cssTagName article section nav aside hgroup header footer
 
