@@ -38,7 +38,7 @@ These commands highlight vendor prefixed properties and functions instantly with
 HISTORY
 -------
 
-### v0.8 (in progress)
+### v0.8
 
   * Add CSS Masking Level 1 features
   * Add CSS Shapes Module Level 1 features
