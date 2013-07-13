@@ -7,6 +7,7 @@ syn include @htmlCss syntax/css/css3-colors.vim
 syn include @htmlCss syntax/css/css3-content.vim
 syn include @htmlCss syntax/css/css3-exclusions.vim
 syn include @htmlCss syntax/css/css3-flexbox.vim
+syn include @htmlCss syntax/css/css3-fonts.vim
 syn include @htmlCss syntax/css/css3-gcpm.vim
 syn include @htmlCss syntax/css/css3-grid-layout.vim
 syn include @htmlCss syntax/css/css3-hyperlinks.vim

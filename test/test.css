@@ -94,6 +94,44 @@
   flex-wrap: auto;
 }
 
+.fonts {
+  font-feature-settings: common-ligatures;
+  font-kerning: no-common-ligatures;
+  font-language-override: discretionary-ligatures;
+  font-synthesis: no-discretionary-ligatures;
+  font-variant-alternates: historical-ligatures;
+  font-variant-caps: no-historical-ligatures;
+  font-variant-east-asian: contextual;
+  font-variant-ligatures: no-contextual;
+  font-variant-numeric: stylistic(feature-value-name);
+  font-variant-position: historical-forms;
+  display: styleset(feature-value-name #);
+  display: character-variant(feature-vlue-name #);
+  display: swash(feature-value-name);
+  display: ornaments(feature-value-name);
+  display: annotation(feature-value-name);
+  display: all-small-caps;
+  display: petite-caps;
+  display: all-petite-caps;
+  display: unicase;
+  display: titling-caps;
+  display: lining-nums;
+  display: oldstyle-nums;
+  display: proportional-nums;
+  display: tabular-nums;
+  display: diagonal-fractions;
+  display: stacked-fractions;
+  display: ordinal;
+  display: slashed-zero;
+  display: jis78;
+  display: jis83;
+  display: jis90;
+  display: jis04;
+  display: simplified;
+  display: traditional;
+  display: proportional-width;
+}
+
 .gcpm {
   bleed: target-counter(attr(href, url), page, decimal);
   marks: target-text(attr(href), content());
