@@ -41,6 +41,7 @@ HISTORY
 ### v0.9 (in progress)
 
   * Add CSS Fonts Module Level 3 features
+  * Split CSS Counter Styles Level 3 features from `css3-lists.vim`
 
 
 ### v0.8

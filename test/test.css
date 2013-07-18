@@ -78,6 +78,18 @@
   display: last;
 }
 
+.counter-styles {
+  negative: disclosure-open;
+  prefix: disclosure-closed;
+  suffix: simp-chinese-informal;
+  range: simp-chinese-formal;
+  pad: trad-chinese-informal;
+  fallback: trad-chinese-formal;
+  symbols: ethiopic-numeric;
+  additive-symbols: symbols("*" "\2020" "\2021" "\A7");
+  speak-as: auto;
+}
+
 .exclusions {
   wrap-flow: minimum;
   wrap-through: maximum;
@@ -209,119 +221,7 @@
 }
 
 .lists::marker {
-  type: box;
-  negative: check;
-  prefix: afar;
-  suffix: agaw;
-  range: ancient-tamil;
-  fallback: arabic-indic;
-  glyphs: ari;
-  additive-glyphs: asterisks;
-  display: bengali;
-  display: binary;
-  display: blin;
-  display: burmese;
-  display: cambodian;
-  display: circled-decimal;
-  display: circled-korean-consonants;
-  display: circled-korean-syllables;
-  display: circled-lower-latin;
-  display: circled-upper-latin;
-  display: cjk-decimal;
-  display: cjk-earthly-branch;
-  display: cjk-heavenly-stem;
-  display: dash;
-  display: devanagari;
-  display: diamond;
-  display: dizi;
-  display: dotted-decimal;
-  display: double-circled-decimal;
-  display: eastern-nagari;
-  display: filled-circled-decimal;
-  display: footnotes;
-  display: fullwidth-decimal;
-  display: fullwidth-lower-alpha;
-  display: fullwidth-lower-roman;
-  display: fullwidth-upper-alpha;
-  display: fullwidth-upper-roman;
-  display: gedeo;
-  display: greek;
-  display: gujarati;
-  display: gumuz;
-  display: gurmukhi;
-  display: hadiyya;
-  display: harari;
-  display: hindi;
-  display: japanese-formal;
-  display: japanese-informal;
-  display: kaffa;
-  display: kannada;
-  display: kebena;
-  display: kembata;
-  display: khmer;
-  display: konso;
-  display: korean-consonant;
-  display: korean-hangul-formal;
-  display: korean-hanja-formal;
-  display: korean-hanja-informal;
-  display: korean-syllable;
-  display: kunama;
-  display: lao;
-  display: lepcha;
-  display: lower-alpha-symbolic;
-  display: lower-armenian;
-  display: lower-belorussian;
-  display: lower-bulgarian;
-  display: lower-hexadecimal;
-  display: lower-macedonian;
-  display: lower-oromo-qubee;
-  display: lower-russian;
-  display: lower-russian-full;
-  display: lower-serbo-croatian;
-  display: lower-ukrainian;
-  display: lower-ukrainian-full;
-  display: malayalam;
-  display: marathi;
-  display: meen;
-  display: mongolian;
-  display: myanmar;
-  display: new-base-60;
-  display: octal;
-  display: oriya;
-  display: oromo;
-  display: parenthesized-decimal;
-  display: parenthesized-hangul-consonants;
-  display: parenthesized-hangul-syllable;
-  display: parenthesized-lower-latin;
-  display: persian;
-  display: persian-abjad;
-  display: persian-alphabetic;
-  display: saho;
-  display: sidama;
-  display: silti;
-  display: simple-lower-roman;
-  display: simple-upper-roman;
-  display: super-decimal;
-  display: tamil;
-  display: telugu;
-  display: thai;
-  display: thai-alphabetic;
-  display: tibetan;
-  display: tigre;
-  display: upper-alpha-symbolic;
-  display: upper-armenian;
-  display: upper-belorussian;
-  display: upper-bulgarian;
-  display: upper-hexadecimal;
-  display: upper-macedonian;
-  display: upper-oromo-qubee;
-  display: upper-russian;
-  display: upper-russian-full;
-  display: upper-serbo-croatian;
-  display: upper-ukrainian;
-  display: upper-ukrainian-full;
-  display: wolaita;
-  display: yemsa;
+  display: auto;
 }
 
 .marquee {
