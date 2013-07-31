@@ -62,7 +62,7 @@
 }
 
 .cascade {
-  all: default;
+  all: unset;
 }
 
 .colors {
