@@ -18,8 +18,10 @@ Download from GitHub, extract `vim-css3-syntax.tar.gz`, and copy the contents to
     $ git clone https://github.com/hail2u/vim-css3-syntax.git
 
 
-About Vendor Prefixes
----------------------
+NOTES
+-----
+
+### Vendor Prefixes
 
 I do not plan to support CSS3 properties (or functions) with vendor prefixes, such as `-webkit-` or `-moz-`, etc. These are hard to maintain because they are:
 
@@ -35,6 +37,11 @@ These must be supported by seperate syntax plugins. Or, if you want to highlight
 These commands highlight vendor prefixed properties and functions instantly with cyan and bold (on gVim).
 
 
+### CSS Preprocessors: [Sass](http://sass-lang.com/), [LESS](http://lesscss.org/), and [Stylus](http://learnboost.github.io/stylus/)
+
+`vim-css3-syntax` supports Sass's SCSS syntax only. If you want use this plugin with LESS, install [VIM-LESS](https://github.com/groenewege/vim-less). Sass's indent synatx and Stylus are not supported.
+
+
 HISTORY
 -------
 
@@ -43,6 +50,7 @@ HISTORY
   * Add CSS Fonts Module Level 3 features
   * Split CSS Counter Styles Level 3 features from `css3-lists.vim`
   * Follow spec updates
+  * Add notes about CSS preprocessors
 
 
 ### v0.8
