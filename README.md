@@ -29,7 +29,7 @@ I do not plan to support CSS3 properties (or functions) with vendor prefixes, su
   * Changed unexpectedly
   * Removed silently
 
-These must be supported by seperate syntax plugins. Or, if you want to highlight prefixed properties or functions, `:highlight` and `:match` would help.
+These must be supported by seperate syntax plugins (Vim 7.4's default CSS syntax file support this). If you want to highlight prefixed properties or functions manually, `:highlight` and `:match` would help.
 
     :highlight VendorPrefix guifg=#00ffff gui=bold
     :match VendorPrefix /-\(moz\|webkit\|o\|ms\)-[a-zA-Z-]\+/
