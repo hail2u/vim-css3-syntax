@@ -156,19 +156,22 @@
 }
 
 .grid-layout {
-  grid-after: grid;
-  grid-area: subgrid;
-  grid-auto-columns: rows;
-  grid-auto-flow: inline-grid;
-  grid-auto-rows: auto;
-  grid-before: auto;
+  grid-template-columns: grid;
+  grid-template-rows: inline-grid;
+  grid-template-areas: minmax(0, 1);
+  grid-template: repeat(4);
+  grid-auto-columns: 0.2fr;
+  grid-auto-rows: subgrid;
+  grid-auto-flow: rows;
+  grid-auto-position: columns;
+  grid: dense;
+  grid-row-start: span;
+  grid-column-start: auto;
+  grid-row-end: auto;
+  grid-column-end: auto;
   grid-column: auto;
-  grid-definition-columns: auto;
-  grid-definition-rows: auto;
-  grid-end: auto;
   grid-row: auto;
-  grid-start: auto;
-  grid-template: auto;
+  grid-area: auto;
 }
 
 .hyperlinks {
