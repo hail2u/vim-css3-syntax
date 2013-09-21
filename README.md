@@ -1,7 +1,7 @@
 vim-css3-syntax
 ===============
 
-Add CSS3 syntax support to Vim's built-in `syntax/css.vim`.
+Add CSS3 syntax support to [Vim][1]'s built-in `syntax/css.vim`.
 
 
 INSTALLATION
@@ -40,9 +40,9 @@ These must be supported by seperate syntax plugins (Vim 7.4's default CSS syntax
 These commands highlight vendor prefixed properties and functions instantly with cyan and bold (on gVim).
 
 
-### CSS Preprocessors: [Sass](http://sass-lang.com/), [LESS](http://lesscss.org/), and [Stylus](http://learnboost.github.io/stylus/)
+### CSS Preprocessors: [Sass][2], [LESS][3], and [Stylus][4]
 
-`vim-css3-syntax` supports Sass's SCSS syntax only. If you want use this plugin with LESS, install [VIM-LESS](https://github.com/groenewege/vim-less). Sass's indent synatx and Stylus are not supported.
+`vim-css3-syntax` supports Sass's SCSS syntax only. If you want use this plugin with LESS, install [VIM-LESS][5]. Sass's indent synatx and Stylus are not supported.
 
 
 HISTORY
@@ -139,3 +139,10 @@ LICENSE
 -------
 
 MIT: http://hail2u.mit-license.org/2011
+
+
+[1]: http://www.vim.org/
+[2]: http://sass-lang.com/
+[3]: http://lesscss.org/
+[4]: http://learnboost.github.io/stylus/
+[5]: https://github.com/groenewege/vim-less
