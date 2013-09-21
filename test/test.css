@@ -298,11 +298,9 @@
 }
 
 .ruby {
-  ruby-align: start;
-  ruby-overhang: end;
-  ruby-position: distribute-letter;
-  ruby-span: distribute-space;
-  display: line-edge;
+  ruby-merge: ruby-text-container;
+  ruby-align: inter-character;
+  ruby-position: ruby-base-container;
 }
 
 .selectors:not([DISABLED]),
