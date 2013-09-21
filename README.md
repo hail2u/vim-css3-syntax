@@ -1,11 +1,14 @@
 vim-css3-syntax
 ===============
 
-Add CSS3 syntax support to vim's built-in `syntax/css.vim`.
+Add CSS3 syntax support to Vim's built-in `syntax/css.vim`.
 
 
 INSTALLATION
 ------------
+
+I strongly recommend to install this plugin on *Vim 7.4 or higher with default runtime files*.
+
 
 ### Manual Installation
 
