@@ -369,24 +369,13 @@
 }
 
 .text {
-  hanging-punctuation: loose;
-  line-break: strict;
-  word-wrap: auto;
-  overflow-wrap: hanging;
-  tab-size: distribute;
-  text-align-last: kashida;
-  text-autospace: preserve;
-  text-justify: each-line;
-  text-shadow: allow-end;
-  text-underline-position: keep-all;
-  word-break: double-circle;
-  display: inter-word;
-  display: inter-ideograph;
-  display: inter-cluster;
-  display: preserve-breaks;
+  hyphens: manual;
+  line-break: loose;
+  overflow-wrap: strict;
+  tab-size: match-parent;
+  display: hanging;
+  display: each-line;
   display: full-width;
-  display: break-all;
-  display: break-word;
 }
 
 .text-decor-3 {
