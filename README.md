@@ -7,7 +7,7 @@ Add CSS3 syntax support to [Vim][1]'s built-in `syntax/css.vim`.
 INSTALLATION
 ------------
 
-I strongly recommend to install this plugin on *Vim 7.4 or higher with default runtime files*.
+I **strongly** recommend to install this plugin on *Vim 7.4 or higher with default runtime files*.
 
 
 ### Manual Installation
@@ -32,7 +32,7 @@ I do not plan to support CSS3 properties (or functions) with vendor prefixes, su
   * Changed unexpectedly
   * Removed silently
 
-These must be supported by seperate syntax plugins (Vim 7.4's default CSS syntax file support this). If you want to highlight prefixed properties or functions manually, `:highlight` and `:match` would help.
+These must be supported by seperate syntax plugins (Vim 7.4's default CSS syntax file supports this). If you want to highlight prefixed properties or functions manually, `:highlight` and `:match` would help:
 
     :highlight VendorPrefix guifg=#00ffff gui=bold
     :match VendorPrefix /-\(moz\|webkit\|o\|ms\)-[a-zA-Z-]\+/
@@ -53,6 +53,7 @@ HISTORY
   * Add CSS Fonts Module Level 3 features
   * Split CSS Counter Styles Level 3 features from `css3-lists.vim`
   * Follow spec updates
+  * Add missing values
   * Add notes about CSS preprocessors
 
 
