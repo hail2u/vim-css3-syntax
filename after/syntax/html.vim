@@ -1,4 +1,5 @@
 syn include @htmlCss syntax/css/html5-elements.vim
+syn include @htmlCss syntax/css/compositing-1.vim
 syn include @htmlCss syntax/css/css3-align.vim
 syn include @htmlCss syntax/css/css3-animations.vim
 syn include @htmlCss syntax/css/css3-background.vim

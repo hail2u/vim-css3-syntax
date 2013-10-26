@@ -71,6 +71,24 @@
   display: currentColor;
 }
 
+.compositing {
+  mix-blend-mode: multiply;
+  isolation: screen;
+  background-blend-mode: overlay;
+  display: darken;
+  display: lighten;
+  display: color-dodge;
+  display: color-burn;
+  display: hard-light;
+  display: soft-light;
+  display: difference;
+  display: exclusion;
+  display: hue;
+  display: saturation;
+  display: color;
+  display: luminosity;
+}
+
 .content {
   move-to: inhibit;
   page-policy: here;
