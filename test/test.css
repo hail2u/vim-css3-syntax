@@ -256,11 +256,11 @@
 }
 
 .masking {
-  mask-image: evenodd;
+  mask-image: alpha;
   mask-source-type: luminance;
-  mask-repeat: alpha;
-  mask-position: auto;
-  mask-clip: auto;
+  mask-repeat: no-clip;
+  mask-position: nonzero;
+  mask-clip: evenodd;
   mask-origin: auto;
   mask-size: auto;
   mask: auto;
