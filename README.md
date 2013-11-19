@@ -57,6 +57,8 @@ HISTORY
   * Add missing values
   * Add notes about CSS preprocessors
   * Fix test
+  * Add version checking
+
 
 ### v0.8
 
