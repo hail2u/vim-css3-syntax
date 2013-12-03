@@ -373,11 +373,11 @@
       }
 
       .shapes {
-        shape-image-threshold: rectangle(1px 1px 1198px 398px);
-        shape-inside: inset-rectangle(400px 100px 400px 200px);
-        shape-outside: circle(600px 200px 100px);
+        shape-outside: margin-box;
+        shape-image-threshold: inset(50% 50% 50% 50%);
+        shape-margin: circle(100px 50px 100px);
         display: ellipse(0 0 250px 100px);
-        display: polygon(350px,75px  379px,161px 469px,161px 397px,215px 423px,301px 350px,250px 277px,301px 303px,215px 231px,161px 321px,161px);
+        display: polygon(0 0, 100% 100%, 0 100%);
       }
 
       .sizing {

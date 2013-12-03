@@ -35,7 +35,7 @@ syn include @htmlCss syntax/css/css3-ui.vim
 syn include @htmlCss syntax/css/css3-values.vim
 syn include @htmlCss syntax/css/css-masking-1.vim
 syn include @htmlCss syntax/css/css-overflow-3.vim
-syn include @htmlCss syntax/css/css-shapes.vim
+syn include @htmlCss syntax/css/css-shapes-1.vim
 syn include @htmlCss syntax/css/css-text-3.vim
 syn include @htmlCss syntax/css/css-text-decor-3.vim
 syn include @htmlCss syntax/css/css-variables.vim
