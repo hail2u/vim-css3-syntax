@@ -28,6 +28,7 @@ syn include @htmlCss syntax/css/css3-regions.vim
 syn include @htmlCss syntax/css/css3-ruby.vim
 syn include @htmlCss syntax/css/css3-selectors.vim
 syn include @htmlCss syntax/css/css3-sizing.vim
+syn include @htmlCss syntax/css/css3-speech.vim
 syn include @htmlCss syntax/css/css3-transforms.vim
 syn include @htmlCss syntax/css/css3-transitions.vim
 syn include @htmlCss syntax/css/css3-ui.vim
