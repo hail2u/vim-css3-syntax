@@ -53,6 +53,7 @@ HISTORY
   * Add Compositing and Blending Level 1 features
   * Add CSS Fonts Module Level 3 features
   * Add CSS Speech Module features
+  * Add Selectors Level 4 features
   * Split CSS Counter Styles Level 3 features from `css3-lists.vim`
   * Follow spec updates
   * Add missing values
