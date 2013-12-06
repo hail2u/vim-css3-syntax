@@ -48,7 +48,7 @@ These commands highlight vendor prefixed properties and functions instantly with
 HISTORY
 -------
 
-### v0.9 (in progress)
+### v0.9
 
   * Add Compositing and Blending Level 1 features
   * Add CSS Fonts Module Level 3 features
