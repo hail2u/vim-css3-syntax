@@ -48,6 +48,12 @@ These commands highlight vendor prefixed properties and functions instantly with
 HISTORY
 -------
 
+### v0.10 (in progress)
+
+  * Move Selectors Level 4 features correctly
+  * Fix test
+
+
 ### v0.9
 
   * Add Compositing and Blending Level 1 features
