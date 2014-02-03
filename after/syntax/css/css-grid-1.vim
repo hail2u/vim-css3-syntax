@@ -1,4 +1,3 @@
-" TODO: create cssGridLayoutProp group and cssGridLayoutAttr group
 syn match cssFontProp contained "\<grid-template\(-\(columns\|rows\|areas\)\)\=\>"
 syn match cssFontProp contained "\<grid-auto-\(columns\|rows\|flow\|position\)\>"
 syn match cssFontProp contained "\<grid-\(row\|column\)\(-\(start\|end\)\)\=\>"
