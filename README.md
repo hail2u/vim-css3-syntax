@@ -50,6 +50,7 @@ HISTORY
 
 ### v0.10 (in progress)
 
+  * Add The 'view-mode' Media Feature
   * Move Selectors Level 4 features correctly
   * Fix test
 
