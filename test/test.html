@@ -522,6 +522,12 @@
         var-foo: var(foo);
       }
 
+      @media handheld and (view-mode: fullscreen) {
+        .view-mode {
+          display: auto;
+        }
+      }
+
       .writing-modes {
         text-orientation: before;
         text-combine-horizontal: after;
