@@ -51,6 +51,8 @@ HISTORY
 ### v0.10 (in progress)
 
   * Move Selectors Level 4 features correctly
+  * Move page break values from `css3-multicol.vim` to `css3-page.vim`
+  * Follow spec updates
   * Fix test
 
 
