@@ -292,11 +292,11 @@
       }
 
       .multicol {
-        columns: page;
-        column-count: column;
-        column-fill: balance;
-        column-gap: avoid-column;
-        column-rule: avoid-page;
+        columns: column;
+        column-count: balance;
+        column-fill: avoid-column;
+        column-gap: auto;
+        column-rule: auto;
         column-rule-color: auto;
         column-rule-style: auto;
         column-rule-width: auto;
@@ -310,6 +310,13 @@
         display: paged-x-controls;
         display: paged-y-controls;
         display: fragments;
+      }
+
+      .page {
+        display: avoid-page;
+        display: page;
+        display: recto;
+        display: verso;
       }
 
       .preslev {
