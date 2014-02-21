@@ -108,6 +108,13 @@
   speak-as: auto;
 }
 
+.display {
+  display-inside: block-level;
+  display-outside: inline-level;
+  display-extras: inline-list-item;
+  display-box: contents;
+}
+
 .exclusions {
   wrap-flow: minimum;
   wrap-through: maximum;
