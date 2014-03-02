@@ -55,6 +55,7 @@ HISTORY
   * Move page break values from `css3-multicol.vim` to `css3-page.vim`
   * Follow spec updates
   * Fix test
+  * Remove version checking
 
 
 ### v0.9
