@@ -24,6 +24,23 @@ Download from GitHub, extract `vim-css3-syntax.tar.gz`, and copy the contents to
 NOTES
 -----
 
+### Highlighting problems on: `vertical-align`, `box-shadow`, and others
+
+Some properties do not highlight correctly by default. This is a limitation of Vim's highlight priority mechanism. To fix this problems, put following lines in your `~/.vim/after/css.vim`:
+
+    setlocal iskeyword+=-
+
+Or in your `~/.vimrc`:
+
+    augroup VimCSS3Syntax
+      autocmd!
+
+      autocmd FileType css setlocal iskeyword+=-
+    augroup END
+
+This setting have side effects, so use it at your own risk.
+
+
 ### Vendor Prefixes
 
 I do not plan to support CSS3 properties (or functions) with vendor prefixes, such as `-webkit-` or `-moz-`, etc. These are hard to maintain because they are:
@@ -48,7 +65,7 @@ These commands highlight vendor prefixed properties and functions instantly with
 HISTORY
 -------
 
-### v0.10 (in progress)
+### v0.10
 
   * Add CSS Display Module Level 3 features
   * Move Selectors Level 4 features correctly
