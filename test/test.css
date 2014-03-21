@@ -249,7 +249,9 @@
 }
 
 .lists::marker {
-  display: auto;
+  marker-side: marker;
+  counter-set: list-container;
+  display: counters(list-item, '.');
 }
 
 .marquee {
