@@ -121,14 +121,14 @@
 }
 
 .flexbox {
-  order: flex;
-  flex: row;
-  flex-basis: wrap;
-  flex-direction: inline-flex;
-  flex-flow: row-reverse;
-  flex-grow: column-reverse;
+  flex-direction: flex;
+  flex-wrap: inline-flex;
+  flex-flow: row;
+  order: row-reverse;
+  flex: column-reverse;
+  flex-grow: wrap;
   flex-shrink: wrap-reverse;
-  flex-wrap: auto;
+  flex-basis: auto;
 }
 
 .fonts {
