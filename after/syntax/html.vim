@@ -34,6 +34,7 @@ syn include @htmlCss syntax/css/css-counter-styles-3.vim
 syn include @htmlCss syntax/css/css-display-3.vim
 syn include @htmlCss syntax/css/css-flexbox-1.vim
 syn include @htmlCss syntax/css/css-grid-1.vim
+syn include @htmlCss syntax/css/css-line-grid-1.vim
 syn include @htmlCss syntax/css/css-lists-3.vim
 syn include @htmlCss syntax/css/css-masking-1.vim
 syn include @htmlCss syntax/css/css-overflow-3.vim
