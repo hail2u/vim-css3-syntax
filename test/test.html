@@ -352,6 +352,22 @@
         ruby-position: ruby-base-container;
       }
 
+      @scope .scoping {
+        div {
+          display: auto;
+        }
+      }
+
+      .scoping:scope-context div,
+      .scoping:host,
+      .scping:host(.foo),
+      .scoping:host-context,
+      .scoping::shadow,
+      .scoping::content,
+      .scoping /deep/ span {
+        display: auto;
+      }
+
       .selectors3:target,
       .selectors3:enabled,
       .selectors3:disabled,

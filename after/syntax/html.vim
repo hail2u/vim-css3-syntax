@@ -38,6 +38,7 @@ syn include @htmlCss syntax/css/css-line-grid-1.vim
 syn include @htmlCss syntax/css/css-lists-3.vim
 syn include @htmlCss syntax/css/css-masking-1.vim
 syn include @htmlCss syntax/css/css-overflow-3.vim
+syn include @htmlCss syntax/css/css-scoping-1.vim
 syn include @htmlCss syntax/css/css-shapes-1.vim
 syn include @htmlCss syntax/css/css-text-3.vim
 syn include @htmlCss syntax/css/css-text-decor-3.vim
