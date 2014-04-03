@@ -1,4 +1,1 @@
-" TODO: create cssSupports group and cssSupportsType group
-syn match cssMedia "@supports\>" nextgroup=cssMediaType skipwhite skipnl
-syn match cssMediaAnd "or" nextgroup=cssMediaType skipwhite skipnl
-syn match cssMediaAnd "not" nextgroup=cssMediaType skipwhite skipnl
+syn region cssInclude start=/@supports\>/ end=/\ze{/ skipwhite skipnl contains=cssMediaType,cssMediaKeyword nextgroup=cssMediaBlock
