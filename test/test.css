@@ -551,6 +551,10 @@
   var-foo: var(foo);
 }
 
+.will-change {
+  will-change: scroll-position;
+}
+
 .writing-modes {
   text-orientation: before;
   text-combine-horizontal: after;

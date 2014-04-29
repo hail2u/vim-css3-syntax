@@ -43,5 +43,6 @@ syn include @htmlCss syntax/css/css-shapes-1.vim
 syn include @htmlCss syntax/css/css-text-3.vim
 syn include @htmlCss syntax/css/css-text-decor-3.vim
 syn include @htmlCss syntax/css/css-variables.vim
+syn include @htmlCss syntax/css/css-will-change-1.vim
 syn include @htmlCss syntax/css/css-writing-modes-3.vim
 syn include @htmlCss syntax/css/selectors4.vim
