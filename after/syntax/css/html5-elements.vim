@@ -15,8 +15,5 @@ syn keyword cssTagName embed video audio source track
 " Forms
 syn keyword cssTagName datalist keygen output progress meter
 
-" Interactive elements
-syn keyword cssTagName details summary dialog
-
 " Scripting
 syn keyword cssTagName template canvas
