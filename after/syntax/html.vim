@@ -11,7 +11,6 @@ syn include @htmlCss syntax/css/css3-colors.vim
 syn include @htmlCss syntax/css/css3-content.vim
 syn include @htmlCss syntax/css/css3-exclusions.vim
 syn include @htmlCss syntax/css/css3-fonts.vim
-syn include @htmlCss syntax/css/css3-gcpm.vim
 syn include @htmlCss syntax/css/css3-hyperlinks.vim
 syn include @htmlCss syntax/css/css3-images.vim
 syn include @htmlCss syntax/css/css3-layout.vim
@@ -33,6 +32,7 @@ syn include @htmlCss syntax/css/css3-values.vim
 syn include @htmlCss syntax/css/css-counter-styles-3.vim
 syn include @htmlCss syntax/css/css-display-3.vim
 syn include @htmlCss syntax/css/css-flexbox-1.vim
+syn include @htmlCss syntax/css/css-gcpm-3.vim
 syn include @htmlCss syntax/css/css-grid-1.vim
 syn include @htmlCss syntax/css/css-line-grid-1.vim
 syn include @htmlCss syntax/css/css-lists-3.vim

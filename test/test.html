@@ -179,15 +179,20 @@
         display: proportional-width;
       }
 
-      .gcpm {
-        bleed: target-counter(attr(href, url), page, decimal);
-        marks: target-text(attr(href), content());
-        bookmark-label: open;
-        bookmark-level: closed;
-        bookmark-state: target-text(attr(href), content());
-        bookmark-target: crop;
-        float-offset: cross;
-        string-set: auto;
+
+      .gcpm::footnote-call,
+      .gcpm::footnote-marker {
+        string-set: string(heading, first);
+        running: running(heading);
+        footnote-display: element(header);
+        footnote-policy: footnote;
+        bookmark-label: line;
+        bookmark-level: leader('.');
+        bookmark-state: target-counter(attr(href url), page);
+        display: target-counters(lack-of-example);
+        display: target-text(attr(href url));
+        display: open;
+        display: closed;
       }
 
       .grid-layout {
