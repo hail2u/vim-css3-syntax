@@ -62,6 +62,11 @@ These commands highlight vendor prefixed properties and functions instantly with
 `vim-css3-syntax` supports Sass's SCSS syntax only. If you want use this plugin with LESS, install [VIM-LESS][5]. Sass's indent synatx and Stylus are not supported.
 
 
+### Media Queries
+
+I drop Media Queries Level 3 support in v0.12.0. There is no easy way to supprt Media Queries properly with `after` syntax plugin like this one, sorry. If you want to highlight Media Queries correctly, you must update Vim to 7.4+ or install [JulesWang/css.vim][6].
+
+
 AUTHOR
 ------
 
@@ -79,3 +84,4 @@ MIT: http://hail2u.mit-license.org/2011
 [3]: http://lesscss.org/
 [4]: http://learnboost.github.io/stylus/
 [5]: https://github.com/groenewege/vim-less
+[6]: https://github.com/JulesWang/css.vim
