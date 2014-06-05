@@ -71,6 +71,14 @@
   display: currentColor;
 }
 
+@supports (display: auto) or
+  (display: auto) not
+  (display: auto) {
+  .conditional {
+    display: auto;
+  }
+}
+
 .compositing {
   mix-blend-mode: multiply;
   isolation: screen;
@@ -451,14 +459,6 @@
   display: 10st;
   display: moderate;
   display: reduced;
-}
-
-@supports (display: auto) or
-  (display: auto) not
-  (display: auto) {
-    .supports {
-      display: auto;
-    }
 }
 
 .text {

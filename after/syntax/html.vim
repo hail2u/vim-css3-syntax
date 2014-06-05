@@ -7,7 +7,7 @@ syn include @htmlCss syntax/css/css3-box.vim
 syn include @htmlCss syntax/css/css3-break.vim
 syn include @htmlCss syntax/css/css3-cascade.vim
 syn include @htmlCss syntax/css/css3-colors.vim
-" syn include @htmlCss syntax/css/css3-conditional.vim
+syn include @htmlCss syntax/css/css3-conditional.vim
 syn include @htmlCss syntax/css/css3-content.vim
 syn include @htmlCss syntax/css/css3-exclusions.vim
 syn include @htmlCss syntax/css/css3-fonts.vim
