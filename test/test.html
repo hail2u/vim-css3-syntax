@@ -114,16 +114,21 @@
         display: last;
       }
 
-      .counter-styles {
-        negative: disclosure-open;
-        prefix: disclosure-closed;
-        suffix: simp-chinese-informal;
-        range: simp-chinese-formal;
-        pad: trad-chinese-informal;
-        fallback: trad-chinese-formal;
-        symbols: ethiopic-numeric;
-        additive-symbols: symbols("*" "\2020" "\2021" "\A7");
-        speak-as: auto;
+      @counter-style counter-style {
+        system: cyclic;
+        negative: symbolic;
+        prefix: numeric;
+        suffix: additive;
+        range: override;
+        pad: cjk-decimal;
+        fallback: disclosure-open;
+        symbols: disclosure-closed;
+        additive-symbols: simp-chinese-informal;
+        speak-as: simp-chinese-formal;
+        display: trad-chinese-informal;
+        display: trad-chinese-formal;
+        display: ethiopic-numeric;
+        display: symbols("*" "\2020" "\2021" "\A7");
       }
 
       .display {
