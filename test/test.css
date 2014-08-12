@@ -352,9 +352,9 @@
 }
 
 .ruby {
+  ruby-position: ruby-base-container;
   ruby-merge: ruby-text-container;
   ruby-align: inter-character;
-  ruby-position: ruby-base-container;
 }
 
 @scope .scoping {
