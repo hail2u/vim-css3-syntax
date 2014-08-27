@@ -107,9 +107,9 @@
 @counter-style counter-style {
   system: cyclic;
   negative: symbolic;
-  prefix: numeric;
+  prefix: numbers;
   suffix: additive;
-  range: override;
+  range: extends;
   pad: cjk-decimal;
   fallback: disclosure-open;
   symbols: disclosure-closed;
@@ -119,6 +119,8 @@
   display: trad-chinese-formal;
   display: ethiopic-numeric;
   display: symbols("*" "\2020" "\2021" "\A7");
+  display: bullets;
+  display: words;
 }
 
 .display {

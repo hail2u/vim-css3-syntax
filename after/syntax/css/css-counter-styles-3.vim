@@ -3,7 +3,7 @@ syn region cssInclude start=/@counter-style\>/ end=/\ze{/ skipwhite skipnl conta
 syn keyword cssGeneratedContentProp contained system negative prefix suffix range pad fallback
 syn match cssGeneratedContentProp contained "\<\(additive-\)\=symbols\>"
 syn match cssGeneratedContentProp contained "\<speak-as\>"
-syn keyword cssGeneratedContentAttr contained cyclic symbolic numeric additive override
+syn keyword cssGeneratedContentAttr contained cyclic symbolic additive extends bullets numbers words
 syn match cssGeneratedContentAttr contained "\<cjk-decimal\>"
 syn match cssGeneratedContentAttr contained "\<disclosure-\(open\|closed\)\>"
 syn match cssGeneratedContentAttr contained "\<simp-chinese-\(in\)\=formal\>"
