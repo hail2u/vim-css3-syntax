@@ -126,8 +126,9 @@
 .display {
   display-inside: block-level;
   display-outside: inline-level;
-  display-extras: inline-list-item;
-  display-box: contents;
+  display-list: contents;
+  display-suppress: inline-list-item;
+  display: show;
 }
 
 .exclusions {
