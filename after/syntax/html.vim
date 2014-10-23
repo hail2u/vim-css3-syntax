@@ -11,11 +11,9 @@ syn include @htmlCss syntax/css/css3-conditional.vim
 syn include @htmlCss syntax/css/css3-content.vim
 syn include @htmlCss syntax/css/css3-exclusions.vim
 syn include @htmlCss syntax/css/css3-fonts.vim
-syn include @htmlCss syntax/css/css3-hyperlinks.vim
 syn include @htmlCss syntax/css/css3-images.vim
 syn include @htmlCss syntax/css/css3-layout.vim
 syn include @htmlCss syntax/css/css3-linebox.vim
-syn include @htmlCss syntax/css/css3-marquee.vim
 syn include @htmlCss syntax/css/css3-multicol.vim
 syn include @htmlCss syntax/css/css3-page.vim
 syn include @htmlCss syntax/css/css3-preslev.vim
