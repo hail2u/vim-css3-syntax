@@ -68,7 +68,7 @@ cyan and bold (on gVim).
 ### CSS Preprocessors: [Sass][2], [LESS][3], and [Stylus][4]
 
 `vim-css3-syntax` supports Sass's SCSS syntax only. If you want to use this
-plugin with LESS, install [VIM-LESS][5]. Sass's indent synatx and Stylus are not
+plugin with LESS, install [VIM-LESS][5]. Sass's indent syntax and Stylus are not
 supported.
 
 
