@@ -1,6 +1,5 @@
 syn include @htmlCss syntax/css/html5-elements.vim
 syn include @htmlCss syntax/css/compositing-1.vim
-syn include @htmlCss syntax/css/css3-align.vim
 syn include @htmlCss syntax/css/css3-animations.vim
 syn include @htmlCss syntax/css/css3-background.vim
 syn include @htmlCss syntax/css/css3-box.vim
@@ -25,6 +24,7 @@ syn include @htmlCss syntax/css/css3-transforms.vim
 syn include @htmlCss syntax/css/css3-transitions.vim
 syn include @htmlCss syntax/css/css3-ui.vim
 syn include @htmlCss syntax/css/css3-values.vim
+syn include @htmlCss syntax/css/css-align-3.vim
 syn include @htmlCss syntax/css/css-counter-styles-3.vim
 syn include @htmlCss syntax/css/css-display-3.vim
 syn include @htmlCss syntax/css/css-flexbox-1.vim
