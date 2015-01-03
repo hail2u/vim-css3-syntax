@@ -83,7 +83,7 @@ install [JulesWang/css.vim][6].
 AUTHOR
 ------
 
-Kyo Namegashima <kyo@hail2u.net>
+Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)
 
 
 LICENSE
