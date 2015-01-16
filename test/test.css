@@ -331,6 +331,13 @@
   presentation-level: increment;
 }
 
+.pseudo::selection,
+.pseudo::spelling-error,
+.pseudo::grammer-error,
+.pseuod::placeholder {
+  display: block;
+}
+
 .regions:region {
   flow-into: element;
   flow-from: content;
