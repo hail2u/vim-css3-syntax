@@ -327,6 +327,13 @@
   display: verso;
 }
 
+.positioning {
+  offset-before: sticky;
+  offset-end: auto;
+  offset-after: auto;
+  offset-start: auto;
+}
+
 .preslev {
   presentation-level: increment;
 }
