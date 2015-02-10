@@ -334,10 +334,6 @@
   offset-start: auto;
 }
 
-.preslev {
-  presentation-level: increment;
-}
-
 .pseudo::selection,
 .pseudo::spelling-error,
 .pseudo::grammer-error,

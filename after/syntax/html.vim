@@ -16,7 +16,6 @@ syn include @htmlCss syntax/css/css3-linebox.vim
 syn include @htmlCss syntax/css/css3-multicol.vim
 syn include @htmlCss syntax/css/css3-page.vim
 syn include @htmlCss syntax/css/css3-positioning.vim
-syn include @htmlCss syntax/css/css3-preslev.vim
 syn include @htmlCss syntax/css/css3-regions.vim
 syn include @htmlCss syntax/css/css3-selectors.vim
 syn include @htmlCss syntax/css/css3-sizing.vim
