@@ -117,27 +117,24 @@
       @counter-style counter-style {
         system: cyclic;
         negative: symbolic;
-        prefix: numbers;
-        suffix: additive;
-        range: extends;
-        pad: cjk-decimal;
-        fallback: disclosure-open;
-        symbols: disclosure-closed;
-        additive-symbols: simp-chinese-informal;
-        speak-as: simp-chinese-formal;
-        display: trad-chinese-informal;
-        display: trad-chinese-formal;
-        display: ethiopic-numeric;
-        display: symbols("*" "\2020" "\2021" "\A7");
-        display: bullets;
-        display: words;
-        display: numeric;
+        prefix: additive;
+        suffix: extends;
+        range: bullets;
+        pad: numbers;
+        fallback: words;
+        symbols: symbols("*" "\2020" "\2021" "\A7");
+        additive-symbols: auto;
+        speak-as: auto;
+      }
+
+      .counter-style {
         display: arabic-indic;
         display: upper-armenian;
         display: lower-armenian;
         display: bengali;
         display: cambodian;
         display: khmer;
+        display: cjk-decimal;
         display: devanagari;
         display: gujarati;
         display: gurmukhi;
@@ -154,11 +151,18 @@
         display: tibetan;
         display: cjk-earthly-branch;
         display: cjk-heavenly-stem;
+        display: disclosure-closed;
+        display: disclosure-open;
         display: japanese-informal;
         display: japanese-formal;
         display: korean-hangul-formal;
         display: korean-hanja-informal;
         display: korean-hanja-formal;
+        display: simp-chinese-informal;
+        display: simp-chinese-formal;
+        display: trad-chinese-informal;
+        display: trad-chinese-formal;
+        display: ethiopic-numeric;
       }
 
       .display {
