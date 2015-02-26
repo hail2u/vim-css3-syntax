@@ -554,17 +554,10 @@
   display: cubic-bezier(0.25, 0.1, 0.25, 1.0);
 }
 
-.ui {
-  icon: active;
-  resize: inactive;
-  box-sizing: disabled;
-  ime-mode: root;
-  nav-index: horizontal;
-  nav-up: vertical;
-  nav-right: clip;
-  nav-down: ellipsis;
-  nav-left: auto;
-  outline-offset: auto;
+.ui::value,
+.ui::choices {
+  caret-color: grab;
+  display: grabbing;
 }
 
 .values {
