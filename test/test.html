@@ -260,17 +260,17 @@
 }
 </style>
 <style>
-.grid-layout {
+.grid {
   grid-template-columns: grid;
   grid-template-rows: inline-grid;
   grid-template-areas: minmax(0, 1);
   grid-template: repeat(4);
   grid-auto-columns: 0.2fr;
   grid-auto-rows: subgrid;
-  grid-auto-flow: rows;
-  grid-auto-position: columns;
-  grid: dense;
-  grid-row-start: span;
+  grid-auto-flow: dense;
+  grid-auto-position: span;
+  grid: auto;
+  grid-row-start: auto;
   grid-column-start: auto;
   grid-row-end: auto;
   grid-column-end: auto;
