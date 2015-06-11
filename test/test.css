@@ -566,14 +566,11 @@
 
 .values {
   display: 1ch;
-  display: 1rem;
   display: 1vw;
   display: 1vh;
   display: 1vmin;
+  display: 1q;
   display: 1turn;
-  display: 1dpi;
-  display: 1dpcm;
-  display: 1dppx;
   display: calc(100%/3 - 2*1em - 2*1px);
   display: toggle(italic, normal);
 }
