@@ -1,5 +1,5 @@
 " TODO: create cssDisplayProp group and cssDisplayAttr group
-syn match cssFontProp contained "\<display-\(inside\|outside\|list\|suppress\)\>"
-syn keyword cssFontAttr contained contents show
-syn match cssFontAttr contained "\<\(block\|inline\)-level\>"
+syn match cssFontProp contained "\<box-suppress\>"
+syn keyword cssFontAttr contained contents discard
+syn match cssFontAttr contained "\<flow\(-root\)\=\>"
 syn match cssFontAttr contained "\<inline-list-item\>"

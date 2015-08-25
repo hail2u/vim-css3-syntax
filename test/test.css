@@ -157,11 +157,11 @@
 }
 
 .display {
-  display-inside: block-level;
-  display-outside: inline-level;
-  display-list: contents;
-  display-suppress: inline-list-item;
-  display: show;
+  box-suppress: flow;
+  display: flow-root;
+  display: contents;
+  display: inline-list-item;
+  display: discard;
 }
 
 .exclusions {
