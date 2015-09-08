@@ -61,9 +61,14 @@
   box-decoration-break: auto;
 }
 
-.cascade {
+.cascade-3 {
   all: initial;
   display: unset;
+}
+
+@import "test.css" supports(display: auto);
+.cascade-4 {
+  display: revert;
 }
 
 .colors {

@@ -76,9 +76,15 @@
 }
 </style>
 <style>
-.cascade {
+.cascade-3 {
   all: initial;
   display: unset;
+}
+</style>
+<style>
+@import "test.css" supports(display: auto);
+.cascade-4 {
+  display: revert;
 }
 </style>
 <style>
