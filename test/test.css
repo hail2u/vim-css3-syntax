@@ -363,6 +363,15 @@
   display: verso;
 }
 
+.page-floats-3 {
+  float-reference: inline-start;
+  float-defer: inline-end;
+  float-offset: snap-block;
+  display: snap-inline;
+  display: snap-block(2em, near);
+  display: snap-inline(2em, near);
+}
+
 .positioning {
   offset-before: sticky;
   offset-end: auto;
