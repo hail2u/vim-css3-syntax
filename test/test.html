@@ -303,8 +303,12 @@
 </style>
 <style>
 .inline {
-  initial-letter: ideographic;
+  dominant-baseline: mathematical;
+  alignment-baseline: ideographic;
+  baseline-shift: auto;
+  initial-letter: auto;
   initial-letter-align: auto;
+  initial-letter-wrap: auto;
 }
 </style>
 <style>
@@ -314,29 +318,6 @@
   box-snap: block-end;
   display: first-baseline;
   display: last-baseline;
-}
-</style>
-<style>
-.linebox {
-  alignment-adjust: central;
-  alignment-baseline: mathematical;
-  baseline-shift: before-edge;
-  dominate-baseline: after-edge;
-  drop-initial-after-adjust: text-before-edge;
-  drop-initial-after-align: text-after-edge;
-  drop-initial-before-adjust: use-script;
-  drop-initial-before-align: caps-height;
-  drop-initial-size: exclude-ruby;
-  drop-initial-value: include-ruby;
-  inline-box-align: consider-shift;
-  line-stacking: disregard-shift;
-  line-stacking-ruby: inline-line-height;
-  line-stacking-shift: block-line-height;
-  line-stacking-strategy: max-height;
-  text-height: grid-height;
-  display: font-size;
-  display: text-size;
-  display: max-size;
 }
 </style>
 <style>
