@@ -542,7 +542,7 @@
 }
 </style>
 <style>
-.text {
+.text-3 {
   hyphens: manual;
   line-break: loose;
   overflow-wrap: strict;
@@ -550,6 +550,32 @@
   display: hanging;
   display: each-line;
   display: full-width;
+}
+</style>
+<style>
+.text-4 {
+  text-space-collapse: preserve-auto;
+  text-space-trim: preserve-trim;
+  text-wrap: preserve-breaks;
+  wrap-before: preserve-spaces;
+  wrap-after: trim-inner;
+  wrap-inside: discard-before;
+  hyphenate-character: discard-after;
+  hyphenate-limit-zone: avoid-line;
+  hyphenate-limit-chars: avoid-flex;
+  hyphenate-limit-lines: pre-wrap-auto;
+  hyphenate-limit-last: no-limit;
+  text-spacing: spread;
+  display: trim-start;
+  display: space-start;
+  display: trim-end;
+  display: space-end;
+  display: trim-adjacent;
+  display: space-adjacent;
+  display: no-compress;
+  display: ideograph-alpha;
+  display: ideograph-numeric;
+  display: punctuation;
 }
 </style>
 <style>
