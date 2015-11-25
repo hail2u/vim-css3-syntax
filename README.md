@@ -42,7 +42,7 @@ Or in your `~/.vimrc`:
       autocmd FileType css setlocal iskeyword+=-
     augroup END
 
-This setting have side effects, so use it at your own risk.
+This setting have side effects. So, use it at your own risk.
 
 
 ### Vendor Prefixes
