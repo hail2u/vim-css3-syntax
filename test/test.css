@@ -455,7 +455,7 @@
 .selectors4:active-drop-target,
 .selectors4:valid-drop-target,
 .selectors4:invalid-drop-target,
-.selectors3:matches(:hover, :focus),
+.selectors4:matches(:hover, :focus),
 .selectors4:dir(ltr),
 .selectors4:local-link(0),
 .selectors4:current(p, li, dt, dd),
