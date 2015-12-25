@@ -161,6 +161,11 @@
   display: ethiopic-numeric;
 }
 
+.cssom-view {
+  scroll-behavior: instant;
+  display: smooth;
+}
+
 .display {
   box-suppress: flow;
   display: flow-root;
