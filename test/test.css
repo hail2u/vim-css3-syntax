@@ -190,6 +190,10 @@
   flex-basis: main-size;
 }
 
+.font-loading-3 {
+  display: auto;
+}
+
 .fonts {
   font-feature-settings: common-ligatures;
   font-kerning: no-common-ligatures;
