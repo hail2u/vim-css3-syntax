@@ -51,6 +51,7 @@ syn include @htmlCss syntax/css/css3-speech.vim
 syn include @htmlCss syntax/css/css3-transforms.vim
 syn include @htmlCss syntax/css/css3-transitions.vim
 syn include @htmlCss syntax/css/cssom-view.vim
+syn include @htmlCss syntax/css/cssom.vim
 syn include @htmlCss syntax/css/filter-effects.vim
 syn include @htmlCss syntax/css/html5-elements.vim
 syn include @htmlCss syntax/css/motion-1.vim

@@ -181,6 +181,10 @@
   display: smooth;
 }
 
+.cssom {
+  display: auto;
+}
+
 .display {
   box-suppress: flow;
   display: flow-root;
