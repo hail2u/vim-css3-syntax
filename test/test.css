@@ -273,6 +273,10 @@
   display: closed;
 }
 
+.geometry-1 {
+  display: auto;
+}
+
 .grid {
   grid-template-columns: grid;
   grid-template-rows: inline-grid;
