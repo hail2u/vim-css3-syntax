@@ -179,6 +179,13 @@
   wrap-through: maximum;
 }
 
+.filter-effects {
+  flood-color: sRGB;
+  flood-opacity: linearRGB;
+  color-interpolation-filters: auto;
+  lighting-color: auto;
+}
+
 .flexbox {
   flex-direction: flex;
   flex-wrap: inline-flex;
