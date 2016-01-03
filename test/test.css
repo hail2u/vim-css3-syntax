@@ -553,6 +553,10 @@
   display: reduced;
 }
 
+.syntax {
+  display: auto;
+}
+
 .text-3 {
   hyphens: manual;
   line-break: loose;
