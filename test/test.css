@@ -323,6 +323,13 @@
   mask-type: auto;
 }
 
+.motion-1 {
+  motion-path: path(M 100 100 L 300 100 L 200 300 z);
+  motion-offset: auto;
+  motion-rotation: auto;
+  motion: auto;
+}
+
 .multicol {
   columns: column;
   column-count: balance;

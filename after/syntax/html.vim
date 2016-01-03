@@ -49,4 +49,5 @@ syn include @htmlCss syntax/css/css-variables.vim
 syn include @htmlCss syntax/css/css-will-change-1.vim
 syn include @htmlCss syntax/css/css-writing-modes-3.vim
 syn include @htmlCss syntax/css/html5-elements.vim
+syn include @htmlCss syntax/css/motion-1.vim
 syn include @htmlCss syntax/css/selectors4.vim
