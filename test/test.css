@@ -645,6 +645,12 @@
   var-foo: var(foo);
 }
 
+@viewport {
+  min-zoom: auto;
+  max-zoom: auto;
+  user-zoom: auto;
+}
+
 .will-change {
   will-change: scroll-position;
 }
