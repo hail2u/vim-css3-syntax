@@ -40,6 +40,21 @@
   box-shadow: auto;
 }
 
+.background-4 {
+  background-position-x: x-start;
+  background-position-y: x-end;
+  background-position-inline: y-start;
+  background-position-block: y-end;
+  corner-shape: bevel;
+  corners: scoop;
+  border-limit: notch;
+  border-clip: auto;
+  border-clip-top: auto;
+  border-clip-right: auto;
+  border-clip-bottom: auto;
+  border-clip-left: auto;
+}
+
 .box {
   overflow-style: scrollbar;
   overflow-x: panner;
