@@ -670,6 +670,10 @@
   user-zoom: auto;
 }
 
+.web-animations {
+  display: auto;
+}
+
 .will-change {
   will-change: scroll-position;
 }
