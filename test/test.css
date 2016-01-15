@@ -70,7 +70,7 @@
 }
 
 .break {
-  break-after: any;
+  break-after: auto;
   break-before: auto;
   break-inside: auto;
   box-decoration-break: auto;
