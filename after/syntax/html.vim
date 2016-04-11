@@ -5,7 +5,7 @@ syn include @htmlCss syntax/css/css-break-3.vim
 syn include @htmlCss syntax/css/css-cascade-3.vim
 syn include @htmlCss syntax/css/css-cascade-4.vim
 syn include @htmlCss syntax/css/css-counter-styles-3.vim
-syn include @htmlCss syntax/css/css-device-adapt.vim
+syn include @htmlCss syntax/css/css-device-adapt-1.vim
 syn include @htmlCss syntax/css/css-display-3.vim
 syn include @htmlCss syntax/css/css-flexbox-1.vim
 syn include @htmlCss syntax/css/css-font-loading-3.vim
