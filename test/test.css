@@ -177,8 +177,7 @@
 }
 
 .cssom-view {
-  scroll-behavior: instant;
-  display: smooth;
+  scroll-behavior: smooth;
 }
 
 .cssom {
