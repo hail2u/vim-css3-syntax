@@ -539,10 +539,9 @@
 
 .snappoints {
   scroll-snap-type: mandatory;
-  scroll-snap-points-x: proximity;
-  scroll-snap-points-y: auto;
-  scroll-snap-destination: auto;
-  scroll-snap-coordinate: auto;
+  scroll-snap-padding: proximity;
+  scroll-snap-margin: auto;
+  scroll-snap-align: auto;
 }
 
 .speech {
