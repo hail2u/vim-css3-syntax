@@ -1,6 +1,6 @@
 .align {
   justify-self: safe;
-  justify-content: true;
+  justify-content: unsafe;
   justify-items: self-start;
   align-self: self-end;
   align-content: flex-start;
