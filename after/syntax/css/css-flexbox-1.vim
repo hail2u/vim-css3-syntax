@@ -3,4 +3,3 @@ syn match cssFontProp contained "\<flex\(-\(basis\|direction\|flow\|grow\|shrink
 syn keyword cssFontAttr contained flex row wrap
 syn match cssFontAttr contained "\<inline-flex\>"
 syn match cssFontAttr contained "\<\(row\|column\|wrap\)-reverse\>"
-syn match cssFontAttr contained "\<main-size\>"
