@@ -386,11 +386,7 @@
 }
 
 .overflow {
-  max-lines: paged-x;
-  display: paged-y;
-  display: paged-x-controls;
-  display: paged-y-controls;
-  display: fragments;
+  max-lines: auto;
 }
 
 .page {
