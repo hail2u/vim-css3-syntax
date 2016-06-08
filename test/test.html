@@ -140,10 +140,13 @@
 </style>
 <style>
 .content {
-  move-to: inhibit;
-  page-policy: here;
-  display: first;
-  display: last;
+  string-set: open;
+  bookmark-level: closed;
+  bookmark-label: leader('.');
+  bookmark-state: string(heading, first);
+  display: target-counter(attr(href url), page);
+  display: target-counters(lack-of-example);
+  display: target-text(attr(href url));
 }
 </style>
 <style>
@@ -300,17 +303,10 @@
 <style>
 .gcpm::footnote-call,
 .gcpm::footnote-marker {
-  string-set: string(heading, first);
-  running: running(heading);
-  footnote-display: element(header);
-  footnote-policy: footnote;
-  bookmark-label: line;
-  bookmark-level: leader('.');
-  bookmark-state: target-counter(attr(href url), page);
-  display: target-counters(lack-of-example);
-  display: target-text(attr(href url));
-  display: open;
-  display: closed;
+  running: footnote;
+  footnote-display: line; 
+  footnote-policy: element(header);
+  display: running(heading);
 }
 </style>
 <style>
