@@ -23,9 +23,9 @@ syn include @htmlCss syntax/css/css-pseudo-4.vim
 syn include @htmlCss syntax/css/css-round-display-1.vim
 syn include @htmlCss syntax/css/css-ruby-1.vim
 syn include @htmlCss syntax/css/css-scoping-1.vim
+syn include @htmlCss syntax/css/css-scroll-snap-1.vim
 syn include @htmlCss syntax/css/css-shapes-1.vim
 syn include @htmlCss syntax/css/css-sizing-3.vim
-syn include @htmlCss syntax/css/css-snappoints-1.vim
 syn include @htmlCss syntax/css/css-text-3.vim
 syn include @htmlCss syntax/css/css-text-4.vim
 syn include @htmlCss syntax/css/css-text-decor-3.vim
