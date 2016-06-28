@@ -8,6 +8,7 @@
   display: space-around;
   display: space-between;
   display: space-evenly;
+  display: legacy;
 }
 
 .animations {
