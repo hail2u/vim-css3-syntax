@@ -38,7 +38,7 @@ syn include @htmlCss syntax/css/css-writing-modes-3.vim
 syn include @htmlCss syntax/css/css3-animations.vim
 syn include @htmlCss syntax/css/css3-background.vim
 syn include @htmlCss syntax/css/css3-box.vim
-syn include @htmlCss syntax/css/css3-colors.vim
+syn include @htmlCss syntax/css/css3-color.vim
 syn include @htmlCss syntax/css/css3-conditional.vim
 syn include @htmlCss syntax/css/css3-exclusions.vim
 syn include @htmlCss syntax/css/css3-fonts.vim

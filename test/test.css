@@ -87,7 +87,7 @@
   display: revert;
 }
 
-.colors {
+.color {
   opacity: rgba(0, 0, 0, 1);
   display: hsla(0, 0, 0, 1);
   display: currentColor;
