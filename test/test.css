@@ -98,7 +98,8 @@
 }
 
 .color-4 {
-  color-adjust: rebeccapurple;
+  color-adjust: #FFEEDDFF;
+  display: rebeccapurple;
   display: hwb(120deg, 44%, 50%);
   display: lab(1 2 3);
   display: lch(4 5 6);
