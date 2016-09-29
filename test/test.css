@@ -417,6 +417,10 @@
   display: snap-inline(2em, near);
 }
 
+.paint-api-1 {
+  display: paint(my_logo);
+}
+
 .positioning {
   offset-before: sticky;
   offset-end: auto;
