@@ -1,5 +1,5 @@
 syn match cssFontProp contained "\<grid-template\(-\(columns\|rows\|areas\)\)\=\>"
-syn match cssFontProp contained "\<grid-auto-\(columns\|rows\|flow\|position\)\>"
+syn match cssFontProp contained "\<grid-auto-\(columns\|rows\|flow\)\>"
 syn match cssFontProp contained "\<grid-\(row\|column\)\(-\(start\|end\)\)\=\>"
 syn match cssFontProp contained "\<grid-area\>"
 syn match cssFontProp contained "\<grid\(-\(column\|row\)\)\=-gap\>"
