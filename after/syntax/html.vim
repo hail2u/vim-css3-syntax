@@ -64,3 +64,4 @@ syn include @htmlCss syntax/css/selectors-nonelement-1.vim
 syn include @htmlCss syntax/css/selectors.vim
 syn include @htmlCss syntax/css/selectors4.vim
 syn include @htmlCss syntax/css/web-animations-1.vim
+syn include @htmlCss syntax/css/worklets-1.vim
