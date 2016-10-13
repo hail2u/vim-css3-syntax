@@ -11,16 +11,23 @@ I **strongly** recommend to install this plugin on *Vim 7.4 or higher with
 default runtime files*.
 
 
-### Manual Installation
+### Vim package
 
-Download from GitHub, extract `vim-css3-syntax.tar.gz`, and copy the contents to
-your `~/.vim` directory.
+    $ mkdir -p ~/.vim/pack/css3-syntax/start
+    $ cd ~/.vim/pack/css3-syntax/start
+    $ git clone https://github.com/hail2u/vim-css3-syntax.git
 
 
-### Installing with Git and pathogen
+### pathogen.vim
 
     $ cd ~/.vim/bundle
     $ git clone https://github.com/hail2u/vim-css3-syntax.git
+
+
+### Manual
+
+Download `vim-css3-syntax.tar.gz` from GitHub, extract it, and copy the contents
+to your `~/.vim` directory.
 
 
 NOTES
