@@ -1,4 +1,4 @@
-.align {
+.align-3 {
   justify-self: safe;
   justify-content: unsafe;
   justify-items: self-start;
@@ -41,7 +41,7 @@
   box-shadow: auto;
 }
 
-.background-4 {
+.backgrounds-4 {
   background-position-x: x-start;
   background-position-y: x-end;
   background-position-inline: y-start;
@@ -70,7 +70,7 @@
   display: no-content;
 }
 
-.break {
+.break-3 {
   break-after: auto;
   break-before: auto;
   break-inside: auto;
@@ -117,7 +117,7 @@
   }
 }
 
-.compositing {
+.compositing-1 {
   mix-blend-mode: multiply;
   isolation: screen;
   background-blend-mode: overlay;
@@ -135,7 +135,7 @@
   display: luminosity;
 }
 
-.content {
+.content-3 {
   string-set: open;
   bookmark-level: closed;
   bookmark-label: leader('.');
@@ -145,7 +145,7 @@
   display: target-text(attr(href url));
 }
 
-@counter-style counter-style {
+@counter-style counter-styles-3 {
   system: cyclic;
   negative: symbolic;
   prefix: additive;
@@ -158,7 +158,7 @@
   speak-as: auto;
 }
 
-.counter-style {
+.counter-styles-3 {
   display: arabic-indic;
   display: upper-armenian;
   display: lower-armenian;
@@ -196,15 +196,15 @@
   display: ethiopic-numeric;
 }
 
-.cssom-view {
-  scroll-behavior: smooth;
-}
-
-.cssom {
+.cssom-1 {
   display: auto;
 }
 
-.display {
+.cssom-view-1 {
+  scroll-behavior: smooth;
+}
+
+.display-3 {
   box-suppress: flow;
   display: flow-root;
   display: contents;
@@ -217,7 +217,7 @@
   wrap-through: maximum;
 }
 
-.filter-effects {
+.filter-effects-1 {
   flood-color: sRGB;
   flood-opacity: linearRGB;
   color-interpolation-filters: auto;
@@ -234,7 +234,7 @@
   display: sepia(60%);
 }
 
-.flexbox {
+.flexbox-1 {
   flex-direction: flex;
   flex-wrap: inline-flex;
   flex-flow: row;
@@ -248,7 +248,7 @@
   display: auto;
 }
 
-.fonts {
+.fonts-3 {
   font-feature-settings: common-ligatures;
   font-kerning: no-common-ligatures;
   font-language-override: discretionary-ligatures;
@@ -286,19 +286,19 @@
   display: proportional-width;
 }
 
-.gcpm::footnote-call,
-.gcpm::footnote-marker {
-  running: running(heading);
-  footnote-display: element(header);
-  footnote-policy: footnote;
-  display: line;
+.gcpm-3::footnote-call,
+.gcpm-3::footnote-marker {
+  running: footnote;
+  footnote-display: line; 
+  footnote-policy: element(header);
+  display: running(heading);
 }
 
 .geometry-1 {
   display: auto;
 }
 
-.grid {
+.grid-1 {
   grid-template-columns: grid;
   grid-template-rows: inline-grid;
   grid-template-areas: minmax(0, 1);
@@ -307,7 +307,7 @@
   grid-auto-columns: 0.2fr;
   grid-auto-flow: dense;
   grid: auto-flow;
-  grid-row-start: auto-flow;
+  grid-row-start: subgrid;
   grid-column-start: span;
   grid-row-end: auto;
   grid-column-end: auto;
@@ -332,7 +332,7 @@
   display: repeating-radial-gradient(farthest-corner at 50% 50%, yellow, green);
 }
 
-.inline {
+.inline-3 {
   dominant-baseline: mathematical;
   alignment-baseline: ideographic;
   baseline-shift: auto;
@@ -341,7 +341,7 @@
   initial-letter-wrap: auto;
 }
 
-.line-grid {
+.line-grid-1 {
   line-grid: create;
   line-snap: block-start;
   box-snap: block-end;
@@ -349,13 +349,11 @@
   display: last-baseline;
 }
 
-.lists::marker {
-  marker-side: marker;
-  counter-set: list-container;
-  display: counters(list-item, '.');
+.lists-3::marker {
+  display: auto;
 }
 
-.masking {
+.masking-1 {
   clip-path: fill-box;
   clip-rule: stroke-box;
   mask-image: view-box;
@@ -397,7 +395,7 @@
   column-width: auto;
 }
 
-.overflow {
+.overflow-3 {
   max-lines: auto;
 }
 
@@ -421,20 +419,20 @@
   display: paint(my_logo);
 }
 
-.positioning {
+.position-3 {
   offset-before: sticky;
   offset-end: auto;
   offset-after: auto;
   offset-start: auto;
 }
 
-.pseudo::inactive-selection,
-.pseudo::spelling-error,
-.pseudo::grammer-error {
+.pseudo-4::inactive-selection,
+.pseudo-4::spelling-error,
+.pseudo-4::grammer-error {
   display: auto;
 }
 
-.regions:region {
+.regions-1:region {
   flow-into: element;
   flow-from: content;
   region-fragment: break;
@@ -451,29 +449,29 @@
   }
 }
 
-.ruby {
+.ruby-1 {
   ruby-position: ruby-base-container;
   ruby-merge: ruby-text-container;
   ruby-align: inter-character;
 }
 
-@scope .scoping {
+@scope .scoping-1 {
   div {
     display: auto;
   }
 }
 
-.scoping:scope-context div,
-.scoping:host,
-.scping:host(.foo),
-.scoping:host-context,
-.scoping::shadow,
-.scoping::content,
-.scoping /deep/ span {
+.scoping-1:scope-context div,
+.scoping-1:host,
+.scoping-1:host(.foo),
+.scoping-1:host-context,
+.scoping-1::shadow,
+.scoping-1::content,
+.scoping-1 /deep/ span {
   display: auto;
 }
 
-.scroll-snap {
+.scroll-snap-1 {
   scroll-snap-type: x;
   scroll-padding: y;
   scroll-snap-margin: mandatory;
@@ -501,23 +499,23 @@
   scroll-snap-margin-inline: auto;
 }
 
-.selectors3:target,
-.selectors3:enabled,
-.selectors3:disabled,
-.selectors3:checked,
-.selectors3:indeterminate,
-.selectors3:root,
-.selectors3:empty,
-.selectors3:last-child,
-.selectors3:last-of-type,
-.selectors3:first-of-type,
-.selectors3:only-child,
-.selectors3:only-of-type,
-.selectors3:nth-child(2n+1),
-.selectors3:nth-last-child(-n+2),
-.selectors3:nth-of-type(2n+1),
-.selectors3:nth-last-of-type(n+2),
-.selectors3:not([DISABLED]) {
+.selectors:target,
+.selectors:enabled,
+.selectors:disabled,
+.selectors:checked,
+.selectors:indeterminate,
+.selectors:root,
+.selectors:empty,
+.selectors:last-child,
+.selectors:last-of-type,
+.selectors:first-of-type,
+.selectors:only-child,
+.selectors:only-of-type,
+.selectors:nth-child(2n+1),
+.selectors:nth-last-child(-n+2),
+.selectors:nth-of-type(2n+1),
+.selectors:nth-last-of-type(n+2),
+.selectors:not([DISABLED]) {
   display: auto;
 }
 
@@ -559,7 +557,7 @@
   display: auto;
 }
 
-.shapes {
+.shapes-1 {
   shape-outside: margin-box;
   shape-image-threshold: inset(50% 50% 50% 50%);
   shape-margin: circle(100px 50px 100px);
@@ -567,7 +565,7 @@
   display: polygon(0 0, 100% 100%, 0 100%);
 }
 
-.sizing {
+.sizing-3 {
   display: max-content;
   display: min-content;
   display: fit-content;
@@ -590,7 +588,7 @@
   display: reduced;
 }
 
-.syntax {
+.syntax-3 {
   display: auto;
 }
 
@@ -645,7 +643,7 @@
   display: over;
 }
 
-.transforms {
+.transforms-1 {
   backface-visibility: flat;
   perspective: preserve-3d;
   perspective-origin: matrix(1);
@@ -694,7 +692,7 @@
   caret-animation: underscore;
 }
 
-.values {
+.values-3 {
   display: 1ch;
   display: 1vw;
   display: 1vh;
@@ -704,7 +702,7 @@
   display: calc(100%/3 - 2*1em - 2*1px);
 }
 
-.variables {
+.variables-1 {
   var-foo: var(foo);
 }
 
@@ -714,15 +712,15 @@
   user-zoom: auto;
 }
 
-.web-animations {
+.web-animations-1 {
   display: auto;
 }
 
-.will-change {
+.will-change-1 {
   will-change: scroll-position;
 }
 
-.writing-modes {
+.writing-modes-3 {
   writing-mode: before;
   text-orientation: after;
   text-combine-upright: mixed;
