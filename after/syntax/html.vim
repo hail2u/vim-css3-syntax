@@ -12,6 +12,7 @@ syn include @htmlCss syntax/css/css-display-3.vim
 syn include @htmlCss syntax/css/css-flexbox-1.vim
 syn include @htmlCss syntax/css/css-font-loading-3.vim
 syn include @htmlCss syntax/css/css-fonts-3.vim
+syn include @htmlCss syntax/css/css-fonts-4.vim
 syn include @htmlCss syntax/css/css-gcpm-3.vim
 syn include @htmlCss syntax/css/css-grid-1.vim
 syn include @htmlCss syntax/css/css-inline-3.vim
