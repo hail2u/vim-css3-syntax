@@ -1,7 +1,8 @@
 vim-css3-syntax
 ===============
 
-Add CSS3 syntax support to [Vim][1]'s built-in `syntax/css.vim`.
+Add CSS3 syntax (and syntax defined in some foreign specifications) support to
+[Vim][1]'s built-in `syntax/css.vim`.
 
 
 INSTALLATION
