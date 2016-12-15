@@ -37,7 +37,7 @@ NOTES
 ### Highlighting problems on: `vertical-align`, `box-shadow`, and others
 
 Some properties do not highlight correctly by default. This is a limitation of
-Vim's highlight priority mechanism. To fix this problems, put following lines in
+Vim’s highlight priority mechanism. To fix this problems, put following lines in
 your `~/.vim/after/css.vim`:
 
     setlocal iskeyword+=-
@@ -62,7 +62,7 @@ such as `-webkit-` or `-moz-`, etc. These are hard to maintain because they are:
   * Changed unexpectedly
   * Removed silently
 
-These must be supported by separate syntax plugins (Vim 7.4's default CSS syntax
+These must be supported by separate syntax plugins (Vim 7.4’s default CSS syntax
 file supports this). If you want to highlight prefixed properties or functions
 manually, `:highlight` and `:match` would help:
 
@@ -75,8 +75,8 @@ cyan and bold (on gVim).
 
 ### CSS Preprocessors: [Sass][2], [LESS][3], and [Stylus][4]
 
-`vim-css3-syntax` supports Sass's SCSS syntax only. If you want to use this
-plugin with LESS, install [VIM-LESS][5]. Sass's indent syntax and Stylus are not
+`vim-css3-syntax` supports Sass’s SCSS syntax only. If you want to use this
+plugin with LESS, install [VIM-LESS][5]. Sass’s indent syntax and Stylus are not
 supported.
 
 
