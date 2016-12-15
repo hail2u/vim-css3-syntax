@@ -61,6 +61,7 @@ syn include @htmlCss syntax/css/filter-effects-1.vim
 syn include @htmlCss syntax/css/geometry-1.vim
 syn include @htmlCss syntax/css/html5-elements.vim
 syn include @htmlCss syntax/css/motion-1.vim
+syn include @htmlCss syntax/css/pointerevents.vim
 syn include @htmlCss syntax/css/selectors-nonelement-1.vim
 syn include @htmlCss syntax/css/selectors.vim
 syn include @htmlCss syntax/css/selectors4.vim

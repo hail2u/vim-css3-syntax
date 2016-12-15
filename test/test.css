@@ -426,6 +426,12 @@
   display: paint(my_logo);
 }
 
+.pointerevents {
+  touch-action: pan-x;
+  display: pan-y;
+  display: manipulation;
+}
+
 .position-3 {
   offset-before: sticky;
   offset-end: auto;
