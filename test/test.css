@@ -760,3 +760,106 @@ rtc,
 template {
   display: auto;
 }
+
+.svg2,
+animate,
+animateMotion,
+animateTransform,
+circle,
+clipPath,
+cursor,
+defs,
+desc,
+discard,
+ellipse,
+feBlend,
+feColorMatrix,
+feComponentTransfer,
+feComposite,
+feConvolveMatrix,
+feDiffuseLighting,
+feDisplacementMap,
+feDistantLight,
+feDropShadow,
+feFlood,
+feFuncA,
+feFuncB,
+feFuncG,
+feFuncR,
+feGaussianBlur,
+feImage,
+feMerge,
+feMergeNode,
+feMorphology,
+feOffset,
+fePointLight,
+feSpecularLighting,
+feSpotLight,
+feTile,
+feTurbulence,
+filter,
+foreignObject,
+g,
+hatch,
+hatchpath,
+image,
+line,
+linearGradient,
+marker,
+mesh,
+meshgradient,
+meshpatch,
+meshrow,
+metadata,
+mpath,
+path,
+pattern,
+polygon,
+polyline,
+radialGradient,
+rect,
+set,
+solidcolor,
+stop,
+switch,
+symbol,
+text,
+textPath,
+tspan,
+unknown,
+use,
+view {
+  color-interpolation: arcs;
+  color-rendering: butt;
+  cx: crispEdges;
+  cy: geometricPrecision;
+  d: optimizeQuality;
+  fill-opacity: painted;
+  fill-rule: stroke;
+  fill: viewport;
+  image-rendering: visibleFill;
+  marker-end: visiblePainted;
+  marker-mid: visibleStroke;
+  marker-start: bounding-box;
+  pointer-events: context-fill;
+  r: context-stroke;
+  rx: fixed-position;
+  ry: miter;
+  shape-rendering: miter-clip;
+  solid-color: non-scaling-stroke;
+  solid-opacity: non-scaling-size;
+  stop-color: non-rotation;
+  stop-opacity: child(1);
+  stroke-dasharray: icc-color(foo);
+  stroke-dashoffset: auto;
+  stroke-linecap: auto;
+  stroke-linejoin: auto;
+  stroke-miterlimit: auto;
+  stroke-opacity: auto;
+  stroke-width: auto;
+  stroke: auto;
+  text-anchor: auto;
+  vector-effect: auto;
+  x: auto;
+  y: auto;
+}
