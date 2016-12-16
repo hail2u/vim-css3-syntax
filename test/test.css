@@ -753,37 +753,10 @@
   display: vertical-lr;
 }
 
-.html5-elements,
-article,
-section,
-nav,
-aside,
-header,
-footer,
-figure,
-figcaption,
-main,
-data,
-time,
-mark,
-ruby,
+.html5,
+picture,
 rb,
-rt,
 rtc,
-rp,
-bdi,
-wbr,
-embed,
-video,
-audio,
-source,
-track,
-datalist,
-keygen,
-output,
-progress,
-meter,
-template,
-canvas {
+template {
   display: auto;
 }
