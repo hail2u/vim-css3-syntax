@@ -205,7 +205,7 @@
 }
 
 .display-3 {
-  box-suppress: flow;
+  display: flow;
   display: flow-root;
   display: contents;
   display: inline-list-item;
