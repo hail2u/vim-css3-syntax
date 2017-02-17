@@ -52,6 +52,7 @@ syn include @htmlCss syntax/css/css3-conditional.vim
 syn include @htmlCss syntax/css/css3-exclusions.vim
 syn include @htmlCss syntax/css/css3-images.vim
 syn include @htmlCss syntax/css/css3-multicol.vim
+syn include @htmlCss syntax/css/css3-namespace.vim
 syn include @htmlCss syntax/css/css3-page.vim
 syn include @htmlCss syntax/css/css3-speech.vim
 syn include @htmlCss syntax/css/css3-transitions.vim

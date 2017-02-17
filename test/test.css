@@ -402,6 +402,8 @@
   column-width: auto;
 }
 
+@namespace "http://example.com/css3-namespace/";
+
 .overflow-3 {
   max-lines: auto;
 }
