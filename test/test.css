@@ -603,6 +603,10 @@
   display: reduced;
 }
 
+.style-attr {
+  display: auto;
+}
+
 .syntax-3 {
   display: auto;
 }
