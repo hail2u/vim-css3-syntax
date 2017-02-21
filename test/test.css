@@ -135,6 +135,12 @@
   display: luminosity;
 }
 
+.contain-1 {
+  contain: layout;
+  display: paint;
+  display: size;
+}
+
 .content-3 {
   string-set: open;
   bookmark-level: closed;
