@@ -38,6 +38,7 @@ syn include @htmlCss syntax/css/css-syntax-3.vim
 syn include @htmlCss syntax/css/css-text-3.vim
 syn include @htmlCss syntax/css/css-text-4.vim
 syn include @htmlCss syntax/css/css-text-decor-3.vim
+syn include @htmlCss syntax/css/css-timing-1.vim
 syn include @htmlCss syntax/css/css-transforms-1.vim
 syn include @htmlCss syntax/css/css-typed-om-1.vim
 syn include @htmlCss syntax/css/css-ui-3.vim

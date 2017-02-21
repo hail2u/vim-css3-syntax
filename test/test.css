@@ -672,6 +672,10 @@
   display: over;
 }
 
+.timing-1 {
+  display: frames(2);
+}
+
 .transforms-1 {
   backface-visibility: flat;
   perspective: preserve-3d;
