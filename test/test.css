@@ -109,14 +109,6 @@
   display: color-mod(#112233 tint(50%));
 }
 
-@supports (display: auto) or
-  (display: auto) not
-  (display: auto) {
-  .conditional {
-    display: auto;
-  }
-}
-
 .compositing-1 {
   mix-blend-mode: multiply;
   isolation: screen;
@@ -133,6 +125,14 @@
   display: saturation;
   display: color;
   display: luminosity;
+}
+
+@supports (display: auto) or
+  (display: auto) not
+  (display: auto) {
+  .conditional {
+    display: auto;
+  }
 }
 
 .contain-1 {

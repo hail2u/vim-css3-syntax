@@ -129,15 +129,6 @@
 }
 </style>
 <style>
-@supports (display: auto) or
-  (display: auto) not
-  (display: auto) {
-  .conditional {
-    display: auto;
-  }
-}
-</style>
-<style>
 .compositing-1 {
   mix-blend-mode: multiply;
   isolation: screen;
@@ -154,6 +145,15 @@
   display: saturation;
   display: color;
   display: luminosity;
+}
+</style>
+<style>
+@supports (display: auto) or
+  (display: auto) not
+  (display: auto) {
+  .conditional {
+    display: auto;
+  }
 }
 </style>
 <style>
