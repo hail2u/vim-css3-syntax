@@ -461,6 +461,15 @@
   display: avoid-region;
 }
 
+.rhythm-1 {
+  line-height-step: margin;
+  block-step-size: up;
+  block-step-insert: down;
+  block-step-align: nearest;
+  block-step-round: auto;
+  block-step: auto;
+}
+
 @media (device-radius: 50%) {
   .round-display-1 {
     shape-inside: outside-shape;

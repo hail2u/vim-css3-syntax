@@ -27,6 +27,7 @@ syn include @htmlCss syntax/css/css-position-3.vim
 syn include @htmlCss syntax/css/css-properties-values-api-1.vim
 syn include @htmlCss syntax/css/css-pseudo-4.vim
 syn include @htmlCss syntax/css/css-regions-1.vim
+syn include @htmlCss syntax/css/css-rhythm-1.vim
 syn include @htmlCss syntax/css/css-round-display-1.vim
 syn include @htmlCss syntax/css/css-ruby-1.vim
 syn include @htmlCss syntax/css/css-scoping-1.vim
