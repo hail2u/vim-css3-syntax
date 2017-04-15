@@ -2,19 +2,16 @@ syn keyword cssTagName animate animateMotion animateTransform circle clipPath cu
 
 syn keyword cssFontProp contained cx cy d r rx ry x y
 syn match cssFontProp contained "\<color-\(interpolation\|rendering\)\>"
-syn match cssFontProp contained "\<fill\(-\(opacity\|rule\)\)\=\>"
 syn match cssFontProp contained "\<image-rendering\>"
 syn match cssFontProp contained "\<marker-\(end\|mid\|start\)\>"
 syn match cssFontProp contained "\<pointer-events\>"
 syn match cssFontProp contained "\<shape-rendering\>"
 syn match cssFontProp contained "\<solid-\(color\|opacity\)\>"
 syn match cssFontProp contained "\<stop-\(color\|opacity\)\>"
-syn match cssFontProp contained "\<stroke\(-\(dash\(array\|offset\)\|line\(cap\|join\)\|miterlimit\|opacity\|width\)\)\=\>"
 syn match cssFontProp contained "\<text-anchor\>"
 syn match cssFontProp contained "\<vector-effect\>"
 
-syn keyword cssFontAttr contained arcs butt crispEdges geometricPrecision optimizeQuality painted stroke viewport visibleFill visiblePainted visibleStroke
-syn match cssFontAttr contained "\<bounding-box\>"
+syn keyword cssFontAttr contained crispEdges geometricPrecision optimizeQuality painted stroke viewport visibleFill visiblePainted visibleStroke
 syn match cssFontAttr contained "\<context-\(fill\|stroke\)\>"
 syn match cssFontAttr contained "\<fixed-position\>"
 syn match cssFontAttr contained "\<miter\(-clip\)\=\>"

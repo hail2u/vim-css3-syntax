@@ -253,15 +253,24 @@
 </style>
 <style>
 .fill-stroke-3 {
-  fill-break: stupid;
-  fill-color: compress;
-  fill-image: dashes;
-  fill-origin: gaps;
-  fill-position: auto;
-  fill-size: auto;
+  fill-rule: butt;
+  fill-break: arcs;
+  fill-color: stupid;
+  fill-image: compress;
+  fill-origin: dashes;
+  fill-position: gaps;
+  fill-size: bounding-box;
   fill-repeat: auto;
+  fill: auto;
+  fill-opacity: auto;
+  stroke-width: auto;
   stroke-align: auto;
+  stroke-linecap: auto;
+  stroke-linejoin: auto;
+  stroke-miterlimit: auto;
   stroke-break: auto;
+  stroke-dasharray: auto;
+  stroke-dashoffset: auto;
   stroke-dash-corner: auto;
   stroke-dash-justify: auto;
   stroke-color: auto;
@@ -270,6 +279,8 @@
   stroke-position: auto;
   stroke-size: auto;
   stroke-repeat: auto;
+  stroke: auto;
+  stroke-opacity: auto;
 }
 </style>
 <style>
@@ -957,18 +968,15 @@ tspan,
 unknown,
 use,
 view {
-  color-interpolation: arcs;
-  color-rendering: butt;
-  cx: crispEdges;
-  cy: geometricPrecision;
-  d: optimizeQuality;
-  fill-opacity: painted;
-  fill-rule: stroke;
-  fill: viewport;
+  color-interpolation: crispEdges;
+  color-rendering: geometricPrecision;
+  cx: optimizeQuality;
+  cy: painted;
+  d: visiblePainted;
   image-rendering: visibleFill;
-  marker-end: visiblePainted;
-  marker-mid: visibleStroke;
-  marker-start: bounding-box;
+  marker-end: stroke;
+  marker-mid: viewport;
+  marker-start: visibleStroke;
   pointer-events: context-fill;
   r: context-stroke;
   rx: fixed-position;
@@ -978,15 +986,7 @@ view {
   solid-opacity: non-scaling-size;
   stop-color: non-rotation;
   stop-opacity: child(1);
-  stroke-dasharray: icc-color(foo);
-  stroke-dashoffset: auto;
-  stroke-linecap: auto;
-  stroke-linejoin: auto;
-  stroke-miterlimit: auto;
-  stroke-opacity: auto;
-  stroke-width: auto;
-  stroke: auto;
-  text-anchor: auto;
+  text-anchor: icc-color(foo);
   vector-effect: auto;
   x: auto;
   y: auto;
