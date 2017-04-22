@@ -363,17 +363,22 @@
   grid-gap: auto;
 }
 
-.images {
+.images-3 {
   object-fit: contain;
   object-position: cover;
-  image-resolution: snap;
-  image-orientation: scale-down;
+  image-orientation: snap;
+  display: scale-down;
   display: from-image;
-  display: image("sprite.svg#xywh=40,0,20,20");
   display: linear-gradient(to bottom, yellow, blue);
   display: radial-gradient(farthest-corner at 50% 50%, yellow, green);
   display: repeating-linear-gradient(to bottom, yellow, blue);
   display: repeating-radial-gradient(farthest-corner at 50% 50%, yellow, green);
+}
+
+.images-4 {
+  image-resolution: image("sprite.svg#xywh=40,0,20,20");
+  display: element(#test);
+  display: conic-gradient(at 25% 30%, white, black 60%);
 }
 
 .inline-3 {
