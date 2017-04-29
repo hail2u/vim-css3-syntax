@@ -1,1 +1,1 @@
-syn keyword cssTagName picture rb rtc template
+syn keyword cssTagName picture rb rtc slot template
