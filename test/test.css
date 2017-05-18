@@ -402,6 +402,60 @@
   display: auto;
 }
 
+.logical-1 {
+  block-size: logical;
+  inline-size: physical;
+  min-block-size: rotate;
+  min-inline-size: auto;
+  max-block-size: auto;
+  max-inline-size: auto;
+  margin-block-start: auto;
+  margin-block-end: auto;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  margin-block: auto;
+  margin-inline: auto;
+  inset-block-start: auto;
+  inset-block-end: auto;
+  inset-inline-start: auto;
+  inset-inline-end: auto;
+  inset-block: auto;
+  inset-inline: auto;
+  inset: auto;
+  padding-block-start: auto;
+  padding-block-end: auto;
+  padding-inline-start: auto;
+  padding-inline-end: auto;
+  padding-block: auto;
+  padding-inline: auto;
+  border-block-start-width: auto;
+  border-block-end-width: auto;
+  border-inline-start-width: auto;
+  border-inline-end-width: auto;
+  border-block-width: auto;
+  border-inline-width: auto;
+  border-block-start-style: auto;
+  border-block-end-style: auto;
+  border-inline-start-style: auto;
+  border-inline-end-style: auto;
+  border-block-style: auto;
+  border-inline-style: auto;
+  border-block-start-color: auto;
+  border-block-end-color: auto;
+  border-inline-start-color: auto;
+  border-inline-end-color: auto;
+  border-block-color: auto;
+  border-inline-color: auto;
+  border-block-start: auto;
+  border-block-end: auto;
+  border-inline-start: auto;
+  border-inline-end: auto;
+  border-block: auto;
+  border-inline: auto;
+  background-image-transform: auto;
+  border-image-transform: auto;
+}
+
 .masking-1 {
   clip-path: fill-box;
   clip-rule: stroke-box;
