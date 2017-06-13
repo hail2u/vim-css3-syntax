@@ -23,6 +23,7 @@ syn include @htmlCss syntax/css/css-lists-3.vim
 syn include @htmlCss syntax/css/css-logical-1.vim
 syn include @htmlCss syntax/css/css-masking-1.vim
 syn include @htmlCss syntax/css/css-overflow-3.vim
+syn include @htmlCss syntax/css/css-overflow-4.vim
 syn include @htmlCss syntax/css/css-page-floats-3.vim
 syn include @htmlCss syntax/css/css-paint-api-1.vim
 syn include @htmlCss syntax/css/css-position-3.vim

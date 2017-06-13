@@ -504,6 +504,14 @@
   max-lines: auto;
 }
 
+.overflow-4::nth-fragment(1) {
+  scrollbar-gutter: stable;
+  continue: force;
+  display: overflow;
+  display: paginate;
+  display: fragments;
+}
+
 .page {
   display: avoid-page;
   display: page;
