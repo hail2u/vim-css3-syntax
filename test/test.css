@@ -8,7 +8,12 @@
   place-self: space-around;
   place-content: space-between;
   place-items: space-evenly;
-  display: legacy;
+  row-gap: legacy;
+  column-gap: auto;
+  gap: auto;
+  grid-column-gap: auto;
+  grid-row-gap: auto;
+  grid-gap: auto;
 }
 
 .animations {
@@ -370,9 +375,6 @@
   grid-column: auto;
   grid-row: auto;
   grid-area: auto;
-  grid-column-gap: auto;
-  grid-row-gap: auto;
-  grid-gap: auto;
 }
 
 .images-3 {
@@ -502,7 +504,6 @@
   columns: column;
   column-count: balance;
   column-fill: avoid-column;
-  column-gap: auto;
   column-rule: auto;
   column-rule-color: auto;
   column-rule-style: auto;
