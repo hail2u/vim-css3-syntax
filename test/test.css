@@ -76,7 +76,7 @@
 }
 
 .break-3 {
-  break-after: auto;
+  break-after: avoid-column;
   break-before: auto;
   break-inside: auto;
   box-decoration-break: auto;
@@ -500,10 +500,10 @@
   offset: auto;
 }
 
-.multicol {
+.multicol-1 {
   columns: column;
   column-count: balance;
-  column-fill: avoid-column;
+  column-fill: balance-all;
   column-rule: auto;
   column-rule-color: auto;
   column-rule-style: auto;
