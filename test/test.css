@@ -871,6 +871,13 @@
   display: auto;
 }
 
+.webvtt1::cue,
+.webvtt1::cue-region,
+.webvtt1::cue(#cue1),
+.webvtt1::cue-region(#scroll), {
+  display: auto;
+}
+
 .will-change-1 {
   will-change: scroll-position;
 }
