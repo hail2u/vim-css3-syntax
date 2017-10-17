@@ -76,4 +76,5 @@ syn include @htmlCss syntax/css/selectors.vim
 syn include @htmlCss syntax/css/selectors4.vim
 syn include @htmlCss syntax/css/svg2.vim
 syn include @htmlCss syntax/css/web-animations-1.vim
+syn include @htmlCss syntax/css/webvtt1.vim
 syn include @htmlCss syntax/css/worklets-1.vim
