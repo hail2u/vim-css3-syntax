@@ -1,5 +1,6 @@
 syn include @htmlCss syntax/css/compositing-1.vim
 syn include @htmlCss syntax/css/css-align-3.vim
+syn include @htmlCss syntax/css/css-backgrounds-3.vim
 syn include @htmlCss syntax/css/css-backgrounds-4.vim
 syn include @htmlCss syntax/css/css-break-3.vim
 syn include @htmlCss syntax/css/css-cascade-3.vim
@@ -53,7 +54,6 @@ syn include @htmlCss syntax/css/css-variables-1.vim
 syn include @htmlCss syntax/css/css-will-change-1.vim
 syn include @htmlCss syntax/css/css-writing-modes-3.vim
 syn include @htmlCss syntax/css/css3-animations.vim
-syn include @htmlCss syntax/css/css3-background.vim
 syn include @htmlCss syntax/css/css3-box.vim
 syn include @htmlCss syntax/css/css3-color.vim
 syn include @htmlCss syntax/css/css3-conditional.vim
