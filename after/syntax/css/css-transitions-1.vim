@@ -1,4 +1,3 @@
-" TODO: create cssTransitionsProp group and cssTransitionsAttr group
 syn match cssFontProp contained "\<transition\(-\(property\|duration\|timing-function\|delay\)\)\=\>"
 syn keyword cssFontAttr contained linear
 syn match cssFontAttr contained "\<ease\(-\(in\|out\|in-out\)\)\=\>"
