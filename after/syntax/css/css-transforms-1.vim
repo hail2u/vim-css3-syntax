@@ -1,4 +1,3 @@
-" TODO: create cssTransformsProp group and cssTransformsAttr group
 syn match cssFontProp contained "\<backface-visibility\>"
 syn match cssFontProp contained "\<perspective\(-origin\)\=\>"
 syn match cssFontProp contained "\<transform\(-\(origin\|style\)\)\=\>"
