@@ -889,13 +889,16 @@
   glyph-orientation-vertical: upright;
   display: plaintext;
   display: sideways;
-  display: sideways-rl;
-  display: sideways-lr;
   display: isolate;
   display: isolate-override;
   display: horizontal-tb;
   display: vertical-rl;
   display: vertical-lr;
+}
+
+.writing-modes-4 {
+  display: sideways-rl;
+  display: sideways-lr;
 }
 
 .html5,
