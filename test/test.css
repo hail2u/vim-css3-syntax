@@ -616,7 +616,7 @@
 .scroll-snap-1 {
   scroll-snap-type: x;
   scroll-padding: y;
-  scroll-snap-margin: mandatory;
+  scroll-margin: mandatory;
   scroll-snap-align: proximity;
   scroll-snap-stop: auto;
   scroll-padding-top: auto;
@@ -629,16 +629,16 @@
   scroll-padding-block-end: auto;
   scroll-padding-block: auto;
   scroll-padding-inline: auto;
-  scroll-snap-margin-top: auto;
-  scroll-snap-margin-right: auto;
-  scroll-snap-margin-bottom: auto;
-  scroll-snap-margin-left: auto;
-  scroll-snap-margin-inline-start: auto;
-  scroll-snap-margin-block-start: auto;
-  scroll-snap-margin-inline-end: auto;
-  scroll-snap-margin-block-end: auto;
-  scroll-snap-margin-block: auto;
-  scroll-snap-margin-inline: auto;
+  scroll-margin-top: auto;
+  scroll-margin-right: auto;
+  scroll-margin-bottom: auto;
+  scroll-margin-left: auto;
+  scroll-margin-inline-start: auto;
+  scroll-margin-block-start: auto;
+  scroll-margin-inline-end: auto;
+  scroll-margin-block-end: auto;
+  scroll-margin-block: auto;
+  scroll-margin-inline: auto;
 }
 
 .selectors:target,
