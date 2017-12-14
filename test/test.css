@@ -11,9 +11,6 @@
   row-gap: legacy;
   column-gap: auto;
   gap: auto;
-  grid-column-gap: auto;
-  grid-row-gap: auto;
-  grid-gap: auto;
 }
 
 .animations {
