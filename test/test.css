@@ -841,7 +841,7 @@
 .ui-4 {
   caret: fade;
   caret-shape: fade(1em);
-  caret-animation: underscore;
+  display: underscore;
 }
 
 .values-3 {
