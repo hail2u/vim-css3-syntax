@@ -676,19 +676,20 @@
 .selectors4:placeholder-shown,
 .selectors4:in-range,
 .selectors4:out-of-range,
-.selectors4:user-error,
-.selectors4:active-drop-target,
-.selectors4:valid-drop-target,
-.selectors4:invalid-drop-target,
+.selectors4:user-invalid,
 .selectors4:matches(:hover, :focus),
 .selectors4:dir(ltr),
 .selectors4:local-link(0),
 .selectors4:current(p, li, dt, dd),
-.selectors4:nth-match(2n+1),
-.selectors4:nth-last-match(-n+2),
-.selectors4:nth-column(2n+1),
-.selectors4:nth-last-column(-n+2),
-.selectors4:column(p, li, dt, dd) {
+.selectors4:nth-col(2n+1),
+.selectors4:nth-last-col(-n+2),
+.selectors4:target-within,
+.selectors4:focus-within,
+.selectors4:focus-visible,
+.selectors4:playing,
+.selectors4:paused,
+.selectors4:has(> img),
+.selectors4:drop(active) {
   display: auto;
 }
 
