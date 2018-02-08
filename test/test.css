@@ -374,6 +374,10 @@
   grid-area: auto;
 }
 
+.grid-2 {
+  display: subgrid;
+}
+
 .images-3 {
   object-fit: contain;
   object-position: cover;
