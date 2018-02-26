@@ -8,7 +8,7 @@ CSS3 syntax (and syntax defined in some foreign specifications) support for
 INSTALLATION
 ------------
 
-I **strongly** recommend to install this plugin on *Vim 7.4 or higher with
+I **strongly** recommend to install this plugin on *Vim 8.0 or higher with
 default runtime files*.
 
 
@@ -77,8 +77,7 @@ cyan and bold (on gVim).
 
 I drop Media Queries Level 3 support in v0.12.0. There is no easy way to support
 Media Queries properly with `after` syntax plugin like this one, sorry. If you
-want to highlight Media Queries correctly, you must update Vim to 7.4+ or
-install [JulesWang/css.vim][2].
+want to highlight Media Queries correctly, you must update Vim to 8.0+.
 
 
 AUTHOR
@@ -94,4 +93,3 @@ MIT: http://hail2u.mit-license.org/2011
 
 
 [1]: http://www.vim.org/
-[2]: https://github.com/JulesWang/css.vim
