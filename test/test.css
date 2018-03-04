@@ -860,7 +860,7 @@
 }
 
 .variables-1 {
-  var-foo: var(foo);
+  --var-foo: var(foo);
 }
 
 @viewport {
