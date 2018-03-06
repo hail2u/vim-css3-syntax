@@ -360,7 +360,7 @@
   grid-template-columns: grid;
   grid-template-rows: inline-grid;
   grid-template-areas: minmax(0, 1);
-  grid-template: fit-content(10%);
+  grid-template: auto;
   grid-auto-rows: repeat(4);
   grid-auto-columns: 0.2fr;
   grid-auto-flow: dense;
@@ -712,7 +712,7 @@
 .sizing-3 {
   display: max-content;
   display: min-content;
-  display: fit-content;
+  display: fit-content(10%);
 }
 
 .speech {
