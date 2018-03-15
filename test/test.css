@@ -289,7 +289,6 @@
 .fonts-3 {
   font-feature-settings: common-ligatures;
   font-kerning: no-common-ligatures;
-  font-language-override: discretionary-ligatures;
   font-synthesis: no-discretionary-ligatures;
   font-variant-alternates: historical-ligatures;
   font-variant-caps: no-historical-ligatures;
@@ -322,6 +321,7 @@
   display: simplified;
   display: traditional;
   display: proportional-width;
+  display: discretionary-ligatures;
 }
 
 .fonts-4 {
@@ -332,7 +332,7 @@
   font-variation-settings: infinity;
   font-palette: swap;
   font-presentation: fallback;
-  display: optional;
+  font-language-override: optional;
   display: light;
   display: dark;
 }

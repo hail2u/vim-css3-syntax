@@ -1,6 +1,5 @@
 syn match cssFontProp contained "\<font-feature-settings\>"
 syn match cssFontProp contained "\<font-kerning\>"
-syn match cssFontProp contained "\<font-language-override\>"
 syn match cssFontProp contained "\<font-synthesis\>"
 syn match cssFontProp contained "\<font-variant-\(alternates\|caps\|east-asian\|ligatures\|numeric\|position\)\>"
 syn keyword cssFontAttr contained unicase ordinal jis78 jis83 jis90 jis04 simplified traditional
