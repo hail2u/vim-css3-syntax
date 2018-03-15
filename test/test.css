@@ -783,17 +783,25 @@
 .text-decor-3 {
   text-decoration-color: filled;
   text-decoration-line: dot;
-  text-decoration-skip: triangle;
   text-decoration-style: sesame;
-  text-emphasis: objects;
+  text-emphasis: alphabetic;
   text-emphasis-color: ink;
-  text-emphasis-position: edges;
+  text-emphasis-position: under;
   text-emphasis-style: wavy;
-  display: alphabetic;
-  display: spaces;
-  display: box-decoration;
   display: under;
   display: over;
+  display: triangle;
+}
+
+.text-decor-4 {
+  text-decoration-width: objects;
+  text-underline-offset: spaces;
+  text-decoration-skip: leading-spaces;
+  text-decoration-skip-ink: trailing-spaces;
+  text-emphasis-skip: edges;
+  display: box-decoration;
+  display: symbols;
+  display: narrow;
 }
 
 .timing-1 {
