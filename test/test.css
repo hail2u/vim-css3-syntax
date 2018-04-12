@@ -333,7 +333,7 @@
   font-palette: swap;
   font-presentation: fallback;
   font-language-override: optional;
-  display: light;
+  font-variant-emoji: light;
   display: dark;
 }
 
