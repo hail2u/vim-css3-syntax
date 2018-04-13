@@ -510,7 +510,9 @@
   column-width: auto;
 }
 
-@namespace "http://example.com/css3-namespace/";
+.namespace {
+  display: auto;
+}
 
 .overflow-3 {
   max-lines: auto;
@@ -555,6 +557,10 @@
   offset-end: auto;
   offset-after: auto;
   offset-start: auto;
+}
+
+.properties-values-api-1 {
+  display: auto;
 }
 
 .pseudo-4::inactive-selection,
@@ -843,6 +849,10 @@
   display: cubic-bezier(0.25, 0.1, 0.25, 1.0);
 }
 
+.typed-om-1 {
+  display: auto;
+}
+
 .ui-3 {
   caret-color: grab;
   display: grabbing;
@@ -887,6 +897,10 @@
 
 .will-change-1 {
   will-change: scroll-position;
+}
+
+.worklets-1 {
+  display: auto;
 }
 
 .writing-modes-3 {
