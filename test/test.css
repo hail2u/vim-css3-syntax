@@ -402,6 +402,10 @@
   initial-letter-wrap: auto;
 }
 
+.layout-api-1 {
+  display: auto;
+}
+
 .line-grid-1 {
   line-grid: create;
   line-snap: block-start;
