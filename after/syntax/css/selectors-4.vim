@@ -1,5 +1,5 @@
 syn match cssSelectorOp "[|]"
-syn keyword cssPseudoClassId contained scope current past future default valid invalid required optional blank playing paused
+syn keyword cssPseudoClassId contained scope current past future default valid required optional blank playing paused
 syn match cssPseudoClassId contained "\<\(any\|local\)-link\>"
 syn match cssPseudoClassId contained "\<read-\(only\|write\)\>"
 syn match cssPseudoClassId contained "\<placeholder-shown\>"

@@ -1,107 +1,84 @@
 .align-3 {
-  justify-self: safe;
-  justify-content: unsafe;
-  justify-items: self-start;
-  align-self: self-end;
-  align-content: flex-start;
-  align-items: flex-end;
-  place-self: space-around;
-  place-content: space-between;
-  place-items: space-evenly;
-  row-gap: legacy;
-  column-gap: auto;
+  place-self: auto;
+  place-content: auto;
+  place-items: auto;
+  row-gap: auto;
   gap: auto;
+  display: safe;
+  display: unsafe;
+  display: self-start;
+  display: self-end;
+  display: space-evenly;
+  display: legacy;
 }
 
-.animations {
-  animation: forwards;
-  animation-delay: backwards;
-  animation-direction: running;
-  animation-duration: paused;
-  animation-fill-mode: alternate-reverse;
-  animation-iteration-count: auto;
-  animation-name: auto;
-  animation-play-state: auto;
-  animation-timing-function: auto;
+.animations-1 {
+  display: auto;
 }
 
 .backgrounds-3 {
-  background-clip: space;
-  background-origin: round;
-  background-size: local;
-  border-image: fill;
-  border-image-source: stretch;
-  border-image-slice: clone;
-  border-image-width: slice;
-  border-image-outset: padding-box;
-  border-image-repeat: border-box;
-  border-radius: content-box;
-  border-top-right-radius: auto;
-  border-bottom-right-radius: auto;
-  border-bottom-left-radius: auto;
-  border-top-left-radius: auto;
-  box-shadow: auto;
+  display: auto;
 }
 
 .backgrounds-4 {
-  background-position-x: x-start;
-  background-position-y: x-end;
-  background-position-inline: y-start;
-  background-position-block: y-end;
-  corner-shape: bevel;
-  corners: scoop;
-  border-limit: notch;
+  background-position-x: auto;
+  background-position-y: auto;
+  background-position-inline: auto;
+  background-position-block: auto;
+  corner-shape: auto;
+  corners: auto;
+  border-limit: auto;
   border-clip: auto;
   border-clip-top: auto;
   border-clip-right: auto;
   border-clip-bottom: auto;
   border-clip-left: auto;
+  display: x-start;
+  display: x-end;
+  display: y-start;
+  display: y-end;
+  display: bevel;
+  display: scoop;
+  display: notch;
 }
 
-.box {
-  overflow-style: scrollbar;
-  overflow-x: panner;
-  overflow-y: move;
-  rotation-point: marquee;
+.box-3 {
+  overflow-style: auto;
+  overflow-x: auto;
+  overflow-y: auto;
+  rotation-point: auto;
+  display: scrollbar;
+  display: panner;
+  display: marquee;
   display: ruby;
   display: ruby-base;
   display: ruby-text;
   display: ruby-base-group;
   display: ruby-text-group;
-  display: no-display;
-  display: no-content;
 }
 
 .break-3 {
-  break-after: avoid-column;
-  break-before: auto;
-  break-inside: auto;
-  box-decoration-break: auto;
+  display: auto;
 }
 
 .cascade-3 {
-  all: initial;
+  all: auto;
+  display: initial;
   display: unset;
 }
 
-@import "test.css" supports(display: auto);
 .cascade-4 {
   display: revert;
 }
 
-.color {
-  opacity: rgba(0, 0, 0, 1);
-  display: hsla(0, 0, 0, 1);
-  display: currentcolor;
-}
+@import "test.css" supports(display: auto);
 
-@color-profile swopc {
-  src: url('http://example.org/swop-coated.icc');
+.color-3 {
+  display: auto;
 }
 
 .color-4 {
-  color-adjust: #FFEEDDFF;
-  display: rebeccapurple;
+  color-adjust: auto;
   display: hwb(120deg, 44%, 50%);
   display: lab(1 2 3);
   display: lch(4 5 6);
@@ -111,10 +88,17 @@
   display: color-mod(#112233 tint(50%));
 }
 
+@color-profile swopc {
+  src: url("http://example.org/swop-coated.icc");
+}
+
 .compositing-1 {
-  mix-blend-mode: multiply;
-  isolation: screen;
-  background-blend-mode: overlay;
+  mix-blend-mode: auto;
+  isolation: auto;
+  background-blend-mode: auto;
+  display: multiply;
+  display: screen;
+  display: overlay;
   display: darken;
   display: lighten;
   display: color-dodge;
@@ -132,41 +116,51 @@
 @supports (display: auto) or
   (display: auto) not
   (display: auto) {
-  .conditional {
+  .conditional-3 {
     display: auto;
   }
 }
 
 .contain-1 {
-  contain: layout;
+  contain: auto;
+  display: layout;
   display: paint;
   display: size;
 }
 
 .content-3 {
-  string-set: open;
-  bookmark-level: closed;
-  bookmark-label: leader('.');
-  bookmark-state: string(heading, first);
+  string-set: auto;
+  bookmark-level: auto;
+  bookmark-label: auto;
+  bookmark-state: auto;
+  display: open;
+  display: closed;
+  display: leader('.');
+  display: string(heading, first);
   display: target-counter(attr(href url), page);
   display: target-counters(lack-of-example);
   display: target-text(attr(href url));
 }
 
 @counter-style counter-styles-3 {
-  system: cyclic;
-  negative: symbolic;
-  prefix: additive;
-  suffix: extends;
-  range: bullets;
-  pad: numbers;
-  fallback: words;
-  symbols: symbols("*" "\2020" "\2021" "\A7");
+  system: auto;
+  negative: auto;
+  prefix: auto;
+  suffix: auto;
+  range: auto;
+  pad: auto;
+  fallback: auto;
+  symbols: auto;
   additive-symbols: auto;
   speak-as: auto;
-}
-
-.counter-styles-3 {
+  display: cyclic;
+  display: symbolic;
+  display: additive;
+  display: extends;
+  display: bullets;
+  display: numbers;
+  display: words;
+  display: symbols("*" "\2020" "\2021" "\A7");
   display: arabic-indic;
   display: upper-armenian;
   display: lower-armenian;
@@ -212,6 +206,16 @@
   scroll-behavior: smooth;
 }
 
+.device-adapt-1 {
+  display: auto;
+}
+
+@viewport {
+  min-zoom: auto;
+  max-zoom: auto;
+  user-zoom: auto;
+}
+
 .display-3 {
   display: flow;
   display: flow-root;
@@ -219,19 +223,21 @@
   display: discard;
 }
 
-.exclusions {
-  wrap-flow: minimum;
-  wrap-through: maximum;
+.exclusions-3 {
+  wrap-flow: auto;
+  wrap-through: auto;
+  display: minimum;
+  display: maximum;
 }
 
 .fill-stroke-3 {
-  fill-rule: butt;
-  fill-break: arcs;
-  fill-color: stupid;
-  fill-image: compress;
-  fill-origin: dashes;
-  fill-position: gaps;
-  fill-size: bounding-box;
+  fill-rule: auto;
+  fill-break: auto;
+  fill-color: auto;
+  fill-image: auto;
+  fill-origin: auto;
+  fill-position: auto;
+  fill-size: auto;
   fill-repeat: auto;
   fill: auto;
   fill-opacity: auto;
@@ -253,13 +259,22 @@
   stroke-repeat: auto;
   stroke: auto;
   stroke-opacity: auto;
+  display: butt;
+  display: arcs;
+  display: stupid;
+  display: compress;
+  display: dashes;
+  display: gaps;
+  display: bounding-box;
 }
 
 .filter-effects-1 {
-  flood-color: sRGB;
-  flood-opacity: linearRGB;
+  flood-color: auto;
+  flood-opacity: auto;
   color-interpolation-filters: auto;
   lighting-color: auto;
+  display: sRGB;
+  display: linearRGB;
   display: blur(5px);
   display: brightness(0.4);
   display: contrast(200%);
@@ -273,13 +288,7 @@
 }
 
 .flexbox-1 {
-  flex-direction: flex;
-  flex-wrap: inline-flex;
-  flex-flow: row;
-  order: row-reverse;
-  flex: column-reverse;
-  flex-grow: wrap;
-  flex-shrink: wrap-reverse;
+  display: auto;
 }
 
 .font-loading-3 {
@@ -287,15 +296,15 @@
 }
 
 .fonts-3 {
-  font-feature-settings: common-ligatures;
-  font-kerning: no-common-ligatures;
-  font-synthesis: no-discretionary-ligatures;
-  font-variant-alternates: historical-ligatures;
-  font-variant-caps: no-historical-ligatures;
-  font-variant-east-asian: contextual;
-  font-variant-ligatures: no-contextual;
-  font-variant-numeric: stylistic(feature-value-name);
-  font-variant-position: historical-forms;
+  display: common-ligatures;
+  display: no-common-ligatures;
+  display: no-discretionary-ligatures;
+  display: historical-ligatures;
+  display: no-historical-ligatures;
+  display: contextual;
+  display: no-contextual;
+  display: stylistic(feature-value-name);
+  display: historical-forms;
   display: styleset(feature-value-name #);
   display: character-variant(feature-vlue-name #);
   display: swash(feature-value-name);
@@ -325,15 +334,23 @@
 }
 
 .fonts-4 {
-  font-min-size: emoji;
-  font-max-size: math;
-  font-display: fangsong;
-  font-optical-sizing: system-ui;
-  font-variation-settings: infinity;
-  font-palette: swap;
-  font-presentation: fallback;
-  font-language-override: optional;
-  font-variant-emoji: light;
+  font-min-size: auto;
+  font-max-size: auto;
+  font-display: auto;
+  font-optical-sizing: auto;
+  font-variation-settings: auto;
+  font-palette: auto;
+  font-presentation: auto;
+  font-variant-emoji: auto;
+  display: emoji;
+  display: math;
+  display: fangsong;
+  display: system-ui;
+  display: infinity;
+  display: swap;
+  display: fallback;
+  display: optional;
+  display: light;
   display: dark;
 }
 
@@ -343,9 +360,12 @@
 
 .gcpm-3::footnote-call,
 .gcpm-3::footnote-marker {
-  running: footnote;
-  footnote-display: line; 
-  footnote-policy: element(header);
+  running: auto;
+  footnote-display: auto;
+  footnote-policy: auto;
+  display: footnote;
+  display: line; 
+  display: element(header);
   display: running(heading);
 }
 
@@ -354,53 +374,55 @@
 }
 
 .grid-1 {
-  grid-template-columns: grid;
-  grid-template-rows: inline-grid;
-  grid-template-areas: minmax(0, 1);
   grid-template: auto;
-  grid-auto-rows: repeat(4);
-  grid-auto-columns: 0.2fr;
-  grid-auto-flow: dense;
-  grid: auto-flow;
-  grid-row-start: span;
-  grid-column-start: auto;
-  grid-row-end: auto;
-  grid-column-end: auto;
-  grid-column: auto;
-  grid-row: auto;
-  grid-area: auto;
+  display: minmax(0, 1);
+  display: repeat(4);
+  display: 0.2fr;
+  display: dense;
+  display: auto-flow;
+  display: span;
 }
 
 .grid-2 {
-  display: subgrid;
   display: 1.618ar;
 }
 
+.html5,
+picture,
+rb,
+rtc,
+slot,
+template {
+  display: auto;
+}
+
 .images-3 {
-  object-fit: contain;
-  object-position: cover;
-  image-orientation: snap;
+  object-fit: auto;
+  object-position: auto;
+  image-orientation: auto;
+  display: snap;
   display: scale-down;
   display: from-image;
-  display: linear-gradient(to bottom, yellow, blue);
-  display: radial-gradient(farthest-corner at 50% 50%, yellow, green);
   display: repeating-linear-gradient(to bottom, yellow, blue);
   display: repeating-radial-gradient(farthest-corner at 50% 50%, yellow, green);
 }
 
 .images-4 {
-  image-resolution: image("sprite.svg#xywh=40,0,20,20");
+  image-resolution: auto;
+  display: image("sprite.svg#xywh=40,0,20,20");
   display: element(#test);
   display: conic-gradient(at 25% 30%, white, black 60%);
 }
 
 .inline-3 {
-  dominant-baseline: mathematical;
-  alignment-baseline: ideographic;
+  dominant-baseline: auto;
+  alignment-baseline: auto;
   baseline-shift: auto;
   initial-letter: auto;
   initial-letter-align: auto;
   initial-letter-wrap: auto;
+  display: mathematical;
+  display: ideographic;
 }
 
 .layout-api-1 {
@@ -408,21 +430,28 @@
 }
 
 .line-grid-1 {
-  line-grid: create;
-  line-snap: block-start;
-  box-snap: block-end;
+  line-grid: auto;
+  line-snap: auto;
+  box-snap: auto;
+  display: create;
+  display: block-start;
+  display: block-end;
   display: first-baseline;
   display: last-baseline;
 }
 
 .lists-3::marker {
-  display: auto;
+  marker-side: auto;
+  counter-set: auto;
+  display: marker;
+  display: list-container;
+  display: counters(lack-of-example);
 }
 
 .logical-1 {
-  block-size: logical;
-  inline-size: physical;
-  min-block-size: rotate;
+  block-size: auto;
+  inline-size: auto;
+  min-block-size: auto;
   min-inline-size: auto;
   max-block-size: auto;
   max-inline-size: auto;
@@ -471,21 +500,37 @@
   border-inline: auto;
   background-image-transform: auto;
   border-image-transform: auto;
+  display: logical;
+  display: physical;
+  display: rotate;
 }
 
-.masking-1 {
-  clip-path: fill-box;
-  clip-rule: stroke-box;
-  mask-image: view-box;
-  mask-mode: nonzero;
-  mask-repeat: evenodd;
-  mask-position: alpha;
-  mask-clip: luminance;
-  mask-origin: no-clip;
-  mask-size: add;
-  mask-composite: subtract;
-  mask: intersect;
-  mask-border-source: exclude;
+.masking-1,
+mask {
+  clip-path: auto;
+  clip-rule: auto;
+  mask-image: auto;
+  mask-mode: auto;
+  mask-repeat: auto;
+  mask-position: auto;
+  mask-clip: auto;
+  mask-origin: auto;
+  mask-size: auto;
+  mask-composite: auto;
+  mask: auto;
+  mask-border-source: auto;
+  display: fill-box;
+  display: stroke-box;
+  display: view-box;
+  display: nonzero;
+  display: evenodd;
+  display: alpha;
+  display: luminance;
+  display: no-clip;
+  display: add;
+  display: subtract;
+  display: intersect;
+  display: exclude;
   mask-border-mode: auto;
   mask-border-slice: auto;
   mask-border-width: auto;
@@ -496,26 +541,20 @@
 }
 
 .motion-1 {
-  offset-path: ray(45deg closest-side);
-  offset-distance: path(M 100 100 L 300 100 L 200 300 z);
+  offset-path: auto;
+  offset-distance: auto;
   offset-anchor: auto;
   offset-rotate: auto;
   offset: auto;
+  display: ray(45deg closest-side);
+  display: path(M 100 100 L 300 100 L 200 300 z);
 }
 
 .multicol-1 {
-  columns: column;
-  column-count: balance;
-  column-fill: balance-all;
-  column-rule: auto;
-  column-rule-color: auto;
-  column-rule-style: auto;
-  column-rule-width: auto;
-  column-span: auto;
-  column-width: auto;
+  display: balance-all;
 }
 
-.namespace {
+.namespace-3 {
   display: auto;
 }
 
@@ -524,24 +563,27 @@
 }
 
 .overflow-4::nth-fragment(1) {
-  scrollbar-gutter: stable;
-  continue: force;
+  scrollbar-gutter: auto;
+  continue: auto;
+  display: stable;
+  display: force;
   display: overflow;
   display: paginate;
   display: fragments;
 }
 
-.page {
-  display: avoid-page;
-  display: page;
+.page-3 {
   display: recto;
   display: verso;
 }
 
 .page-floats-3 {
-  float-reference: inline-start;
-  float-defer: inline-end;
-  float-offset: snap-block;
+  float-reference: auto;
+  float-defer: auto;
+  float-offset: auto;
+  display: inline-start;
+  display: inline-end;
+  display: snap-block;
   display: snap-inline;
   display: snap-block(2em, near);
   display: snap-inline(2em, near);
@@ -552,16 +594,18 @@
 }
 
 .pointerevents {
-  touch-action: pan-x;
+  touch-action: auto;
+  display: pan-x;
   display: pan-y;
   display: manipulation;
 }
 
 .position-3 {
-  offset-before: sticky;
+  offset-before: auto;
   offset-end: auto;
   offset-after: auto;
   offset-start: auto;
+  display: sticky;
 }
 
 .properties-values-api-1 {
@@ -575,41 +619,49 @@
 }
 
 .regions-1:region {
-  flow-into: element;
-  flow-from: content;
-  region-fragment: break;
+  flow-into: auto;
+  flow-from: auto;
+  region-fragment: auto;
+  display: element;
+  display: content;
+  display: break;
   display: region;
   display: avoid-region;
 }
 
 .rhythm-1 {
-  line-height-step: margin;
-  block-step-size: up;
-  block-step-insert: down;
-  block-step-align: nearest;
+  line-height-step: auto;
+  block-step-size: auto;
+  block-step-insert: auto;
+  block-step-align: auto;
+  display: margin;
+  display: up;
+  display: down;
+  display: nearest;
   block-step-round: auto;
   block-step: auto;
 }
 
 @media (device-radius: 50%) {
   .round-display-1 {
-    shape-inside: outside-shape;
-    border-boundary: shape-box;
-    polar-angle: parent;
-    polar-distance: polar;
+    shape-inside: auto;
+    border-boundary: auto;
+    polar-angle: auto;
+    polar-distance: auto;
+    display: outside-shape;
+    display: shape-box;
+    display: parent;
+    display: polar;
   }
 }
 
 .ruby-1 {
-  ruby-position: ruby-base-container;
-  ruby-merge: ruby-text-container;
-  ruby-align: inter-character;
-}
-
-@scope .scoping-1 {
-  div {
-    display: auto;
-  }
+  ruby-position: auto;
+  ruby-merge: auto;
+  ruby-align: auto;
+  display: ruby-base-container;
+  display: ruby-text-container;
+  display: inter-character;
 }
 
 .scoping-1:scope-context div,
@@ -622,11 +674,17 @@
   display: auto;
 }
 
+@scope .scoping-1 {
+  div {
+    display: auto;
+  }
+}
+
 .scroll-snap-1 {
-  scroll-snap-type: x;
-  scroll-padding: y;
-  scroll-margin: mandatory;
-  scroll-snap-align: proximity;
+  scroll-snap-type: auto;
+  scroll-padding: auto;
+  scroll-margin: auto;
+  scroll-snap-align: auto;
   scroll-snap-stop: auto;
   scroll-padding-top: auto;
   scroll-padding-right: auto;
@@ -648,20 +706,14 @@
   scroll-margin-block-end: auto;
   scroll-margin-block: auto;
   scroll-margin-inline: auto;
+  display: x;
+  display: y;
+  display: mandatory;
+  display: proximity;
 }
 
-.selectors-3:target,
 .selectors-3:enabled,
-.selectors-3:disabled,
-.selectors-3:checked,
 .selectors-3:indeterminate,
-.selectors-3:root,
-.selectors-3:empty,
-.selectors-3:last-child,
-.selectors-3:last-of-type,
-.selectors-3:first-of-type,
-.selectors-3:only-child,
-.selectors-3:only-of-type,
 .selectors-3:nth-child(2n+1),
 .selectors-3:nth-last-child(-n+2),
 .selectors-3:nth-of-type(2n+1),
@@ -677,7 +729,6 @@
 .selectors-4:future,
 .selectors-4:default,
 .selectors-4:valid,
-.selectors-4:invalid,
 .selectors-4:required,
 .selectors-4:optional,
 .selectors-4:blank,
@@ -710,9 +761,12 @@
 }
 
 .shapes-1 {
-  shape-outside: margin-box;
-  shape-image-threshold: inset(50% 50% 50% 50%);
-  shape-margin: circle(100px 50px 100px);
+  shape-outside: auto;
+  shape-image-threshold: auto;
+  shape-margin: auto;
+  display: margin-box;
+  display: inset(50% 50% 50% 50%);
+  display: circle(100px 50px 100px);
   display: ellipse(0 0 250px 100px);
   display: polygon(0 0, 100% 100%, 0 100%);
 }
@@ -723,17 +777,27 @@
   display: fit-content(10%);
 }
 
-.speech {
-  voice-volume: 10dB;
-  voice-balance: literal-punctuation;
-  rest-before: no-punctuation;
-  rest-after: x-weak;
-  rest: weak;
-  voice-rate: strong;
-  voice-pitch: x-strong;
-  voice-range: young;
-  voice-stress: old;
-  voice-duration: neutral;
+.speech-3 {
+  voice-volume: auto;
+  voice-balance: auto;
+  rest-before: auto;
+  rest-after: auto;
+  rest: auto;
+  voice-rate: auto;
+  voice-pitch: auto;
+  voice-range: auto;
+  voice-stress: auto;
+  voice-duration: auto;
+  display: 10dB;
+  display: literal-punctuation;
+  display: no-punctuation;
+  display: x-weak;
+  display: weak;
+  display: strong;
+  display: x-strong;
+  display: young;
+  display: old;
+  display: neutral;
   display: preserve;
   display: 10st;
   display: moderate;
@@ -741,198 +805,6 @@
 }
 
 .style-attr {
-  display: auto;
-}
-
-.syntax-3 {
-  display: auto;
-}
-
-.tables-3 {
-  display: auto;
-}
-
-.text-3 {
-  hyphens: manual;
-  line-break: loose;
-  overflow-wrap: strict;
-  tab-size: match-parent;
-  text-align-all: hanging;
-  display: each-line;
-  display: full-width;
-  display: anywhere;
-}
-
-.text-4 {
-  text-space-collapse: preserve-auto;
-  text-space-trim: preserve-trim;
-  text-wrap: preserve-breaks;
-  wrap-before: preserve-spaces;
-  wrap-after: trim-inner;
-  wrap-inside: discard-before;
-  hyphenate-character: discard-after;
-  hyphenate-limit-zone: avoid-line;
-  hyphenate-limit-chars: avoid-flex;
-  hyphenate-limit-lines: pre-wrap-auto;
-  hyphenate-limit-last: no-limit;
-  text-spacing: spread;
-  display: trim-start;
-  display: space-start;
-  display: trim-end;
-  display: space-end;
-  display: trim-adjacent;
-  display: space-adjacent;
-  display: no-compress;
-  display: ideograph-alpha;
-  display: ideograph-numeric;
-  display: punctuation;
-}
-
-.text-decor-3 {
-  text-decoration-color: filled;
-  text-decoration-line: dot;
-  text-decoration-style: sesame;
-  text-emphasis: alphabetic;
-  text-emphasis-color: ink;
-  text-emphasis-position: under;
-  text-emphasis-style: wavy;
-  display: under;
-  display: over;
-  display: triangle;
-}
-
-.text-decor-4 {
-  text-decoration-width: objects;
-  text-underline-offset: spaces;
-  text-decoration-skip: leading-spaces;
-  text-decoration-skip-ink: trailing-spaces;
-  text-emphasis-skip: edges;
-  display: box-decoration;
-  display: symbols;
-  display: narrow;
-}
-
-.timing-1 {
-  display: frames(2);
-}
-
-.transforms-1 {
-  backface-visibility: flat;
-  perspective: preserve-3d;
-  perspective-origin: matrix(1);
-  transform: matrix3d(1);
-  transform-origin: translate(1);
-  transform-style: translate3d(1);
-  display: translateX(1);
-  display: translateY(1);
-  display: translateZ(1);
-  display: scale(1);
-  display: scale3d(1);
-  display: scaleX(1);
-  display: scaleY(1);
-  display: scaleZ(1);
-  display: rotate(1);
-  display: rotate3d(1);
-  display: rotateX(1);
-  display: rotateY(1);
-  display: rotateZ(1);
-  display: skew(1);
-  display: skewX(1);
-  display: skewY(1);
-  display: perspective(1);
-}
-
-.transitions {
-  transition: linear;
-  transition-property: ease;
-  transition-duration: ease-in;
-  transition-timing-function: ease-out;
-  transition-delay: ease-in-out;
-  display: step-start;
-  display: step-end;
-  display: steps(1, start);
-  display: cubic-bezier(0.25, 0.1, 0.25, 1.0);
-}
-
-.typed-om-1 {
-  display: auto;
-}
-
-.ui-3 {
-  caret-color: grab;
-  display: grabbing;
-}
-
-.ui-4 {
-  caret: fade;
-  caret-shape: fade(1em);
-  display: underscore;
-}
-
-.values-3 {
-  display: 1ch;
-  display: 1vw;
-  display: 1vh;
-  display: 1vmin;
-  display: 1q;
-  display: 1turn;
-  display: calc(100%/3 - 2*1em - 2*1px);
-}
-
-.variables-1 {
-  --var-foo: var(foo);
-}
-
-@viewport {
-  min-zoom: auto;
-  max-zoom: auto;
-  user-zoom: auto;
-}
-
-.web-animations-1 {
-  display: auto;
-}
-
-.webvtt1::cue,
-.webvtt1::cue-region,
-.webvtt1::cue(#cue1),
-.webvtt1::cue-region(#scroll), {
-  display: auto;
-}
-
-.will-change-1 {
-  will-change: scroll-position;
-}
-
-.worklets-1 {
-  display: auto;
-}
-
-.writing-modes-3 {
-  writing-mode: before;
-  text-orientation: after;
-  text-combine-upright: mixed;
-  glyph-orientation-vertical: upright;
-  display: plaintext;
-  display: sideways;
-  display: isolate;
-  display: isolate-override;
-  display: horizontal-tb;
-  display: vertical-rl;
-  display: vertical-lr;
-}
-
-.writing-modes-4 {
-  display: sideways-rl;
-  display: sideways-lr;
-}
-
-.html5,
-picture,
-rb,
-rtc,
-slot,
-template {
   display: auto;
 }
 
@@ -1004,26 +876,223 @@ tspan,
 unknown,
 use,
 view {
-  color-interpolation: crispEdges;
-  color-rendering: geometricPrecision;
-  cx: optimizeQuality;
-  cy: painted;
-  d: visiblePainted;
-  image-rendering: visibleFill;
-  marker-end: stroke;
-  marker-mid: viewport;
-  marker-start: visibleStroke;
-  pointer-events: context-fill;
-  r: context-stroke;
-  rx: fixed-position;
-  ry: miter;
-  shape-rendering: miter-clip;
-  solid-color: non-scaling-stroke;
-  solid-opacity: non-scaling-size;
-  stop-color: non-rotation;
-  stop-opacity: child(1);
-  text-anchor: icc-color(foo);
+  color-interpolation: auto;
+  color-rendering: auto;
+  cx: auto;
+  cy: auto;
+  d: auto;
+  marker-end: auto;
+  marker-mid: auto;
+  marker-start: auto;
+  r: auto;
+  rx: auto;
+  ry: auto;
+  shape-rendering: auto;
+  solid-color: auto;
+  solid-opacity: auto;
+  stop-color: auto;
+  stop-opacity: auto;
+  text-anchor: auto;
   vector-effect: auto;
   x: auto;
   y: auto;
+  display: crispEdges;
+  display: geometricPrecision;
+  display: optimizeQuality;
+  display: viewport;
+  display: context-fill;
+  display: context-stroke;
+  display: fixed-position;
+  display: miter;
+  display: miter-clip;
+  display: non-scaling-stroke;
+  display: non-scaling-size;
+  display: non-rotation;
+  display: child(1);
+  display: icc-color(foo);
+}
+
+.syntax-3 {
+  display: auto;
+}
+
+.tables-3 {
+  display: auto;
+}
+
+.text-3 {
+  hyphens: auto;
+  line-break: auto;
+  overflow-wrap: auto;
+  tab-size: auto;
+  text-align-all: auto;
+  display: manual;
+  display: loose;
+  display: strict;
+  display: match-parent;
+  display: hanging;
+  display: each-line;
+  display: full-width;
+  display: anywhere;
+}
+
+.text-4 {
+  text-space-collapse: auto;
+  text-space-trim: auto;
+  text-wrap: auto;
+  wrap-before: auto;
+  wrap-after: auto;
+  wrap-inside: auto;
+  hyphenate-character: auto;
+  hyphenate-limit-zone: auto;
+  hyphenate-limit-chars: auto;
+  hyphenate-limit-lines: auto;
+  hyphenate-limit-last: auto;
+  text-spacing: auto;
+  display: preserve-auto;
+  display: preserve-trim;
+  display: preserve-breaks;
+  display: preserve-spaces;
+  display: trim-inner;
+  display: discard-before;
+  display: discard-after;
+  display: avoid-line;
+  display: avoid-flex;
+  display: pre-wrap-auto;
+  display: no-limit;
+  display: spread;
+  display: trim-start;
+  display: space-start;
+  display: trim-end;
+  display: space-end;
+  display: trim-adjacent;
+  display: space-adjacent;
+  display: no-compress;
+  display: ideograph-alpha;
+  display: ideograph-numeric;
+  display: punctuation;
+}
+
+.text-decor-3 {
+  text-decoration-color: auto;
+  text-decoration-line: auto;
+  text-decoration-style: auto;
+  text-emphasis: auto;
+  text-emphasis-color: auto;
+  text-emphasis-position: auto;
+  text-emphasis-style: auto;
+  display: filled;
+  display: dot;
+  display: sesame;
+  display: alphabetic;
+  display: ink;
+  display: under;
+  display: wavy;
+  display: under;
+  display: over;
+  display: triangle;
+}
+
+.text-decor-4 {
+  text-decoration-width: auto;
+  text-underline-offset: auto;
+  text-decoration-skip: auto;
+  text-decoration-skip-ink: auto;
+  text-emphasis-skip: auto;
+  display: objects;
+  display: spaces;
+  display: leading-spaces;
+  display: trailing-spaces;
+  display: edges;
+  display: box-decoration;
+  display: symbols;
+  display: narrow;
+}
+
+.timing-1 {
+  display: frames(2);
+}
+
+.transforms-1 {
+  display: flat;
+}
+
+.transitions-1 {
+  display: auto;
+}
+
+.typed-om-1 {
+  display: auto;
+}
+
+.ui-3 {
+  caret-color: auto;
+  display: grab;
+  display: grabbing;
+}
+
+.ui-4 {
+  caret: auto;
+  caret-shape: auto;
+  display: fade;
+  display: fade(1em);
+  display: underscore;
+}
+
+.values-3 {
+  display: 1ch;
+  display: 1vw;
+  display: 1vh;
+  display: 1vmin;
+  display: 1q;
+  display: 1turn;
+  display: calc(100%/3 - 2*1em - 2*1px);
+}
+
+.variables-1 {
+  --var-foo: auto;
+  display: var(foo);
+}
+
+.web-animations-1 {
+  display: auto;
+}
+
+.webvtt1::cue,
+.webvtt1::cue-region,
+.webvtt1::cue(#cue1),
+.webvtt1::cue-region(#scroll), {
+  display: auto;
+}
+
+.will-change-1 {
+  will-change: auto;
+  display: scroll-position;
+}
+
+.worklets-1 {
+  display: auto;
+}
+
+.writing-modes-3 {
+  writing-mode: auto;
+  text-orientation: auto;
+  text-combine-upright: auto;
+  glyph-orientation-vertical: auto;
+  display: before;
+  display: after;
+  display: mixed;
+  display: upright;
+  display: plaintext;
+  display: sideways;
+  display: isolate;
+  display: isolate-override;
+  display: horizontal-tb;
+  display: vertical-rl;
+  display: vertical-lr;
+}
+
+.writing-modes-4 {
+  display: sideways-rl;
+  display: sideways-lr;
 }
