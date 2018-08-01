@@ -43,10 +43,9 @@
 }
 
 .box-3 {
-  overflow-style: auto;
-  overflow-x: auto;
-  overflow-y: auto;
-  rotation-point: auto;
+  clear-after: auto;
+  float-displace: auto;
+  indent-edge-reset: auto;
   display: scrollbar;
   display: panner;
   display: marquee;
@@ -55,6 +54,15 @@
   display: ruby-text;
   display: ruby-base-group;
   display: ruby-text-group;
+  display: decendants;
+  display: block-within-page;
+  display: fit-content;
+  display: complex;
+  display: margin-edge;
+  display: border-edge;
+  display: padding-edge;
+  display: content-edge;
+  display: available;
 }
 
 .break-3 {
