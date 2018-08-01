@@ -568,11 +568,15 @@ mask {
 
 .overflow-3 {
   max-lines: auto;
+  block-overflow: auto;
+  line-clamp: auto;
+  continue: auto;
+  overflow-block: auto;
+  overflow-inline: auto;
 }
 
 .overflow-4::nth-fragment(1) {
   scrollbar-gutter: auto;
-  continue: auto;
   display: stable;
   display: force;
   display: overflow;
