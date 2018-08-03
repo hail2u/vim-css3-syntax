@@ -426,9 +426,10 @@ template {
   dominant-baseline: auto;
   alignment-baseline: auto;
   baseline-shift: auto;
-  initial-letter: auto;
-  initial-letter-align: auto;
-  initial-letter-wrap: auto;
+  something-or-other: auto;
+  initial-letters: auto;
+  initial-letters-align: auto;
+  initial-letters-wrap: auto;
   display: mathematical;
   display: ideographic;
 }
