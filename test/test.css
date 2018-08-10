@@ -52,13 +52,10 @@
   display: discard;
   display: decendants;
   display: block-within-page;
-  display: fit-content;
-  display: complex;
   display: margin-edge;
   display: border-edge;
   display: padding-edge;
   display: content-edge;
-  display: available;
 }
 
 .break-3 {
