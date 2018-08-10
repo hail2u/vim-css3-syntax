@@ -49,11 +49,7 @@
   display: scrollbar;
   display: panner;
   display: marquee;
-  display: ruby;
-  display: ruby-base;
-  display: ruby-text;
-  display: ruby-base-group;
-  display: ruby-text-group;
+  display: discard;
   display: decendants;
   display: block-within-page;
   display: fit-content;
@@ -228,7 +224,11 @@
   display: flow;
   display: flow-root;
   display: contents;
-  display: discard;
+  display: ruby;
+  display: ruby-base;
+  display: ruby-text;
+  display: ruby-base-group;
+  display: ruby-text-group;
 }
 
 .exclusions-3 {
