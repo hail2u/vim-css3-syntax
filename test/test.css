@@ -426,7 +426,7 @@ template {
   dominant-baseline: auto;
   alignment-baseline: auto;
   baseline-shift: auto;
-  something-or-other: auto;
+  inline-sizing: auto;
   initial-letters: auto;
   initial-letters-align: auto;
   initial-letters-wrap: auto;
