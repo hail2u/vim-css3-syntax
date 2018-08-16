@@ -1032,6 +1032,19 @@ view {
   display: calc(100%/3 - 2*1em - 2*1px);
 }
 
+.values-4 {
+  display: 1vi;
+  display: 1vb;
+  display: 1ic;
+  display: 1cap;
+  display: 1lh;
+  display: 1rlh;
+  display: min(0, 1);
+  display: max(0, 1);
+  display: clamp(0, 100, 2);
+  display: toggle(italic, normal);
+}
+
 .variables-1 {
   --var-foo: auto;
   display: var(foo);
