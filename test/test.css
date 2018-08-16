@@ -303,18 +303,12 @@
 .fonts-3 {
   display: common-ligatures;
   display: no-common-ligatures;
+  display: discretionary-ligatures;
   display: no-discretionary-ligatures;
   display: historical-ligatures;
   display: no-historical-ligatures;
   display: contextual;
   display: no-contextual;
-  display: stylistic(feature-value-name);
-  display: historical-forms;
-  display: styleset(feature-value-name #);
-  display: character-variant(feature-vlue-name #);
-  display: swash(feature-value-name);
-  display: ornaments(feature-value-name);
-  display: annotation(feature-value-name);
   display: all-small-caps;
   display: petite-caps;
   display: all-petite-caps;
@@ -326,8 +320,6 @@
   display: tabular-nums;
   display: diagonal-fractions;
   display: stacked-fractions;
-  display: ordinal;
-  display: slashed-zero;
   display: jis78;
   display: jis83;
   display: jis90;
@@ -335,7 +327,8 @@
   display: simplified;
   display: traditional;
   display: proportional-width;
-  display: discretionary-ligatures;
+  display: ordinal;
+  display: slashed-zero;
 }
 
 .fonts-4 {
@@ -347,11 +340,18 @@
   font-palette: auto;
   font-presentation: auto;
   font-variant-emoji: auto;
+  display: system-ui;
   display: emoji;
   display: math;
   display: fangsong;
-  display: system-ui;
   display: infinity;
+  display: stylistic(feature-value-name);
+  display: historical-forms;
+  display: styleset(feature-value-name #);
+  display: character-variant(feature-vlue-name #);
+  display: swash(feature-value-name);
+  display: ornaments(feature-value-name);
+  display: annotation(feature-value-name);
   display: swap;
   display: fallback;
   display: optional;

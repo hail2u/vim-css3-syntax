@@ -8,4 +8,6 @@ syn match cssFontProp contained "\<base-palette\>"
 syn match cssFontProp contained "\<font-variant-emoji\>"
 syn keyword cssFontAttr contained emoji math fangsong infinity swap fallback optional light dark
 syn match cssFontAttr contained "\<system-ui\>"
+syn match cssFontAttr contained "\<historical-forms\>"
+syn region cssFunction contained matchgroup=cssFunctionName start="\<\(stylistic\|styleset\|character-variant\|swash\|ornaments\|annotation\)\s*(" end=")" oneline keepend
 syn match cssFontDescriptor "@font-palette-values\>" nextgroup=cssFontDescriptorBlock skipwhite skipnl
