@@ -504,8 +504,10 @@ template {
   border-inline-end: auto;
   border-block: auto;
   border-inline: auto;
-  background-image-transform: auto;
-  border-image-transform: auto;
+  border-start-start-radius: auto;
+  border-start-end-radius: auto;
+  border-end-start-radius: auto;
+  border-end-end-radius: auto;
   display: logical;
   display: physical;
   display: rotate;
