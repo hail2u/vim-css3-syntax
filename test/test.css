@@ -933,9 +933,9 @@ view {
   hyphenate-limit-chars: auto;
   hyphenate-limit-lines: auto;
   hyphenate-limit-last: auto;
+  text-group-align: auto;
+  line-padding: auto;
   text-spacing: auto;
-  display: preserve-auto;
-  display: preserve-trim;
   display: preserve-breaks;
   display: preserve-spaces;
   display: trim-inner;
@@ -948,6 +948,7 @@ view {
   display: spread;
   display: trim-start;
   display: space-start;
+  display: space-first;
   display: trim-end;
   display: space-end;
   display: trim-adjacent;
