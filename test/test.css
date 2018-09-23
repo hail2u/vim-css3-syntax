@@ -361,6 +361,7 @@
 
 @font-palette-values Test {
   base-palette: 1;
+  override-color: 1 rgb(43, 12, 9);
 }
 
 .gcpm-3::footnote-call,
