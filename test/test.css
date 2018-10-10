@@ -228,6 +228,10 @@
   display: ruby-text-group;
 }
 
+.easing-1 {
+  display: auto;
+}
+
 .exclusions-3 {
   wrap-flow: auto;
   wrap-through: auto;
