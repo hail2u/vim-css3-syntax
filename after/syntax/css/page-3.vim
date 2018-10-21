@@ -1,1 +1,1 @@
-syn keyword cssFontAttr contained recto verso
+syn keyword cssFontProp contained marks bleed

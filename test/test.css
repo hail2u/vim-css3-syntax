@@ -59,7 +59,8 @@
 }
 
 .break-3 {
-  display: auto;
+  display: recto;
+  display: verso;
 }
 
 .cascade-3 {
@@ -590,8 +591,8 @@ mask {
 }
 
 .page-3 {
-  display: recto;
-  display: verso;
+  marks: auto;
+  bleed: auto;
 }
 
 .page-floats-3 {
