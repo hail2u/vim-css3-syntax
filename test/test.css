@@ -778,6 +778,10 @@ mask {
   display: auto;
 }
 
+.shadow-parts::part(textspan) {
+  display: auto;
+}
+
 .shapes-1 {
   shape-outside: auto;
   shape-image-threshold: auto;
