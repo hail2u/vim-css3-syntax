@@ -758,7 +758,7 @@ mask {
 .selectors-4:in-range,
 .selectors-4:out-of-range,
 .selectors-4:user-invalid,
-.selectors-4:matches(:hover, :focus),
+.selectors-4:is(:hover, :focus),
 .selectors-4:dir(ltr),
 .selectors-4:local-link(0),
 .selectors-4:current(p, li, dt, dd),
@@ -770,7 +770,7 @@ mask {
 .selectors-4:playing,
 .selectors-4:paused,
 .selectors-4:has(> img),
-.selectors-4:drop(active) {
+.selectors-4:where(:not(:hover)) {
   display: auto;
 }
 

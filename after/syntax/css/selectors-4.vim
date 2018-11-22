@@ -7,4 +7,4 @@ syn match cssPseudoClassId contained "\<\(in\|out-of\)-range\>"
 syn match cssPseudoClassId contained "\<user-invalid\>"
 syn match cssPseudoClassId contained "\<target-within\>"
 syn match cssPseudoClassId contained "\<focus-\(within\|visible\)\>"
-syn region cssPseudoClassLang matchgroup=cssPseudoClassId start=":\(matches\|dir\|local-link\|current\|nth\(-last\)\=-col\|has\|drop\)(" end=")" oneline
+syn region cssPseudoClassLang matchgroup=cssPseudoClassId start=":\(is\|dir\|local-link\|current\|nth\(-last\)\=-col\|has\|where\)(" end=")" oneline
