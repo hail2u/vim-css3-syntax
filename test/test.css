@@ -1010,7 +1010,7 @@ view {
 }
 
 .transforms-1 {
-  display: flat;
+  transform-box: auto;
 }
 
 .transitions-1 {

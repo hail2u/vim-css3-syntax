@@ -1,1 +1,1 @@
-syn keyword cssFontAttr contained flat
+syn match cssFontProp contained "\<transform-box\>"
