@@ -7,3 +7,5 @@ syn keyword cssTextAttr contained manual loose strict hanging anywhere
 syn match cssTextAttr contained "\<match-parent\>"
 syn match cssTextAttr contained "\<each-line\>"
 syn match cssTextAttr contained "\<full-width\>"
+syn match cssTextAttr contained "\<justify-all\>"
+syn match cssTextAttr contained "\<break-spaces\>"

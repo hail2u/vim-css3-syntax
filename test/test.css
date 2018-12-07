@@ -929,6 +929,8 @@ view {
   display: each-line;
   display: full-width;
   display: anywhere;
+  display: justify-all;
+  display: break-spaces;
 }
 
 .text-4 {
