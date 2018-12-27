@@ -565,6 +565,7 @@ mask {
 .motion-1 {
   offset-path: auto;
   offset-distance: auto;
+  offset-position: auto;
   offset-anchor: auto;
   offset-rotate: auto;
   offset: auto;
