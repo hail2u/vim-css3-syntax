@@ -66,6 +66,11 @@
   display: verso;
 }
 
+.break-4 {
+  margin-break: auto;
+  display: keep;
+}
+
 .cascade-3 {
   all: auto;
   display: initial;
