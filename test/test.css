@@ -43,6 +43,9 @@
 }
 
 .box-3 {
+  margin-trim: auto;
+  display: in-flow;
+  /* .block-3 */
   clear-after: auto;
   float-displace: auto;
   indent-edge-reset: auto;

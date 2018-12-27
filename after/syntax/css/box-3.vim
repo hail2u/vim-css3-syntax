@@ -1,3 +1,5 @@
+syn match cssBoxProp contained "\<margin-trim\>"
+syn match cssBoxAttr contained "\<in-flow\>"
 " These will be moved to block-3
 syn match cssBoxProp contained "\<clear-after\>"
 syn match cssBoxProp contained "\<float-displace\>"
