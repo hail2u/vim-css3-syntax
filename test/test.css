@@ -580,6 +580,12 @@ mask {
   display: auto;
 }
 
+.nav-1 {
+  spatial-navigation-contain: auto;
+  spatial-navigation-action: auto;
+  display: focus;
+}
+
 .overflow-3 {
   max-lines: auto;
   block-overflow: auto;
