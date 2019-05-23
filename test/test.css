@@ -88,7 +88,6 @@
 }
 
 .color-4 {
-  color-adjust: auto;
   display: hwb(120deg, 44%, 50%);
   display: lab(1 2 3);
   display: lch(4 5 6);
@@ -99,6 +98,15 @@
 
 @color-profile swopc {
   src: url("http://example.org/swop-coated.icc");
+}
+
+.color-adjust-1 {
+  color-scheme: auto;
+  forced-color-adjust: auto;
+  color-adjust: auto;
+  display: only;
+  display: economy;
+  display: exact;
 }
 
 .compositing-1 {
