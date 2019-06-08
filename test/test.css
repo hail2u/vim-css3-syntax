@@ -612,6 +612,14 @@ mask {
   display: fragments;
 }
 
+.overscroll-1 {
+  overscroll-behavior: auto;
+  overscroll-behavior-block: auto;
+  overscroll-behavior-inline: auto;
+  overscroll-behavior-x: auto;
+  overscroll-behavior-y: auto;
+}
+
 .page-3 {
   marks: auto;
   bleed: auto;
