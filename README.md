@@ -83,13 +83,13 @@ want to highlight Media Queries correctly, you must update Vim to 8.0+.
 AUTHOR
 ------
 
-Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)
+Kyo Nagashima <hail2u@gmail.com> (https://hail2u.net/)
 
 
 LICENSE
 -------
 
-MIT: http://hail2u.mit-license.org/2011
+MIT License
 
 
 [1]: http://www.vim.org/
