@@ -72,9 +72,7 @@
 }
 
 .cascade-3 {
-  all: auto;
-  display: initial;
-  display: unset;
+  display: auto;
 }
 
 .cascade-4 {
@@ -241,8 +239,6 @@
 }
 
 .display-3 {
-  display: flow;
-  display: flow-root;
   display: contents;
   display: ruby;
   display: ruby-base;
@@ -410,10 +406,8 @@
 }
 
 .grid-1 {
-  grid-template: auto;
   display: minmax(0, 1);
   display: repeat(4);
-  display: 0.2fr;
   display: dense;
   display: auto-flow;
   display: span;
@@ -968,12 +962,8 @@ view {
 }
 
 .text-3 {
-  hyphens: auto;
-  line-break: auto;
-  overflow-wrap: auto;
   tab-size: auto;
   text-align-all: auto;
-  display: manual;
   display: loose;
   display: strict;
   display: match-parent;
@@ -1091,12 +1081,8 @@ view {
 
 .values-3 {
   display: 1ch;
-  display: 1vw;
-  display: 1vh;
-  display: 1vmin;
   display: 1q;
   display: 1turn;
-  display: calc(100%/3 - 2*1em - 2*1px);
 }
 
 .values-4 {
@@ -1113,8 +1099,7 @@ view {
 }
 
 .variables-1 {
-  --var-foo: auto;
-  display: var(foo);
+  display: auto;
 }
 
 .web-animations-1 {
