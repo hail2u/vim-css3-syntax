@@ -427,6 +427,7 @@ template {
   object-position: auto;
   image-orientation: auto;
   display: snap;
+  display: flip;
   display: scale-down;
   display: from-image;
   display: repeating-linear-gradient(to bottom, yellow, blue);
