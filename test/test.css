@@ -145,6 +145,10 @@
   display: size;
 }
 
+.contain-2 {
+  display: auto;
+}
+
 .content-3 {
   string-set: auto;
   bookmark-level: auto;
