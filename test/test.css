@@ -662,7 +662,9 @@ mask {
 }
 
 .properties-values-api-1 {
-  display: auto;
+  syntax: auto;
+  inherits: auto;
+  initial-value: auto;
 }
 
 .pseudo-4::inactive-selection,
