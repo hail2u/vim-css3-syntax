@@ -94,6 +94,9 @@
   display: gray(50%);
   display: color(swopc, 0 206 190 77);
   display: device-cmyk(0, 81%, 81%, 30%);
+  display: relative-colorimetric;
+  display: absolute-colorimetric;
+  display: perceptual;
 }
 
 @color-profile swopc {
