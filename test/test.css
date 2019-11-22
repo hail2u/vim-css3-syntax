@@ -359,8 +359,6 @@
 }
 
 .fonts-4 {
-  font-min-size: auto;
-  font-max-size: auto;
   font-display: auto;
   font-optical-sizing: auto;
   font-variation-settings: auto;
@@ -384,6 +382,11 @@
   display: optional;
   display: light;
   display: dark;
+  display: ui-serif;
+  display: ui-sans-serif;
+  display: ui-monospace;
+  display: ui-rounded;
+  display: xxx-large;
 }
 
 @font-palette-values Test {
