@@ -602,6 +602,7 @@ mask {
 .nav-1 {
   spatial-navigation-contain: auto;
   spatial-navigation-action: auto;
+  spatial-navigation-function: auto;
   display: focus;
 }
 
