@@ -691,6 +691,10 @@ mask {
   display: avoid-region;
 }
 
+.resize-observer-1 {
+  display: auto;
+}
+
 .rhythm-1 {
   line-height-step: auto;
   block-step-size: auto;
