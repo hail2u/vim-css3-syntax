@@ -742,6 +742,10 @@ mask {
   }
 }
 
+.scroll-anchoring-1 {
+  overflow-anchor: auto;
+}
+
 .scroll-snap-1 {
   scroll-snap-type: auto;
   scroll-padding: auto;
