@@ -101,6 +101,12 @@
   src: url("http://example.org/swop-coated.icc");
 }
 
+.color-5 {
+  display: color-mix(red yellow 65%);
+  display: color-contrast(wheat tan, sienna, var(--myAccent), #d2691e);
+  display: color-adjust(peru lightness(-20%));
+}
+
 .color-adjust-1 {
   color-scheme: auto;
   forced-color-adjust: auto;
