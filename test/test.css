@@ -851,6 +851,33 @@ mask {
   display: fit-content(10%);
 }
 
+.speech-3 {
+  voice-volume: auto;
+  voice-balance: auto;
+  rest-before: auto;
+  rest-after: auto;
+  rest: auto;
+  voice-rate: auto;
+  voice-pitch: auto;
+  voice-range: auto;
+  voice-stress: auto;
+  voice-duration: auto;
+  display: 10dB;
+  display: literal-punctuation;
+  display: no-punctuation;
+  display: x-weak;
+  display: weak;
+  display: strong;
+  display: x-strong;
+  display: young;
+  display: old;
+  display: neutral;
+  display: preserve;
+  display: 10st;
+  display: moderate;
+  display: reduced;
+}
+
 .style-attr {
   display: auto;
 }
