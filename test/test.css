@@ -1090,6 +1090,13 @@ view {
   transform-box: auto;
 }
 
+.tranforms-2 {
+  rotate: auto;
+  scale: auto;
+  translate: auto;
+  display: flat;
+}
+
 .transitions-1 {
   display: auto;
 }
