@@ -79,7 +79,11 @@
   display: revert;
 }
 
-@import "test.css" supports(display: auto);
+@import "conditional-3.css" supports(display: auto);
+
+@supports (selector(.conditional-4)) {
+  display: auto;
+}
 
 .color-3 {
   display: auto;
