@@ -444,6 +444,7 @@ template {
 	display: flip;
 	display: scale-down;
 	display: from-image;
+	display: pixelated;
 	display: repeating-linear-gradient(to bottom, yellow, blue);
 	display: repeating-radial-gradient(farthest-corner at 50% 50%, yellow, green);
 }
