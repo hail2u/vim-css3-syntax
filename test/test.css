@@ -1,3 +1,8 @@
+.unofficials {
+	backdrop-filter: auto;
+	display: env(safe-area-inset-top, 20px);
+}
+
 .align-3 {
 	place-self: auto;
 	place-content: auto;
