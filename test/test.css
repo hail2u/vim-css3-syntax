@@ -48,22 +48,7 @@
 }
 
 .box-3 {
-	margin-trim: auto;
-	display: in-flow;
-	/* .block-3 */
-	clear-after: auto;
-	float-displace: auto;
-	indent-edge-reset: auto;
-	display: scrollbar;
-	display: panner;
-	display: marquee;
-	display: discard;
-	display: decendants;
-	display: block-within-page;
-	display: margin-edge;
-	display: border-edge;
-	display: padding-edge;
-	display: content-edge;
+	display: auto;
 }
 
 .break-3 {
