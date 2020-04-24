@@ -51,6 +51,11 @@
 	display: auto;
 }
 
+.box-4 {
+	margin-trim: auto;
+	display: in-flow;
+}
+
 .break-3 {
 	display: recto;
 	display: verso;
