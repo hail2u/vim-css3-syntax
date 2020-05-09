@@ -1073,12 +1073,15 @@ view {
 }
 
 .text-decor-4 {
-	text-decoration-width: auto;
+	text-decoration-thickness: auto;
 	text-underline-offset: auto;
 	text-decoration-skip: auto;
 	text-decoration-skip-ink: auto;
 	text-emphasis-skip: auto;
+	display: spelling-error;
+	display: grammer-error;
 	display: objects;
+	display: from-font;
 	display: spaces;
 	display: leading-spaces;
 	display: trailing-spaces;
