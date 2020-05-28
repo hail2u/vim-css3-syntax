@@ -499,14 +499,6 @@ template {
 	margin-inline-end: auto;
 	margin-block: auto;
 	margin-inline: auto;
-	inset-block-start: auto;
-	inset-block-end: auto;
-	inset-inline-start: auto;
-	inset-inline-end: auto;
-	inset-block: auto;
-	inset-inline: auto;
-	inset: auto;
-	padding-block-start: auto;
 	padding-block-end: auto;
 	padding-inline-start: auto;
 	padding-inline-end: auto;
@@ -661,10 +653,13 @@ mask {
 }
 
 .position-3 {
-	offset-before: auto;
-	offset-end: auto;
-	offset-after: auto;
-	offset-start: auto;
+	inset-block-start: auto;
+	inset-block-end: auto;
+	inset-inline-start: auto;
+	inset-inline-end: auto;
+	inset-block: auto;
+	inset-inline: auto;
+	inset: auto;
 	display: sticky;
 }
 
