@@ -852,6 +852,11 @@ mask {
 	display: fit-content(10%);
 }
 
+.sizing-4 {
+	contain-intrinsic-size: auto;
+	display: fit-content;
+}
+
 .speech-1 {
 	voice-volume: auto;
 	voice-balance: auto;
