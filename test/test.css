@@ -499,6 +499,7 @@ template {
 	margin-inline-end: auto;
 	margin-block: auto;
 	margin-inline: auto;
+	padding-block-start: auto;
 	padding-block-end: auto;
 	padding-inline-start: auto;
 	padding-inline-end: auto;
