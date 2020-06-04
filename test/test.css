@@ -147,7 +147,7 @@
 }
 
 .contain-2 {
-	display: auto;
+	content-visibility: auto;
 }
 
 .content-3 {
