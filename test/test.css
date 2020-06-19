@@ -451,9 +451,7 @@ template {
 	alignment-baseline: auto;
 	baseline-source: auto;
 	baseline-shift: auto;
-	line-sizing: auto;
-	leading-trim-over: auto;
-	leading-trim-under: auto;
+	text-edge: auto;
 	leading-trim: auto;
 	inline-sizing: auto;
 	initial-letter: auto;
@@ -461,6 +459,7 @@ template {
 	initial-letter-wrap: auto;
 	display: mathematical;
 	display: ideographic;
+	display: leading;
 	display: cap;
 	display: ex;
 	display: ideographic-ink;
