@@ -458,13 +458,14 @@ template {
 	initial-letter-align: auto;
 	initial-letter-wrap: auto;
 	display: mathematical;
+	display: central;
 	display: ideographic;
 	display: leading;
 	display: cap;
 	display: ex;
 	display: ideographic-ink;
+	display: drop;
 	display: raise;
-	display: sink;
 }
 
 .layout-api-1 {
