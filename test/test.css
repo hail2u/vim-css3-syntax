@@ -396,7 +396,7 @@
 	footnote-display: auto;
 	footnote-policy: auto;
 	display: footnote;
-	display: line; 
+	display: line;
 	display: element(header);
 	display: running(heading);
 }
