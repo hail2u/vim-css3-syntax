@@ -354,34 +354,47 @@
 }
 
 .fonts-4 {
+	font-synthesis-weight: auto;
+	font-synthesis-style: auto;
+	font-synthesis-small-caps: auto;
+	font-variation-settings: auto;
+	font-named-instance: auto;
 	font-display: auto;
+	ascent-override: auto;
+	descent-override: auto;
+	line-gap-override: auto;
 	font-optical-sizing: auto;
 	font-variation-settings: auto;
 	font-palette: auto;
-	font-presentation: auto;
 	font-variant-emoji: auto;
+	font-presentation: auto;
 	display: system-ui;
 	display: emoji;
 	display: math;
 	display: fangsong;
-	display: infinity;
-	display: stylistic(feature-value-name);
-	display: historical-forms;
-	display: styleset(feature-value-name #);
-	display: character-variant(feature-vlue-name #);
-	display: swash(feature-value-name);
-	display: ornaments(feature-value-name);
-	display: annotation(feature-value-name);
-	display: swap;
-	display: fallback;
-	display: optional;
-	display: light;
-	display: dark;
 	display: ui-serif;
 	display: ui-sans-serif;
 	display: ui-monospace;
 	display: ui-rounded;
 	display: xxx-large;
+	display: swap;
+	display: fallback;
+	display: historical-forms;
+	display: stylistic(feature-value-name);
+	display: styleset(feature-value-name #);
+	display: character-variant(feature-vlue-name #);
+	display: swash(feature-value-name);
+	display: ornaments(feature-value-name);
+	display: annotation(feature-value-name);
+	display: light;
+	display: dark;
+}
+
+@font-feature-values Test {
+	@swash {
+		swishy: 1;
+		flowing: 2;
+	}
 }
 
 @font-palette-values Test {
