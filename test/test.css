@@ -692,9 +692,10 @@ mask {
 	initial-value: auto;
 }
 
-.pseudo-4::inactive-selection,
+.pseudo-4::target-text,
 .pseudo-4::spelling-error,
-.pseudo-4::grammer-error {
+.pseudo-4::grammer-error,
+.pseudi-4::file-selectors-button {
 	display: auto;
 }
 
