@@ -77,10 +77,6 @@
 	display: revert-layer;
 }
 
-@supports (selector(.conditional-4)) {
-	display: auto;
-}
-
 .color-3 {
 	display: auto;
 }
@@ -137,11 +133,15 @@
 }
 
 @supports (display: auto) or
-	(display: auto) not
-	(display: auto) {
+(display: auto) not
+(display: auto) {
 	.conditional-3 {
-	  display: auto;
+		display: auto;
 	}
+}
+
+@supports (selector(.conditional-4)) {
+	display: auto;
 }
 
 .contain-1 {
