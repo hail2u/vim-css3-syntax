@@ -65,15 +65,17 @@
 	display: auto;
 }
 
+@import "cascade-4.css" supports(display: auto);
+
 .cascade-4 {
 	display: revert;
 }
 
-.cascade-5 {
-	display: auto;
-}
+@import "cascade-5.css" layer(framework component);
 
-@import "conditional-3.css" supports(display: auto);
+.cascade-5 {
+	display: revert-layer;
+}
 
 @supports (selector(.conditional-4)) {
 	display: auto;
