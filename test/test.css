@@ -105,6 +105,7 @@
 .color-adjust-1 {
 	color-scheme: auto;
 	forced-color-adjust: auto;
+	print-color-adjust: auto;
 	color-adjust: auto;
 	display: light;
 	display: economy;
