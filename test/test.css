@@ -245,11 +245,10 @@
 
 .display-3 {
 	display: contents;
+	display: run-in;
 	display: ruby;
 	display: ruby-base;
 	display: ruby-text;
-	display: ruby-base-group;
-	display: ruby-text-group;
 }
 
 .easing-1 {
