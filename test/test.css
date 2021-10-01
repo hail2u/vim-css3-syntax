@@ -1217,6 +1217,7 @@ view {
 	display: exp(1);
 	display: abs(-1);
 	display: sign(-4);
+	display: mix(33%; 1px; 2px);
 }
 
 .variables-1 {
