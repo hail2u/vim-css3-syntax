@@ -3,12 +3,10 @@
 	place-content: auto;
 	place-items: auto;
 	row-gap: auto;
-	gap: auto;
 	display: safe;
 	display: unsafe;
 	display: self-start;
 	display: self-end;
-	display: space-evenly;
 	display: legacy;
 }
 
@@ -324,16 +322,6 @@
 	lighting-color: auto;
 	display: sRGB;
 	display: linearRGB;
-	display: blur(5px);
-	display: brightness(0.4);
-	display: contrast(200%);
-	display: drop-shadow(16px 16px 20px blue);
-	display: grayscale(50%);
-	display: hue-rotate(90deg);
-	display: invert(75%);
-	display: opacity(25%);
-	display: saturate(30%);
-	display: sepia(60%);
 }
 
 .flexbox-1 {
@@ -456,7 +444,6 @@
 }
 
 .html5,
-picture,
 rb,
 rtc,
 slot,
@@ -465,12 +452,9 @@ template {
 }
 
 .images-3 {
-	object-fit: auto;
-	object-position: auto;
 	image-orientation: auto;
 	display: snap;
 	display: flip;
-	display: scale-down;
 	display: from-image;
 	display: pixelated;
 	display: repeating-linear-gradient(to bottom, yellow, blue);
@@ -481,7 +465,6 @@ template {
 	image-resolution: auto;
 	display: image("sprite.svg#xywh=40,0,20,20");
 	display: element(#test);
-	display: conic-gradient(at 25% 30%, white, black 60%);
 }
 
 .inline-3 {
@@ -705,7 +688,6 @@ mask {
 	inset-block: auto;
 	inset-inline: auto;
 	inset: auto;
-	display: sticky;
 }
 
 .properties-values-api-1 {
@@ -830,7 +812,6 @@ mask {
 	scrollbar-width: auto;
 }
 
-.selectors-3:enabled,
 .selectors-3:indeterminate,
 .selectors-3:nth-child(2n+1),
 .selectors-3:nth-last-child(-n+2),
@@ -858,15 +839,12 @@ mask {
 .selectors-4:in-range,
 .selectors-4:out-of-range,
 .selectors-4:user-invalid,
-.selectors-4:is(:hover, :focus),
 .selectors-4:dir(ltr),
 .selectors-4:local-link(0),
 .selectors-4:current(p, li, dt, dd),
 .selectors-4:nth-col(2n+1),
 .selectors-4:nth-last-col(-n+2),
 .selectors-4:target-within,
-.selectors-4:focus-within,
-.selectors-4:focus-visible,
 .selectors-4:playing,
 .selectors-4:paused,
 .selectors-4:has(> img),
@@ -901,9 +879,7 @@ mask {
 }
 
 .sizing-3 {
-	display: max-content;
-	display: min-content;
-	display: fit-content(10%);
+	display: auto;
 }
 
 .sizing-4 {
@@ -1194,7 +1170,6 @@ view {
 }
 
 .values-3 {
-	display: 1ch;
 	display: 1q;
 	display: 1turn;
 }

@@ -1,1 +1,1 @@
-syn match cssFontAttr contained "\<sideways-\(rl\|lr\)\>"
+syn keyword cssFontAttr contained sideways-rl sideways-lr

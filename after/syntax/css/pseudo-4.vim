@@ -1,3 +1,1 @@
-syn match cssPseudoClassId contained "\<target-text\>"
-syn match cssPseudoClassId contained "\<\(spelling\|grammer\)-error\>"
-syn match cssPseudoClassId contained "\<file-selectors-button\>"
+syn keyword cssPseudoClassId contained target-text spelling-error grammer-error file-selectors-button

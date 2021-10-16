@@ -1,10 +1,1 @@
-syn keyword cssFontAttr contained unicase jis78 jis83 jis90 jis04 simplified traditional ordinal
-syn match cssFontAttr contained "\<\(no-\)\=\(common\|discretionary\|historical\)-ligatures\>"
-syn match cssFontAttr contained "\<\(no-\)\=contextual\>"
-syn match cssFontAttr contained "\<all-small-caps\>"
-syn match cssFontAttr contained "\<\(all-\)\=petite-caps\>"
-syn match cssFontAttr contained "\<titling-caps\>"
-syn match cssFontAttr contained "\<\(lining\|oldstyle\|proportional\|tabular\)-nums\>"
-syn match cssFontAttr contained "\<\(diagonal\|stacked\)-fractions\>"
-syn match cssFontAttr contained "\<proportional-width\>"
-syn match cssFontAttr contained "\<slashed-zero\>"
+syn keyword cssFontAttr contained unicase jis78 jis83 jis90 jis04 simplified traditional ordinal no-common-ligatures no-discretionary-ligatures no-historical-ligatures common-ligatures discretionary-ligatures historical-ligatures no-contextual contextual all-small-caps all-petite-caps petite-caps titling-caps lining-nums oldstyle-nums proportional-nums tabular-nums diagonal-fractions stacked-fractions proportional-width slashed-zero

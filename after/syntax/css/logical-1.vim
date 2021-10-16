@@ -1,5 +1,2 @@
-syn match cssFontProp contained "\<\(\(min\|max\)-\)\=\(block\|inline\)-size\>"
-syn match cssFontProp contained "\<\(margin\|padding\)\(-\(block\|inline\)\(-\(start\|end\)\)\=\)\=\>"
-syn match cssFontProp contained "\<border-\(block\|inline\)\(\(-\(start\|end\)\)\=\(-\(width\|style\|color\)\)\=\)\=\>"
-syn match cssFontProp contained "\<border-\(start\|end\)-\(start\|end\)-radius\>"
+syn keyword cssFontProp contained block-size inline-size min-block-size min-inline-size max-block-size max-inline-size margin-block padding-block margin-block-start padding-block-start margin-block-end padding-block-end margin-inline padding-inline margin-inline-start padding-inline-start margin-inline-end padding-inline-end border-block border-inline border-block-start border-block-end border-inline-start border-inline-end border-block-width border-inline-width border-block-start-width border-block-end-width border-inline-start-width border-inline-end-width border-block-style border-inline-style border-block-start-style border-block-end-style border-inline-start-style border-inline-end-style border-block-color border-inline-color border-block-start-color border-block-end-color border-inline-start-color border-inline-end-color border-start-start-radius border-start-end-radius border-end-start-radius border-end-end-radius
 syn keyword cssFontAttr contained logical physical rotate

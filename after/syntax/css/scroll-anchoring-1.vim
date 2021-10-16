@@ -1,1 +1,1 @@
-syn match cssFontProp contained "\<overflow-anchor\>"
+syn keyword cssFontProp contained overflow-anchor

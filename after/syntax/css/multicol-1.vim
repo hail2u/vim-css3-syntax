@@ -1,1 +1,1 @@
-syn match cssFontAttr contained "\<balance\(-all\)\=\>"
+syn keyword cssFontAttr contained balance balance-all

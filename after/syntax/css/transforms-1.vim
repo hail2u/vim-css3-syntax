@@ -1,1 +1,1 @@
-syn match cssFontProp contained "\<transform-box\>"
+syn keyword cssFontProp contained transform-box

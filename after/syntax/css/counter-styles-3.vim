@@ -1,13 +1,4 @@
-syn keyword cssGeneratedContentProp contained system negative prefix suffix range pad fallback
-syn match cssGeneratedContentProp contained "\<\(additive-\)\=symbols\>"
-syn match cssGeneratedContentProp contained "\<speak-as\>"
-syn keyword cssGeneratedContentAttr contained cyclic symbolic additive extends bullets numbers words bengali cambodian khmer devanagari gujarati gurmukhi kannada lao malayalam mongolian myanmar oriya persian tamil telugu thai tibetan
-syn match cssGeneratedContentAttr contained "\<\(ethiopic-\)\=numeric\>"
-syn match cssGeneratedContentAttr contained "\<arabic-indic\>"
-syn match cssGeneratedContentAttr contained "\<\(upper\|lower\)-armenian\>"
-syn match cssGeneratedContentAttr contained "\<cjk-\(decimal\|earthly-branch\|heavenly-stem\)\>"
-syn match cssGeneratedContentAttr contained "\<disclosure-\(open\|closed\)\>"
-syn match cssGeneratedContentAttr contained "\<\(japanese\|korean-hanja\|\(simp\|trad\)-chinese\)-\(in\)\=formal\>"
-syn match cssGeneratedContentAttr contained "\<korean-hangul-formal\>"
+syn keyword cssGeneratedContentProp contained system negative prefix suffix range pad fallback additive-symbols symbols speak-as
+syn keyword cssGeneratedContentAttr contained cyclic symbolic additive extends bullets numbers words bengali cambodian khmer devanagari gujarati gurmukhi kannada lao malayalam mongolian myanmar oriya persian tamil telugu thai tibetan ethiopic-numeric numeric arabic-indic upper-armenian lower-armenian cjk-decimal cjk-earthly-branch cjk-heavenly-stem disclosure-open disclosure-closed japanese-formal korean-hanja-formal simp-chinese-formal trad-chinese-formal japanese-informal korean-hanja-informal simp-chinese-informal trad-chinese-informal korean-hangul-formal
 syn region cssFunction contained matchgroup=cssFunctionName start="\<symbols\s*(" end=")" oneline keepend
 syn match cssFontDescriptor "@counter-style\>" nextgroup=cssFontDescriptorBlock skipwhite skipnl

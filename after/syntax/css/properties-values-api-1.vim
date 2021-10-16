@@ -1,2 +1,1 @@
-syn keyword cssFontProp contained syntax inherits
-syn match cssFontProp contained "\<initial-value\>"
+syn keyword cssFontProp contained syntax inherits initial-value
