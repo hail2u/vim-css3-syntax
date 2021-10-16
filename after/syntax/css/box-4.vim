@@ -1,2 +1,2 @@
-syn match cssBoxProp contained "\<margin-trim\>"
-syn match cssBoxAttr contained "\<in-flow\>"
+syn keyword cssBoxProp contained margin-trim
+syn keyword cssBoxAttr contained in-flow

@@ -1,3 +1,2 @@
-syn match cssFontProp contained "\<contain-intrinsic-size\>"
-syn match cssFontProp contained "\<min-intrinsic-sizing\>"
-syn match cssFontAttr contained "\<zero-if-\(scroll\|extrinsic\)\>"
+syn keyword cssFontProp contained contain-intrinsic-size min-intrinsic-sizing
+syn keyword cssFontAttr contained zero-if-scroll zero-if-extrinsic

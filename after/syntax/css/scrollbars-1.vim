@@ -1,1 +1,1 @@
-syn match cssFontProp contained "\<scrollbar-\(color\|width\)\>"
+syn keyword cssFontProp contained scrollbar-color scrollbar-width

@@ -3,12 +3,10 @@
 	place-content: auto;
 	place-items: auto;
 	row-gap: auto;
-	gap: auto;
 	display: safe;
 	display: unsafe;
 	display: self-start;
 	display: self-end;
-	display: space-evenly;
 	display: legacy;
 }
 
@@ -455,7 +453,6 @@
 }
 
 .html5,
-picture,
 rb,
 rtc,
 slot,
@@ -464,12 +461,9 @@ template {
 }
 
 .images-3 {
-	object-fit: auto;
-	object-position: auto;
 	image-orientation: auto;
 	display: snap;
 	display: flip;
-	display: scale-down;
 	display: from-image;
 	display: pixelated;
 	display: repeating-linear-gradient(to bottom, yellow, blue);
@@ -480,7 +474,6 @@ template {
 	image-resolution: auto;
 	display: image("sprite.svg#xywh=40,0,20,20");
 	display: element(#test);
-	display: conic-gradient(at 25% 30%, white, black 60%);
 }
 
 .inline-3 {
@@ -704,7 +697,6 @@ mask {
 	inset-block: auto;
 	inset-inline: auto;
 	inset: auto;
-	display: sticky;
 }
 
 .properties-values-api-1 {
