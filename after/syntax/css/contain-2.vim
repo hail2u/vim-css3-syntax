@@ -1,1 +1,1 @@
-syn match cssFontProp contained "\<content-visibility\>"
+syn keyword cssFontProp content-visibility

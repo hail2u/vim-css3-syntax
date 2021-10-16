@@ -1,1 +1,1 @@
-syn match cssFontAttr contained "\<revert-layer\>"
+syn keyword cssFontAttr contained revert-layer

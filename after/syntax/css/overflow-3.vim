@@ -1,6 +1,1 @@
-syn keyword cssFontProp contained continue
-syn match cssFontProp contained "\<overflow-\(clip-margin\|block\|inline\)\>"
-syn match cssFontProp contained "\<scrollbar-gutter\>"
-syn match cssFontProp contained "\<block-ellipsis\>"
-syn match cssFontProp contained "\<line-clamp\>"
-syn match cssFontProp contained "\<max-lines\>"
+syn keyword cssFontProp contained continue overflow-clip-margin overflow-block overflow-inline scrollbar-gutter block-ellipsis line-clamp max-lines
