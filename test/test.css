@@ -734,14 +734,14 @@ mask {
 
 @media (device-radius: 50%) {
 	.round-display-1 {
-	  shape-inside: auto;
-	  border-boundary: auto;
-	  polar-angle: auto;
-	  polar-distance: auto;
-	  display: outside-shape;
-	  display: shape-box;
-	  display: parent;
-	  display: polar;
+		shape-inside: auto;
+		border-boundary: auto;
+		polar-angle: auto;
+		polar-distance: auto;
+		display: outside-shape;
+		display: shape-box;
+		display: parent;
+		display: polar;
 	}
 }
 
@@ -767,7 +767,7 @@ mask {
 
 @scope .scoping-1 {
 	div {
-	  display: auto;
+		display: auto;
 	}
 }
 
