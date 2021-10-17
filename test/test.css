@@ -856,10 +856,6 @@ mask {
 	display: auto;
 }
 
-.selectors-nonelement-1::attr(title) {
-	display: auto;
-}
-
 .shadow-parts::part(textspan) {
 	display: auto;
 }
