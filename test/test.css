@@ -752,6 +752,7 @@ mask {
 	ruby-overhang: auto;
 	display: ruby-base-container;
 	display: ruby-text-container;
+	display: merge;
 	display: inter-character;
 }
 
