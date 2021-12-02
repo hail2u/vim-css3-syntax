@@ -629,6 +629,7 @@ mask {
 	overflow-clip-margin: auto;
 	overflow-block: auto;
 	overflow-inline: auto;
+	scrollbar-gutter: auto;
 	block-ellipsis: auto;
 	line-clamp: auto;
 	max-lines: auto;
@@ -636,7 +637,6 @@ mask {
 }
 
 .overflow-4::nth-fragment(1) {
-	scrollbar-gutter: auto;
 	display: stable;
 	display: force;
 	display: overflow;
