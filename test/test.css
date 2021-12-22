@@ -141,7 +141,19 @@
 }
 
 @supports (selector(.conditional-4)) {
-	display: auto;
+	.conditional-4 {
+		display: auto;
+	}
+}
+
+@when media(screen) {
+	.conditional-5 {
+		display: auto;
+	}
+} @else {
+	.conditional-5 {
+		display: auto;
+	}
 }
 
 .contain-1 {
