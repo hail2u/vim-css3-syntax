@@ -155,6 +155,10 @@
 	content-visibility: auto;
 }
 
+.contain-3 {
+	display: auto;
+}
+
 .content-3 {
 	string-set: auto;
 	bookmark-level: auto;
