@@ -1074,6 +1074,8 @@ view {
 	text-group-align: auto;
 	line-padding: auto;
 	text-spacing: auto;
+	word-boundary-detection: auto;
+	word-boundary-expansion: auto;
 	display: preserve-breaks;
 	display: preserve-spaces;
 	display: trim-inner;
@@ -1095,6 +1097,7 @@ view {
 	display: ideograph-alpha;
 	display: ideograph-numeric;
 	display: punctuation;
+	display: ideographic-space;
 }
 
 .text-decor-3 {
