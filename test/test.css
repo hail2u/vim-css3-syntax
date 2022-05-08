@@ -869,7 +869,18 @@ mask {
 .selectors-4:playing,
 .selectors-4:paused,
 .selectors-4:has(> img),
-.selectors-4:where(:not(:hover)) {
+.selectors-4:where(:not(:hover)),
+.selectors-4:defined,
+.selectors-4:modal,
+.selectors-4:fullscreen,
+.selectors-4:picture-in-picture,
+.selectors-4:seeking,
+.selectors-4:buffering,
+.selectors-4:stalled,
+.selectors-4:muted,
+.selectors-4:volume-locked,
+.selectors-4:autofill,
+.selectors-4:user-valid {
 	display: auto;
 }
 
