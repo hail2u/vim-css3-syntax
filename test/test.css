@@ -90,6 +90,8 @@
 	display: relative-colorimetric;
 	display: absolute-colorimetric;
 	display: perceptual;
+	display: accentcolor;
+	display: accentcolortext;
 }
 
 @color-profile swopc {
