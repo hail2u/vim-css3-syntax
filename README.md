@@ -8,8 +8,9 @@ CSS3 syntax (and syntax defined in some foreign specifications) support for
 INSTALLATION
 ------------
 
-I **strongly** recommend to install this plugin on *Vim 8.2 or higher with
-default runtime files*.
+This version is compatible with **Vim 9.0 or higher** with default runtime
+files. If you still use Vim 8.x, you must use [older version][2] of this
+plug-in.
 
 
 ### Vim package
@@ -33,25 +34,6 @@ to your `~/.vim` directory.
 
 NOTES
 -----
-
-### Highlighting problems on: `vertical-align`, `box-shadow`, and others
-
-Some properties do not highlight correctly by default. This is a limitation of
-Vim’s highlight priority mechanism. To fix this problems, put following lines
-in your `~/.vim/after/css.vim`:
-
-    setlocal iskeyword+=-
-
-Or in your `~/.vimrc`:
-
-    augroup VimCSS3Syntax
-      autocmd!
-
-      autocmd FileType css setlocal iskeyword+=-
-    augroup END
-
-This setting have side effects. So, use it at your own risk.
-
 
 ### Vendor Prefixes
 
@@ -93,3 +75,4 @@ MIT
 
 
 [1]: http://www.vim.org/
+[2]: https://github.com/hail2u/vim-css3-syntax/releases/tag/v1.10.2
