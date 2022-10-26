@@ -1246,6 +1246,10 @@ view {
 	display: auto;
 }
 
+.view-transitions-1 {
+	page-transition-tag: auto;
+}
+
 .web-animations-1 {
 	display: auto;
 }
