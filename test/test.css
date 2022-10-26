@@ -775,6 +775,21 @@ mask {
 	overflow-anchor: auto;
 }
 
+.scroll-animations-1 {
+	scroll-timeline-name: auto;
+	scroll-timeline-axis: auto;
+	scroll-timeline: auto;
+	view-timeline-name: auto;
+	view-timeline-axis: auto;
+	view-timeline-inset: auto;
+	view-timeline: auto;
+	animation-range: auto;
+	animation-delay-start: auto;
+	animation-delay-end: auto;
+	display: entry;
+	display: exit;
+}
+
 .scroll-snap-1 {
 	scroll-snap-type: auto;
 	scroll-padding: auto;
