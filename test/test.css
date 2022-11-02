@@ -83,21 +83,24 @@
 	display: hwb(120deg, 44%, 50%);
 	display: lab(1 2 3);
 	display: lch(4 5 6);
+	display: oklab(1 2 3);
+	display: oklch(4 5 6);
 	display: color(swopc, 0 206 190 77);
-	display: device-cmyk(0, 81%, 81%, 30%);
-	display: relative-colorimetric;
-	display: absolute-colorimetric;
-	display: perceptual;
 	display: accentcolor;
 	display: accentcolortext;
 }
 
-@color-profile swopc {
-	src: url("http://example.org/swop-coated.icc");
+.color-5 {
+	display: device-cmyk(0, 81%, 81%, 30%);
+	display: color-mix(red yellow 65%);
 }
 
-.color-5 {
-	display: color-mix(red yellow 65%);
+@color-profile swopc {
+	src: url("http://example.org/swop-coated.icc");
+	components: auto;
+	display: relative-colorimetric;
+	display: absolute-colorimetric;
+	display: perceptual;
 }
 
 .color-adjust-1 {
