@@ -877,7 +877,9 @@ mask {
 .selectors-4:muted,
 .selectors-4:volume-locked,
 .selectors-4:autofill,
-.selectors-4:user-valid {
+.selectors-4:user-valid,
+.selectors-4:open,
+.selectors-4:closed {
 	display: auto;
 }
 
