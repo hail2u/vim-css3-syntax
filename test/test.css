@@ -264,9 +264,6 @@
 .display-3 {
 	display: contents;
 	display: run-in;
-	display: ruby;
-	display: ruby-base;
-	display: ruby-text;
 }
 
 .easing-1 {
@@ -752,10 +749,13 @@ mask {
 	ruby-merge: auto;
 	ruby-align: auto;
 	ruby-overhang: auto;
+	display: ruby;
+	display: ruby-base;
+	display: ruby-text;
 	display: ruby-base-container;
 	display: ruby-text-container;
-	display: merge;
 	display: inter-character;
+	display: merge;
 }
 
 .scoping-1:scope-context div,
