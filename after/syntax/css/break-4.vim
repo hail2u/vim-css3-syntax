@@ -1,2 +1,2 @@
-syn keyword cssBoxProp contained margin-break
+syn keyword cssFontProp contained margin-break
 syn keyword cssFontAttr contained keep
