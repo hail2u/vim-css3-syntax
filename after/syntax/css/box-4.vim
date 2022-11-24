@@ -1,2 +1,2 @@
-syn keyword cssBoxProp contained margin-trim
-syn keyword cssBoxAttr contained in-flow
+syn keyword cssFontProp contained margin-trim
+syn keyword cssFontAttr contained in-flow

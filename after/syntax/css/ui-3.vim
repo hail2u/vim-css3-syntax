@@ -1,2 +1,2 @@
-syn keyword cssUIProp contained caret-color
-syn keyword cssUIAttr contained grab grabbing
+syn keyword cssFontProp contained caret-color
+syn keyword cssFontAttr contained grab grabbing
