@@ -1226,7 +1226,6 @@ view {
 	display: min(0, 1);
 	display: max(0, 1);
 	display: clamp(0, 100, 2);
-	display: toggle(italic, normal);
 	display: round(var(--width), 50px);
 	display: mod(-18px, 5px);
 	display: rem(-18px, 5px);
