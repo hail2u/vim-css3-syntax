@@ -1086,7 +1086,7 @@ view {
 	word-boundary-expansion: auto;
 	display: preserve-breaks;
 	display: preserve-spaces;
-	display: trim-inner;
+	display: discard-inner;
 	display: discard-before;
 	display: discard-after;
 	display: avoid-line;
