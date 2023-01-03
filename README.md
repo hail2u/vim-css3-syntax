@@ -8,9 +8,12 @@ CSS3 syntax (and syntax defined in some foreign specifications) support for
 INSTALLATION
 ------------
 
-This version is compatible with **Vim 9.0 or higher** with default runtime
-files. If you still use Vim 8.x, you must use [older version][2] of this
-plug-in.
+This syntax files are compatible with the default runtime files that come with
+**Vim 9.0 or higher**. If you still use Vim 8.x or lower, you must:
+
+- Update runtime files (recommended)
+- Use [older version][2]
+- Switch to [`vim80` branch][3]
 
 
 ### Vim package
@@ -76,3 +79,4 @@ MIT
 
 [1]: http://www.vim.org/
 [2]: https://github.com/hail2u/vim-css3-syntax/releases/tag/v1.10.2
+[3]: https://github.com/hail2u/vim-css3-syntax/tree/vim80
