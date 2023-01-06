@@ -5,15 +5,20 @@ CSS3 syntax (and syntax defined in some foreign specifications) support for
 [Vim][1]’s built-in `syntax/css.vim`
 
 
-INSTALLATION
-------------
+COMPATIBILITY
+-------------
 
 This syntax files are compatible with the default runtime files that come with
 **Vim 9.0 or higher**. If you still use Vim 8.x or lower, you must:
 
-- Update runtime files (recommended)
-- Use [older version][2]
-- Switch to [`vim80` branch][3]
+  - Copy [latest CSS syntax file][2] to your `~/.vim/` directory (recommended)
+  - Update runtime files
+  - Use [older version][3]
+  - Switch to [`vim80` branch][4]
+
+
+INSTALLATION
+------------
 
 
 ### Vim package
@@ -78,5 +83,6 @@ MIT
 
 
 [1]: http://www.vim.org/
-[2]: https://github.com/hail2u/vim-css3-syntax/releases/tag/v1.10.2
-[3]: https://github.com/hail2u/vim-css3-syntax/tree/vim80
+[2]: https://github.com/vim/vim/blob/master/runtime/syntax/css.vim
+[3]: https://github.com/hail2u/vim-css3-syntax/releases/tag/v1.10.2
+[4]: https://github.com/hail2u/vim-css3-syntax/tree/vim80
