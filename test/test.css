@@ -937,6 +937,7 @@ mask {
 	display: 10st;
 	display: moderate;
 	display: reduced;
+	display: never;
 }
 
 .style-attr {
