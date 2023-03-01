@@ -1075,7 +1075,7 @@ view {
 }
 
 .text-4 {
-	text-space-collapse: auto;
+	white-space-collapse: auto;
 	text-space-trim: auto;
 	text-wrap: auto;
 	wrap-before: auto;
@@ -1088,6 +1088,8 @@ view {
 	hyphenate-limit-last: auto;
 	text-group-align: auto;
 	line-padding: auto;
+	text-autospace: auto;
+	text-spacing-trim: auto;
 	text-spacing: auto;
 	word-boundary-detection: auto;
 	word-boundary-expansion: auto;
