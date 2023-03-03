@@ -15,7 +15,10 @@
 }
 
 .animations-2 {
-	display: auto;
+	animation-composition: auto;
+	animation-timeline: auto;
+	display: replace;
+	display: accumulate;
 }
 
 .backgrounds-3 {
