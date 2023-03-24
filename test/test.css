@@ -644,6 +644,16 @@ mask {
 }
 
 .overflow-4::nth-fragment(1) {
+	overflow-clip-margin-block: auto;
+	overflow-clip-margin-block-start: auto;
+	overflow-clip-margin-block-end: auto;
+	overflow-clip-margin-inline: auto;
+	overflow-clip-margin-inline-start: auto;
+	overflow-clip-margin-inline-end: auto;
+	overflow-clip-margin-top: auto;
+	overflow-clip-margin-right: auto;
+	overflow-clip-margin-bottom: auto;
+	overflow-clip-margin-left: auto;
 	display: stable;
 	display: force;
 	display: overflow;
