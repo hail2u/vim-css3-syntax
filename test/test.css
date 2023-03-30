@@ -1089,7 +1089,7 @@ view {
 
 .text-4 {
 	white-space-collapse: auto;
-	text-space-trim: auto;
+	white-space-trim: auto;
 	text-wrap: auto;
 	wrap-before: auto;
 	wrap-after: auto;
@@ -1111,6 +1111,7 @@ view {
 	display: discard-inner;
 	display: discard-before;
 	display: discard-after;
+	display: pretty;
 	display: avoid-line;
 	display: avoid-flex;
 	display: pre-wrap-auto;
