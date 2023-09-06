@@ -1192,6 +1192,12 @@ view {
 	display: auto;
 }
 
+@starting-style {
+	.transitions-2 {
+		display: auto;
+	}
+}
+
 .typed-om-1 {
 	display: auto;
 }
