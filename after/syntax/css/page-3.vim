@@ -1,1 +1,1 @@
-syn keyword cssFontProp contained marks bleed
+syn keyword cssFontProp contained marks bleed page-orientation

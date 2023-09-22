@@ -672,6 +672,7 @@ mask {
 .page-3 {
 	marks: auto;
 	bleed: auto;
+	page-orientation: auto;
 }
 
 .page-floats-3 {
