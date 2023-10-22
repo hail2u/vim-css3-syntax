@@ -1109,7 +1109,7 @@ view {
 	text-spacing-trim: auto;
 	text-spacing: auto;
 	word-boundary-detection: auto;
-	word-boundary-expansion: auto;
+	word-space-transform: auto;
 	display: preserve-breaks;
 	display: preserve-spaces;
 	display: discard-inner;
@@ -1121,13 +1121,10 @@ view {
 	display: pre-wrap-auto;
 	display: no-limit;
 	display: spread;
-	display: trim-start;
-	display: space-start;
+	display: space-all;
+	display: trim-auto;
 	display: space-first;
-	display: trim-end;
-	display: space-end;
-	display: trim-adjacent;
-	display: space-adjacent;
+	display: trim-all;
 	display: no-compress;
 	display: ideograph-alpha;
 	display: ideograph-numeric;
