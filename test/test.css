@@ -371,10 +371,10 @@
 }
 
 .fonts-4 {
+	font-synthesis-position: auto;
 	font-synthesis-weight: auto;
 	font-synthesis-style: auto;
 	font-synthesis-small-caps: auto;
-	font-variation-settings: auto;
 	font-named-instance: auto;
 	font-display: auto;
 	ascent-override: auto;
