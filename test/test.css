@@ -10,6 +10,57 @@
 	display: legacy;
 }
 
+@position-try --anchor-position-1 {
+	anchor-name: auto;
+	anchor-scope: auto;
+	inset-area: auto;
+	position-anchor: auto;
+	position-try: auto;
+	position-try-options: auto;
+	position-try-order: auto;
+	display: span-left;
+	display: span-right;
+	display: span-x-start;
+	display: span-x-end;
+	display: x-self-start;
+	display: x-self-end;
+	display: span-x-self-start;
+	display: span-x-self-end;
+	display: span-all;
+	display: span-top;
+	display: span-bottom;
+	display: span-y-start;
+	display: span-y-end;
+	display: y-self-start;
+	display: y-self-end;
+	display: span-y-self-start;
+	display: span-y-self-end;
+	display: span-block-start;
+	display: span-block-end;
+	display: self-block-start;
+	display: self-block-end;
+	display: span-self-block-start;
+	display: span-self-block-end;
+	display: span-inline-start;
+	display: span-inline-end;
+	display: self-inline-start;
+	display: self-inline-end;
+	display: span-self-inline-start;
+	display: span-self-inline-end;
+	display: span-start;
+	display: span-end;
+	display: span-self-start;
+	display: span-self-end;
+	display: implicit;
+	display: most-width;
+	display: most-height;
+	display: most-block-size;
+	display: most-inline-size;
+	display: flip-block;
+	display: flip-inline;
+	display: flip-start
+}
+
 .animations-1 {
 	display: auto;
 }
