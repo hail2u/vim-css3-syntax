@@ -52,13 +52,16 @@
 	display: span-self-start;
 	display: span-self-end;
 	display: implicit;
+	display: anchor-center;
 	display: most-width;
 	display: most-height;
 	display: most-block-size;
 	display: most-inline-size;
 	display: flip-block;
 	display: flip-inline;
-	display: flip-start
+	display: flip-start;
+	display: anchor(--x 50%);
+	display: anchor-size(--foo height);
 }
 
 .animations-1 {
