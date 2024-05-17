@@ -1343,6 +1343,13 @@ view {
 	view-transition-name: auto;
 }
 
+.view-transitions-2:active-view-transition,
+.view-transitions-1:active-view-transition-type(slide-in) {
+	view-transition-class: auto;
+	navigation: auto;
+	types: auto;
+}
+
 .web-animations-1 {
 	display: auto;
 }
