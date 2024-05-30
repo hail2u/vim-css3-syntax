@@ -1166,6 +1166,7 @@ view {
 	text-spacing: auto;
 	word-boundary-detection: auto;
 	word-space-transform: auto;
+	display: math-auto;
 	display: preserve-breaks;
 	display: preserve-spaces;
 	display: discard-inner;
@@ -1178,7 +1179,7 @@ view {
 	display: no-limit;
 	display: spread;
 	display: space-all;
-	display: trim-auto;
+	display: trim-both;
 	display: space-first;
 	display: trim-all;
 	display: no-compress;
