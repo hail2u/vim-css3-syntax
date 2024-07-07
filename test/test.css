@@ -1345,7 +1345,7 @@ view {
 }
 
 .view-transitions-2:active-view-transition,
-.view-transitions-1:active-view-transition-type(slide-in) {
+.view-transitions-2:active-view-transition-type(slide-in) {
 	view-transition-class: auto;
 	navigation: auto;
 	types: auto;
