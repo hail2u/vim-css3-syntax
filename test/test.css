@@ -904,6 +904,15 @@ mask {
 	display: proximity;
 }
 
+.scroll-snap-2,
+.scroll-snap-2:snapped-x,
+.scroll-snap-2:snapped-y,
+.scroll-snap-3:snapped-inline,
+.scroll-snap-2:snapped-block,
+.scroll-snap-2:snapped {
+	scroll-start-target: auto;
+}
+
 .scrollbars-1 {
 	scrollbar-color: auto;
 	scrollbar-width: auto;
