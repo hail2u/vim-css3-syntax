@@ -198,8 +198,8 @@
 }
 
 @supports (display: auto) or
-(display: auto) not
-(display: auto) {
+	(display: auto) not
+	(display: auto) {
 	.conditional-3 {
 		display: auto;
 	}
@@ -213,7 +213,10 @@
 
 @when media(screen) {
 	.conditional-5 {
-		display: auto;
+		container-type: auto;
+		container-name: auto;
+		container: auto;
+		display: inline-size;
 	}
 } @else {
 	.conditional-5 {
