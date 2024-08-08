@@ -538,6 +538,8 @@ template {
 	alignment-baseline: auto;
 	baseline-source: auto;
 	baseline-shift: auto;
+	line-fit-edge: auto;
+	text-box: auto;
 	text-box-edge: auto;
 	text-box-trim: auto;
 	inline-sizing: auto;
@@ -553,6 +555,9 @@ template {
 	display: ideographic-ink;
 	display: drop;
 	display: raise;
+	display: trim-start;
+	display: trim-end;
+	display: trim-both;
 }
 
 .layout-api-1 {
