@@ -336,6 +336,10 @@
 	display: auto;
 }
 
+.easing-2 {
+	display: linear(0, 0.25, 1);
+}
+
 .exclusions-3 {
 	wrap-flow: auto;
 	wrap-through: auto;
