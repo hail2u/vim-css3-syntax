@@ -1353,6 +1353,18 @@ view {
 	display: sign(-4);
 }
 
+.values-5 {
+	display: progress(1, 0, 100);
+	display: media-progress(width, 0, 100);
+	display: container-progress(width, 0, 100);
+	display: calc-mix(0.5, 0, 100);
+	display: color-mix(15%, black, white);
+	display: transform-mix(1, scale(0.5), rotate(10deg));
+	display: mix(90%, red, blue);
+	display: cross-fade(15%, url(foo.png), white);
+	display: toggle(italic, normal);
+}
+
 .variables-1 {
 	display: auto;
 }
