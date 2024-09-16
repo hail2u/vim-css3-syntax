@@ -1354,6 +1354,9 @@ view {
 }
 
 .values-5 {
+	interpolate-size: auto;
+	display: numeric-only;
+	display: allow-keyword;
 	display: progress(1, 0, 100);
 	display: media-progress(width, 0, 100);
 	display: container-progress(width, 0, 100);
@@ -1363,6 +1366,12 @@ view {
 	display: mix(90%, red, blue);
 	display: cross-fade(15%, url(foo.png), white);
 	display: toggle(italic, normal);
+	display: first-valid(center, none, 1px);
+	display: random(1, 10, by 1);
+	display: random-item(--x, red, yellow, green);
+	display: sibling-count();
+	display: sibling-index();
+	display: calc-size(any, 0px);
 }
 
 .variables-1 {
