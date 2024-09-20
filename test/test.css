@@ -509,6 +509,22 @@
 	display: auto;
 }
 
+.grid-3 {
+	masonry-direction: auto;
+	masonry-fill: auto;
+	masonry-flow: auto;
+	masonry: auto;
+	masonry-template-tracks: auto;
+	masonry-template-areas: auto;
+	masonry-auto-tracks: auto;
+	masonry-track-start: auto;
+	masonry-track-end: auto;
+	masonry-track: auto;
+	masonry-slack: auto;
+	display: masonry;
+	display: inline-masonry;
+}
+
 .highlight-api-1::highlight(test) {
 	display: auto;
 }
