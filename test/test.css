@@ -13,11 +13,12 @@
 @position-try --anchor-position-1 {
 	anchor-name: auto;
 	anchor-scope: auto;
-	inset-area: auto;
+	position-area: auto;
 	position-anchor: auto;
 	position-try: auto;
-	position-try-options: auto;
+	position-try-fallbacks: auto;
 	position-try-order: auto;
+	position-visibility: auto;
 	display: span-left;
 	display: span-right;
 	display: span-x-start;
@@ -51,7 +52,6 @@
 	display: span-end;
 	display: span-self-start;
 	display: span-self-end;
-	display: implicit;
 	display: anchor-center;
 	display: most-width;
 	display: most-height;
