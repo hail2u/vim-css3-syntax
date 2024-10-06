@@ -1,532 +1,532 @@
 .align-3 {
-	place-self: auto;
-	place-content: auto;
-	place-items: auto;
-	row-gap: auto;
-	display: safe;
-	display: unsafe;
-	display: self-start;
-	display: self-end;
-	display: legacy;
+  place-self: auto;
+  place-content: auto;
+  place-items: auto;
+  row-gap: auto;
+  display: safe;
+  display: unsafe;
+  display: self-start;
+  display: self-end;
+  display: legacy;
 }
 
 @position-try --anchor-position-1 {
-	anchor-name: auto;
-	anchor-scope: auto;
-	position-area: auto;
-	position-anchor: auto;
-	position-try: auto;
-	position-try-fallbacks: auto;
-	position-try-order: auto;
-	position-visibility: auto;
-	display: span-left;
-	display: span-right;
-	display: span-x-start;
-	display: span-x-end;
-	display: x-self-start;
-	display: x-self-end;
-	display: span-x-self-start;
-	display: span-x-self-end;
-	display: span-all;
-	display: span-top;
-	display: span-bottom;
-	display: span-y-start;
-	display: span-y-end;
-	display: y-self-start;
-	display: y-self-end;
-	display: span-y-self-start;
-	display: span-y-self-end;
-	display: span-block-start;
-	display: span-block-end;
-	display: self-block-start;
-	display: self-block-end;
-	display: span-self-block-start;
-	display: span-self-block-end;
-	display: span-inline-start;
-	display: span-inline-end;
-	display: self-inline-start;
-	display: self-inline-end;
-	display: span-self-inline-start;
-	display: span-self-inline-end;
-	display: span-start;
-	display: span-end;
-	display: span-self-start;
-	display: span-self-end;
-	display: anchor-center;
-	display: most-width;
-	display: most-height;
-	display: most-block-size;
-	display: most-inline-size;
-	display: flip-block;
-	display: flip-inline;
-	display: flip-start;
-	display: anchor(--x 50%);
-	display: anchor-size(--foo height);
+  anchor-name: auto;
+  anchor-scope: auto;
+  position-area: auto;
+  position-anchor: auto;
+  position-try: auto;
+  position-try-fallbacks: auto;
+  position-try-order: auto;
+  position-visibility: auto;
+  display: span-left;
+  display: span-right;
+  display: span-x-start;
+  display: span-x-end;
+  display: x-self-start;
+  display: x-self-end;
+  display: span-x-self-start;
+  display: span-x-self-end;
+  display: span-all;
+  display: span-top;
+  display: span-bottom;
+  display: span-y-start;
+  display: span-y-end;
+  display: y-self-start;
+  display: y-self-end;
+  display: span-y-self-start;
+  display: span-y-self-end;
+  display: span-block-start;
+  display: span-block-end;
+  display: self-block-start;
+  display: self-block-end;
+  display: span-self-block-start;
+  display: span-self-block-end;
+  display: span-inline-start;
+  display: span-inline-end;
+  display: self-inline-start;
+  display: self-inline-end;
+  display: span-self-inline-start;
+  display: span-self-inline-end;
+  display: span-start;
+  display: span-end;
+  display: span-self-start;
+  display: span-self-end;
+  display: anchor-center;
+  display: most-width;
+  display: most-height;
+  display: most-block-size;
+  display: most-inline-size;
+  display: flip-block;
+  display: flip-inline;
+  display: flip-start;
+  display: anchor(--x 50%);
+  display: anchor-size(--foo height);
 }
 
 .animations-1 {
-	display: auto;
+  display: auto;
 }
 
 .animations-2 {
-	animation-composition: auto;
-	animation-timeline: auto;
-	display: replace;
-	display: accumulate;
+  animation-composition: auto;
+  animation-timeline: auto;
+  display: replace;
+  display: accumulate;
 }
 
 .backgrounds-3 {
-	display: auto;
+  display: auto;
 }
 
 .backgrounds-4 {
-	background-position-x: auto;
-	background-position-y: auto;
-	background-position-inline: auto;
-	background-position-block: auto;
-	corner-shape: auto;
-	corners: auto;
-	border-limit: auto;
-	border-clip: auto;
-	border-clip-top: auto;
-	border-clip-right: auto;
-	border-clip-bottom: auto;
-	border-clip-left: auto;
-	display: x-start;
-	display: x-end;
-	display: y-start;
-	display: y-end;
-	display: bevel;
-	display: scoop;
-	display: notch;
+  background-position-x: auto;
+  background-position-y: auto;
+  background-position-inline: auto;
+  background-position-block: auto;
+  corner-shape: auto;
+  corners: auto;
+  border-limit: auto;
+  border-clip: auto;
+  border-clip-top: auto;
+  border-clip-right: auto;
+  border-clip-bottom: auto;
+  border-clip-left: auto;
+  display: x-start;
+  display: x-end;
+  display: y-start;
+  display: y-end;
+  display: bevel;
+  display: scoop;
+  display: notch;
 }
 
 .box-3 {
-	display: auto;
+  display: auto;
 }
 
 .box-4 {
-	margin-trim: auto;
-	display: in-flow;
+  margin-trim: auto;
+  display: in-flow;
 }
 
 .break-3 {
-	display: recto;
-	display: verso;
+  display: recto;
+  display: verso;
 }
 
 .break-4 {
-	margin-break: auto;
-	display: keep;
+  margin-break: auto;
+  display: keep;
 }
 
 .cascade-3 {
-	display: auto;
+  display: auto;
 }
 
 @import "cascade-4.css" supports(display: auto);
 
 .cascade-4 {
-	display: revert;
+  display: revert;
 }
 
 @import "cascade-5.css" layer(framework component);
 
 .cascade-5 {
-	display: revert-layer;
+  display: revert-layer;
 }
 
 .color-3 {
-	display: auto;
+  display: auto;
 }
 
 .color-4 {
-	display: hwb(120deg, 44%, 50%);
-	display: lab(1 2 3);
-	display: lch(4 5 6);
-	display: oklab(1 2 3);
-	display: oklch(4 5 6);
-	display: color(swopc, 0 206 190 77);
-	display: accentcolor;
-	display: accentcolortext;
+  display: hwb(120deg, 44%, 50%);
+  display: lab(1 2 3);
+  display: lch(4 5 6);
+  display: oklab(1 2 3);
+  display: oklch(4 5 6);
+  display: color(swopc, 0 206 190 77);
+  display: accentcolor;
+  display: accentcolortext;
 }
 
 .color-5 {
-	display: device-cmyk(0, 81%, 81%, 30%);
-	display: color-mix(red yellow 65%);
-	display: light-dark(white, black);
-	display: contrast-color(red max);
+  display: device-cmyk(0, 81%, 81%, 30%);
+  display: color-mix(red yellow 65%);
+  display: light-dark(white, black);
+  display: contrast-color(red max);
 }
 
 @color-profile swopc {
-	src: url("http://example.org/swop-coated.icc");
-	components: auto;
-	display: relative-colorimetric;
-	display: absolute-colorimetric;
-	display: perceptual;
+  src: url("http://example.org/swop-coated.icc");
+  components: auto;
+  display: relative-colorimetric;
+  display: absolute-colorimetric;
+  display: perceptual;
 }
 
 .color-adjust-1 {
-	color-scheme: auto;
-	forced-color-adjust: auto;
-	print-color-adjust: auto;
-	color-adjust: auto;
-	display: light;
-	display: economy;
-	display: exact;
+  color-scheme: auto;
+  forced-color-adjust: auto;
+  print-color-adjust: auto;
+  color-adjust: auto;
+  display: light;
+  display: economy;
+  display: exact;
 }
 
 .compositing-1 {
-	mix-blend-mode: auto;
-	isolation: auto;
-	background-blend-mode: auto;
-	display: multiply;
-	display: screen;
-	display: overlay;
-	display: darken;
-	display: lighten;
-	display: color-dodge;
-	display: color-burn;
-	display: hard-light;
-	display: soft-light;
-	display: difference;
-	display: exclusion;
-	display: hue;
-	display: saturation;
-	display: color;
-	display: luminosity;
+  mix-blend-mode: auto;
+  isolation: auto;
+  background-blend-mode: auto;
+  display: multiply;
+  display: screen;
+  display: overlay;
+  display: darken;
+  display: lighten;
+  display: color-dodge;
+  display: color-burn;
+  display: hard-light;
+  display: soft-light;
+  display: difference;
+  display: exclusion;
+  display: hue;
+  display: saturation;
+  display: color;
+  display: luminosity;
 }
 
 @supports (display: auto) or
-	(display: auto) not
-	(display: auto) {
-	.conditional-3 {
-		display: auto;
-	}
+  (display: auto) not
+  (display: auto) {
+  .conditional-3 {
+    display: auto;
+  }
 }
 
 @supports (selector(.conditional-4)) {
-	.conditional-4 {
-		display: auto;
-	}
+  .conditional-4 {
+    display: auto;
+  }
 }
 
 @when media(screen) {
-	.conditional-5 {
-		container-type: auto;
-		container-name: auto;
-		container: auto;
-		display: inline-size;
-	}
+  .conditional-5 {
+    container-type: auto;
+    container-name: auto;
+    container: auto;
+    display: inline-size;
+  }
 } @else {
-	.conditional-5 {
-		display: auto;
-	}
+  .conditional-5 {
+    display: auto;
+  }
 }
 
 .contain-1 {
-	contain: auto;
-	display: layout;
-	display: paint;
-	display: size;
+  contain: auto;
+  display: layout;
+  display: paint;
+  display: size;
 }
 
 .contain-2 {
-	content-visibility: auto;
+  content-visibility: auto;
 }
 
 .contain-3 {
-	display: auto;
+  display: auto;
 }
 
 .content-3 {
-	string-set: auto;
-	bookmark-level: auto;
-	bookmark-label: auto;
-	bookmark-state: auto;
-	display: open;
-	display: closed;
-	display: leader('.');
-	display: string(heading, first);
-	display: target-counter(attr(href url), page);
-	display: target-counters(lack-of-example);
-	display: target-text(attr(href url));
+  string-set: auto;
+  bookmark-level: auto;
+  bookmark-label: auto;
+  bookmark-state: auto;
+  display: open;
+  display: closed;
+  display: leader('.');
+  display: string(heading, first);
+  display: target-counter(attr(href url), page);
+  display: target-counters(lack-of-example);
+  display: target-text(attr(href url));
 }
 
 @counter-style counter-styles-3 {
-	system: auto;
-	negative: auto;
-	prefix: auto;
-	suffix: auto;
-	range: auto;
-	pad: auto;
-	fallback: auto;
-	symbols: auto;
-	additive-symbols: auto;
-	speak-as: auto;
-	display: cyclic;
-	display: symbolic;
-	display: additive;
-	display: extends;
-	display: bullets;
-	display: numbers;
-	display: words;
-	display: symbols("*" "\2020" "\2021" "\A7");
-	display: arabic-indic;
-	display: upper-armenian;
-	display: lower-armenian;
-	display: bengali;
-	display: cambodian;
-	display: khmer;
-	display: cjk-decimal;
-	display: devanagari;
-	display: gujarati;
-	display: gurmukhi;
-	display: kannada;
-	display: lao;
-	display: malayalam;
-	display: mongolian;
-	display: myanmar;
-	display: oriya;
-	display: persian;
-	display: tamil;
-	display: telugu;
-	display: thai;
-	display: tibetan;
-	display: cjk-earthly-branch;
-	display: cjk-heavenly-stem;
-	display: disclosure-closed;
-	display: disclosure-open;
-	display: japanese-informal;
-	display: japanese-formal;
-	display: korean-hangul-formal;
-	display: korean-hanja-informal;
-	display: korean-hanja-formal;
-	display: simp-chinese-informal;
-	display: simp-chinese-formal;
-	display: trad-chinese-informal;
-	display: trad-chinese-formal;
-	display: ethiopic-numeric;
+  system: auto;
+  negative: auto;
+  prefix: auto;
+  suffix: auto;
+  range: auto;
+  pad: auto;
+  fallback: auto;
+  symbols: auto;
+  additive-symbols: auto;
+  speak-as: auto;
+  display: cyclic;
+  display: symbolic;
+  display: additive;
+  display: extends;
+  display: bullets;
+  display: numbers;
+  display: words;
+  display: symbols("*" "\2020" "\2021" "\A7");
+  display: arabic-indic;
+  display: upper-armenian;
+  display: lower-armenian;
+  display: bengali;
+  display: cambodian;
+  display: khmer;
+  display: cjk-decimal;
+  display: devanagari;
+  display: gujarati;
+  display: gurmukhi;
+  display: kannada;
+  display: lao;
+  display: malayalam;
+  display: mongolian;
+  display: myanmar;
+  display: oriya;
+  display: persian;
+  display: tamil;
+  display: telugu;
+  display: thai;
+  display: tibetan;
+  display: cjk-earthly-branch;
+  display: cjk-heavenly-stem;
+  display: disclosure-closed;
+  display: disclosure-open;
+  display: japanese-informal;
+  display: japanese-formal;
+  display: korean-hangul-formal;
+  display: korean-hanja-informal;
+  display: korean-hanja-formal;
+  display: simp-chinese-informal;
+  display: simp-chinese-formal;
+  display: trad-chinese-informal;
+  display: trad-chinese-formal;
+  display: ethiopic-numeric;
 }
 
 .cssom-1 {
-	display: auto;
+  display: auto;
 }
 
 .cssom-view-1 {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .device-adapt-1 {
-	display: auto;
+  display: auto;
 }
 
 @viewport {
-	min-zoom: auto;
-	max-zoom: auto;
-	user-zoom: auto;
+  min-zoom: auto;
+  max-zoom: auto;
+  user-zoom: auto;
 }
 
 .display-3 {
-	display: contents;
-	display: run-in;
+  display: contents;
+  display: run-in;
 }
 
 .easing-1 {
-	display: auto;
+  display: auto;
 }
 
 .easing-2 {
-	display: linear(0, 0.25, 1);
+  display: linear(0, 0.25, 1);
 }
 
 .exclusions-3 {
-	wrap-flow: auto;
-	wrap-through: auto;
-	display: minimum;
-	display: maximum;
+  wrap-flow: auto;
+  wrap-through: auto;
+  display: minimum;
+  display: maximum;
 }
 
 .fill-stroke-3 {
-	fill-rule: auto;
-	fill-break: auto;
-	fill-color: auto;
-	fill-image: auto;
-	fill-origin: auto;
-	fill-position: auto;
-	fill-size: auto;
-	fill-repeat: auto;
-	fill: auto;
-	fill-opacity: auto;
-	stroke-width: auto;
-	stroke-align: auto;
-	stroke-linecap: auto;
-	stroke-linejoin: auto;
-	stroke-miterlimit: auto;
-	stroke-break: auto;
-	stroke-dasharray: auto;
-	stroke-dashoffset: auto;
-	stroke-dash-corner: auto;
-	stroke-dash-justify: auto;
-	stroke-color: auto;
-	stroke-image: auto;
-	stroke-origin: auto;
-	stroke-position: auto;
-	stroke-size: auto;
-	stroke-repeat: auto;
-	stroke: auto;
-	stroke-opacity: auto;
-	display: butt;
-	display: arcs;
-	display: stupid;
-	display: compress;
-	display: dashes;
-	display: gaps;
-	display: bounding-box;
+  fill-rule: auto;
+  fill-break: auto;
+  fill-color: auto;
+  fill-image: auto;
+  fill-origin: auto;
+  fill-position: auto;
+  fill-size: auto;
+  fill-repeat: auto;
+  fill: auto;
+  fill-opacity: auto;
+  stroke-width: auto;
+  stroke-align: auto;
+  stroke-linecap: auto;
+  stroke-linejoin: auto;
+  stroke-miterlimit: auto;
+  stroke-break: auto;
+  stroke-dasharray: auto;
+  stroke-dashoffset: auto;
+  stroke-dash-corner: auto;
+  stroke-dash-justify: auto;
+  stroke-color: auto;
+  stroke-image: auto;
+  stroke-origin: auto;
+  stroke-position: auto;
+  stroke-size: auto;
+  stroke-repeat: auto;
+  stroke: auto;
+  stroke-opacity: auto;
+  display: butt;
+  display: arcs;
+  display: stupid;
+  display: compress;
+  display: dashes;
+  display: gaps;
+  display: bounding-box;
 }
 
 .filter-effects-1 {
-	flood-color: auto;
-	flood-opacity: auto;
-	color-interpolation-filters: auto;
-	lighting-color: auto;
-	display: sRGB;
-	display: linearRGB;
+  flood-color: auto;
+  flood-opacity: auto;
+  color-interpolation-filters: auto;
+  lighting-color: auto;
+  display: sRGB;
+  display: linearRGB;
 }
 
 .flexbox-1 {
-	display: auto;
+  display: auto;
 }
 
 .font-loading-3 {
-	display: auto;
+  display: auto;
 }
 
 .fonts-3 {
-	display: common-ligatures;
-	display: no-common-ligatures;
-	display: discretionary-ligatures;
-	display: no-discretionary-ligatures;
-	display: historical-ligatures;
-	display: no-historical-ligatures;
-	display: contextual;
-	display: no-contextual;
-	display: all-small-caps;
-	display: petite-caps;
-	display: all-petite-caps;
-	display: unicase;
-	display: titling-caps;
-	display: lining-nums;
-	display: oldstyle-nums;
-	display: proportional-nums;
-	display: tabular-nums;
-	display: diagonal-fractions;
-	display: stacked-fractions;
-	display: jis78;
-	display: jis83;
-	display: jis90;
-	display: jis04;
-	display: simplified;
-	display: traditional;
-	display: proportional-width;
-	display: ordinal;
-	display: slashed-zero;
+  display: common-ligatures;
+  display: no-common-ligatures;
+  display: discretionary-ligatures;
+  display: no-discretionary-ligatures;
+  display: historical-ligatures;
+  display: no-historical-ligatures;
+  display: contextual;
+  display: no-contextual;
+  display: all-small-caps;
+  display: petite-caps;
+  display: all-petite-caps;
+  display: unicase;
+  display: titling-caps;
+  display: lining-nums;
+  display: oldstyle-nums;
+  display: proportional-nums;
+  display: tabular-nums;
+  display: diagonal-fractions;
+  display: stacked-fractions;
+  display: jis78;
+  display: jis83;
+  display: jis90;
+  display: jis04;
+  display: simplified;
+  display: traditional;
+  display: proportional-width;
+  display: ordinal;
+  display: slashed-zero;
 }
 
 .fonts-4 {
-	font-synthesis-position: auto;
-	font-synthesis-weight: auto;
-	font-synthesis-style: auto;
-	font-synthesis-small-caps: auto;
-	font-named-instance: auto;
-	font-display: auto;
-	ascent-override: auto;
-	descent-override: auto;
-	line-gap-override: auto;
-	font-optical-sizing: auto;
-	font-variation-settings: auto;
-	font-palette: auto;
-	font-variant-emoji: auto;
-	font-presentation: auto;
-	display: system-ui;
-	display: emoji;
-	display: math;
-	display: fangsong;
-	display: ui-serif;
-	display: ui-sans-serif;
-	display: ui-monospace;
-	display: ui-rounded;
-	display: xxx-large;
-	display: swap;
-	display: fallback;
-	display: historical-forms;
-	display: stylistic(feature-value-name);
-	display: styleset(feature-value-name #);
-	display: character-variant(feature-vlue-name #);
-	display: swash(feature-value-name);
-	display: ornaments(feature-value-name);
-	display: annotation(feature-value-name);
-	display: light;
-	display: dark;
+  font-synthesis-position: auto;
+  font-synthesis-weight: auto;
+  font-synthesis-style: auto;
+  font-synthesis-small-caps: auto;
+  font-named-instance: auto;
+  font-display: auto;
+  ascent-override: auto;
+  descent-override: auto;
+  line-gap-override: auto;
+  font-optical-sizing: auto;
+  font-variation-settings: auto;
+  font-palette: auto;
+  font-variant-emoji: auto;
+  font-presentation: auto;
+  display: system-ui;
+  display: emoji;
+  display: math;
+  display: fangsong;
+  display: ui-serif;
+  display: ui-sans-serif;
+  display: ui-monospace;
+  display: ui-rounded;
+  display: xxx-large;
+  display: swap;
+  display: fallback;
+  display: historical-forms;
+  display: stylistic(feature-value-name);
+  display: styleset(feature-value-name #);
+  display: character-variant(feature-vlue-name #);
+  display: swash(feature-value-name);
+  display: ornaments(feature-value-name);
+  display: annotation(feature-value-name);
+  display: light;
+  display: dark;
 }
 
 @font-feature-values Test {
-	@swash {
-		swishy: 1;
-		flowing: 2;
-	}
+  @swash {
+    swishy: 1;
+    flowing: 2;
+  }
 }
 
 @font-palette-values Test {
-	base-palette: 1;
-	override-color: 1 rgb(43, 12, 9);
+  base-palette: 1;
+  override-color: 1 rgb(43, 12, 9);
 }
 
 .gcpm-3::footnote-call,
 .gcpm-3::footnote-marker {
-	running: auto;
-	footnote-display: auto;
-	footnote-policy: auto;
-	display: footnote;
-	display: line;
-	display: element(header);
-	display: running(heading);
+  running: auto;
+  footnote-display: auto;
+  footnote-policy: auto;
+  display: footnote;
+  display: line;
+  display: element(header);
+  display: running(heading);
 }
 
 .geometry-1 {
-	display: auto;
+  display: auto;
 }
 
 .grid-1 {
-	display: minmax(0, 1);
-	display: repeat(4);
-	display: dense;
-	display: auto-flow;
-	display: span;
+  display: minmax(0, 1);
+  display: repeat(4);
+  display: dense;
+  display: auto-flow;
+  display: span;
 }
 
 .grid-2 {
-	display: auto;
+  display: auto;
 }
 
 .grid-3 {
-	masonry-direction: auto;
-	masonry-fill: auto;
-	masonry-flow: auto;
-	masonry: auto;
-	masonry-template-tracks: auto;
-	masonry-template-areas: auto;
-	masonry-auto-tracks: auto;
-	masonry-track-start: auto;
-	masonry-track-end: auto;
-	masonry-track: auto;
-	masonry-slack: auto;
-	display: masonry;
-	display: inline-masonry;
+  masonry-direction: auto;
+  masonry-fill: auto;
+  masonry-flow: auto;
+  masonry: auto;
+  masonry-template-tracks: auto;
+  masonry-template-areas: auto;
+  masonry-auto-tracks: auto;
+  masonry-track-start: auto;
+  masonry-track-end: auto;
+  masonry-track: auto;
+  masonry-slack: auto;
+  display: masonry;
+  display: inline-masonry;
 }
 
 .highlight-api-1::highlight(test) {
-	display: auto;
+  display: auto;
 }
 
 .html5,
@@ -534,268 +534,268 @@ rb,
 rtc,
 slot,
 template {
-	display: auto;
+  display: auto;
 }
 
 .images-3 {
-	image-orientation: auto;
-	display: snap;
-	display: flip;
-	display: from-image;
-	display: pixelated;
-	display: repeating-linear-gradient(to bottom, yellow, blue);
-	display: repeating-radial-gradient(farthest-corner at 50% 50%, yellow, green);
+  image-orientation: auto;
+  display: snap;
+  display: flip;
+  display: from-image;
+  display: pixelated;
+  display: repeating-linear-gradient(to bottom, yellow, blue);
+  display: repeating-radial-gradient(farthest-corner at 50% 50%, yellow, green);
 }
 
 .images-4 {
-	image-resolution: auto;
-	display: image("sprite.svg#xywh=40,0,20,20");
-	display: element(#test);
+  image-resolution: auto;
+  display: image("sprite.svg#xywh=40,0,20,20");
+  display: element(#test);
 }
 
 .inline-3 {
-	dominant-baseline: auto;
-	alignment-baseline: auto;
-	baseline-source: auto;
-	baseline-shift: auto;
-	line-fit-edge: auto;
-	text-box: auto;
-	text-box-edge: auto;
-	text-box-trim: auto;
-	inline-sizing: auto;
-	initial-letter: auto;
-	initial-letter-align: auto;
-	initial-letter-wrap: auto;
-	display: mathematical;
-	display: central;
-	display: ideographic;
-	display: leading;
-	display: cap;
-	display: ex;
-	display: ideographic-ink;
-	display: drop;
-	display: raise;
-	display: trim-start;
-	display: trim-end;
-	display: trim-both;
+  dominant-baseline: auto;
+  alignment-baseline: auto;
+  baseline-source: auto;
+  baseline-shift: auto;
+  line-fit-edge: auto;
+  text-box: auto;
+  text-box-edge: auto;
+  text-box-trim: auto;
+  inline-sizing: auto;
+  initial-letter: auto;
+  initial-letter-align: auto;
+  initial-letter-wrap: auto;
+  display: mathematical;
+  display: central;
+  display: ideographic;
+  display: leading;
+  display: cap;
+  display: ex;
+  display: ideographic-ink;
+  display: drop;
+  display: raise;
+  display: trim-start;
+  display: trim-end;
+  display: trim-both;
 }
 
 .layout-api-1 {
-	display: auto;
+  display: auto;
 }
 
 .line-grid-1 {
-	line-grid: auto;
-	line-snap: auto;
-	box-snap: auto;
-	display: create;
-	display: block-start;
-	display: block-end;
-	display: first-baseline;
-	display: last-baseline;
+  line-grid: auto;
+  line-snap: auto;
+  box-snap: auto;
+  display: create;
+  display: block-start;
+  display: block-end;
+  display: first-baseline;
+  display: last-baseline;
 }
 
 .lists-3::marker {
-	marker-side: auto;
-	counter-set: auto;
-	display: match-self;
-	display: list-container;
-	display: counters(lack-of-example);
+  marker-side: auto;
+  counter-set: auto;
+  display: match-self;
+  display: list-container;
+  display: counters(lack-of-example);
 }
 
 .logical-1 {
-	block-size: auto;
-	inline-size: auto;
-	min-block-size: auto;
-	min-inline-size: auto;
-	max-block-size: auto;
-	max-inline-size: auto;
-	margin-block-start: auto;
-	margin-block-end: auto;
-	margin-inline-start: auto;
-	margin-inline-end: auto;
-	margin-block: auto;
-	margin-inline: auto;
-	padding-block-start: auto;
-	padding-block-end: auto;
-	padding-inline-start: auto;
-	padding-inline-end: auto;
-	padding-block: auto;
-	padding-inline: auto;
-	border-block-start-width: auto;
-	border-block-end-width: auto;
-	border-inline-start-width: auto;
-	border-inline-end-width: auto;
-	border-block-width: auto;
-	border-inline-width: auto;
-	border-block-start-style: auto;
-	border-block-end-style: auto;
-	border-inline-start-style: auto;
-	border-inline-end-style: auto;
-	border-block-style: auto;
-	border-inline-style: auto;
-	border-block-start-color: auto;
-	border-block-end-color: auto;
-	border-inline-start-color: auto;
-	border-inline-end-color: auto;
-	border-block-color: auto;
-	border-inline-color: auto;
-	border-block-start: auto;
-	border-block-end: auto;
-	border-inline-start: auto;
-	border-inline-end: auto;
-	border-block: auto;
-	border-inline: auto;
-	border-start-start-radius: auto;
-	border-start-end-radius: auto;
-	border-end-start-radius: auto;
-	border-end-end-radius: auto;
-	display: logical;
-	display: physical;
-	display: rotate;
+  block-size: auto;
+  inline-size: auto;
+  min-block-size: auto;
+  min-inline-size: auto;
+  max-block-size: auto;
+  max-inline-size: auto;
+  margin-block-start: auto;
+  margin-block-end: auto;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  margin-block: auto;
+  margin-inline: auto;
+  padding-block-start: auto;
+  padding-block-end: auto;
+  padding-inline-start: auto;
+  padding-inline-end: auto;
+  padding-block: auto;
+  padding-inline: auto;
+  border-block-start-width: auto;
+  border-block-end-width: auto;
+  border-inline-start-width: auto;
+  border-inline-end-width: auto;
+  border-block-width: auto;
+  border-inline-width: auto;
+  border-block-start-style: auto;
+  border-block-end-style: auto;
+  border-inline-start-style: auto;
+  border-inline-end-style: auto;
+  border-block-style: auto;
+  border-inline-style: auto;
+  border-block-start-color: auto;
+  border-block-end-color: auto;
+  border-inline-start-color: auto;
+  border-inline-end-color: auto;
+  border-block-color: auto;
+  border-inline-color: auto;
+  border-block-start: auto;
+  border-block-end: auto;
+  border-inline-start: auto;
+  border-inline-end: auto;
+  border-block: auto;
+  border-inline: auto;
+  border-start-start-radius: auto;
+  border-start-end-radius: auto;
+  border-end-start-radius: auto;
+  border-end-end-radius: auto;
+  display: logical;
+  display: physical;
+  display: rotate;
 }
 
 .masking-1,
 mask {
-	clip-path: auto;
-	clip-rule: auto;
-	mask-image: auto;
-	mask-mode: auto;
-	mask-repeat: auto;
-	mask-position: auto;
-	mask-clip: auto;
-	mask-origin: auto;
-	mask-size: auto;
-	mask-composite: auto;
-	mask: auto;
-	mask-border-source: auto;
-	display: fill-box;
-	display: stroke-box;
-	display: view-box;
-	display: nonzero;
-	display: evenodd;
-	display: alpha;
-	display: luminance;
-	display: no-clip;
-	display: add;
-	display: subtract;
-	display: intersect;
-	display: exclude;
-	mask-border-mode: auto;
-	mask-border-slice: auto;
-	mask-border-width: auto;
-	mask-border-outset: auto;
-	mask-border-repeat: auto;
-	mask-border: auto;
-	mask-type: auto;
+  clip-path: auto;
+  clip-rule: auto;
+  mask-image: auto;
+  mask-mode: auto;
+  mask-repeat: auto;
+  mask-position: auto;
+  mask-clip: auto;
+  mask-origin: auto;
+  mask-size: auto;
+  mask-composite: auto;
+  mask: auto;
+  mask-border-source: auto;
+  display: fill-box;
+  display: stroke-box;
+  display: view-box;
+  display: nonzero;
+  display: evenodd;
+  display: alpha;
+  display: luminance;
+  display: no-clip;
+  display: add;
+  display: subtract;
+  display: intersect;
+  display: exclude;
+  mask-border-mode: auto;
+  mask-border-slice: auto;
+  mask-border-width: auto;
+  mask-border-outset: auto;
+  mask-border-repeat: auto;
+  mask-border: auto;
+  mask-type: auto;
 }
 
 .motion-1 {
-	offset-path: auto;
-	offset-distance: auto;
-	offset-position: auto;
-	offset-anchor: auto;
-	offset-rotate: auto;
-	offset: auto;
-	display: ray(45deg closest-side);
-	display: path(M 100 100 L 300 100 L 200 300 z);
+  offset-path: auto;
+  offset-distance: auto;
+  offset-position: auto;
+  offset-anchor: auto;
+  offset-rotate: auto;
+  offset: auto;
+  display: ray(45deg closest-side);
+  display: path(M 100 100 L 300 100 L 200 300 z);
 }
 
 .multicol-1 {
-	display: balance-all;
+  display: balance-all;
 }
 
 .namespace-3 {
-	display: auto;
+  display: auto;
 }
 
 .nav-1 {
-	spatial-navigation-contain: auto;
-	spatial-navigation-action: auto;
-	spatial-navigation-function: auto;
-	display: focus;
+  spatial-navigation-contain: auto;
+  spatial-navigation-action: auto;
+  spatial-navigation-function: auto;
+  display: focus;
 }
 
 .overflow-3 {
-	overflow-clip-margin: auto;
-	overflow-block: auto;
-	overflow-inline: auto;
-	scrollbar-gutter: auto;
-	block-ellipsis: auto;
-	line-clamp: auto;
-	max-lines: auto;
-	continue: auto;
+  overflow-clip-margin: auto;
+  overflow-block: auto;
+  overflow-inline: auto;
+  scrollbar-gutter: auto;
+  block-ellipsis: auto;
+  line-clamp: auto;
+  max-lines: auto;
+  continue: auto;
 }
 
 .overflow-4::nth-fragment(1) {
-	overflow-clip-margin-block: auto;
-	overflow-clip-margin-block-start: auto;
-	overflow-clip-margin-block-end: auto;
-	overflow-clip-margin-inline: auto;
-	overflow-clip-margin-inline-start: auto;
-	overflow-clip-margin-inline-end: auto;
-	overflow-clip-margin-top: auto;
-	overflow-clip-margin-right: auto;
-	overflow-clip-margin-bottom: auto;
-	overflow-clip-margin-left: auto;
-	display: stable;
-	display: force;
-	display: overflow;
-	display: paginate;
-	display: fragments;
+  overflow-clip-margin-block: auto;
+  overflow-clip-margin-block-start: auto;
+  overflow-clip-margin-block-end: auto;
+  overflow-clip-margin-inline: auto;
+  overflow-clip-margin-inline-start: auto;
+  overflow-clip-margin-inline-end: auto;
+  overflow-clip-margin-top: auto;
+  overflow-clip-margin-right: auto;
+  overflow-clip-margin-bottom: auto;
+  overflow-clip-margin-left: auto;
+  display: stable;
+  display: force;
+  display: overflow;
+  display: paginate;
+  display: fragments;
 }
 
 .overscroll-1 {
-	overscroll-behavior: auto;
-	overscroll-behavior-block: auto;
-	overscroll-behavior-inline: auto;
-	overscroll-behavior-x: auto;
-	overscroll-behavior-y: auto;
+  overscroll-behavior: auto;
+  overscroll-behavior-block: auto;
+  overscroll-behavior-inline: auto;
+  overscroll-behavior-x: auto;
+  overscroll-behavior-y: auto;
 }
 
 .page-3 {
-	marks: auto;
-	bleed: auto;
-	page-orientation: auto;
+  marks: auto;
+  bleed: auto;
+  page-orientation: auto;
 }
 
 .page-floats-3 {
-	float-reference: auto;
-	float-defer: auto;
-	float-offset: auto;
-	display: inline-start;
-	display: inline-end;
-	display: snap-block;
-	display: snap-inline;
-	display: snap-block(2em, near);
-	display: snap-inline(2em, near);
+  float-reference: auto;
+  float-defer: auto;
+  float-offset: auto;
+  display: inline-start;
+  display: inline-end;
+  display: snap-block;
+  display: snap-inline;
+  display: snap-block(2em, near);
+  display: snap-inline(2em, near);
 }
 
 .paint-api-1 {
-	display: paint(my_logo);
+  display: paint(my_logo);
 }
 
 .pointerevents {
-	touch-action: auto;
-	display: pan-x;
-	display: pan-y;
-	display: manipulation;
+  touch-action: auto;
+  display: pan-x;
+  display: pan-y;
+  display: manipulation;
 }
 
 .position-3 {
-	inset-block-start: auto;
-	inset-block-end: auto;
-	inset-inline-start: auto;
-	inset-inline-end: auto;
-	inset-block: auto;
-	inset-inline: auto;
-	inset: auto;
+  inset-block-start: auto;
+  inset-block-end: auto;
+  inset-inline-start: auto;
+  inset-inline-end: auto;
+  inset-block: auto;
+  inset-inline: auto;
+  inset: auto;
 }
 
 .properties-values-api-1 {
-	syntax: auto;
-	inherits: auto;
-	initial-value: auto;
+  syntax: auto;
+  inherits: auto;
+  initial-value: auto;
 }
 
 .pseudo-4::first-letter::prefix,
@@ -804,62 +804,62 @@ mask {
 .pseudo-4::spelling-error,
 .pseudo-4::grammer-error,
 .pseudo-4::file-selectors-button {
-	display: auto;
+  display: auto;
 }
 
 .regions-1:region {
-	flow-into: auto;
-	flow-from: auto;
-	region-fragment: auto;
-	display: element;
-	display: content;
-	display: break;
-	display: region;
-	display: avoid-region;
+  flow-into: auto;
+  flow-from: auto;
+  region-fragment: auto;
+  display: element;
+  display: content;
+  display: break;
+  display: region;
+  display: avoid-region;
 }
 
 .resize-observer-1 {
-	display: auto;
+  display: auto;
 }
 
 .rhythm-1 {
-	line-height-step: auto;
-	block-step-size: auto;
-	block-step-insert: auto;
-	block-step-align: auto;
-	display: margin;
-	display: up;
-	display: down;
-	display: nearest;
-	block-step-round: auto;
-	block-step: auto;
+  line-height-step: auto;
+  block-step-size: auto;
+  block-step-insert: auto;
+  block-step-align: auto;
+  display: margin;
+  display: up;
+  display: down;
+  display: nearest;
+  block-step-round: auto;
+  block-step: auto;
 }
 
 @media (device-radius: 50%) {
-	.round-display-1 {
-		shape-inside: auto;
-		border-boundary: auto;
-		polar-angle: auto;
-		polar-distance: auto;
-		display: outside-shape;
-		display: shape-box;
-		display: parent;
-		display: polar;
-	}
+  .round-display-1 {
+    shape-inside: auto;
+    border-boundary: auto;
+    polar-angle: auto;
+    polar-distance: auto;
+    display: outside-shape;
+    display: shape-box;
+    display: parent;
+    display: polar;
+  }
 }
 
 .ruby-1 {
-	ruby-position: auto;
-	ruby-merge: auto;
-	ruby-align: auto;
-	ruby-overhang: auto;
-	display: ruby;
-	display: ruby-base;
-	display: ruby-text;
-	display: ruby-base-container;
-	display: ruby-text-container;
-	display: inter-character;
-	display: merge;
+  ruby-position: auto;
+  ruby-merge: auto;
+  ruby-align: auto;
+  ruby-overhang: auto;
+  display: ruby;
+  display: ruby-base;
+  display: ruby-text;
+  display: ruby-base-container;
+  display: ruby-text-container;
+  display: inter-character;
+  display: merge;
 }
 
 .scoping-1:scope-context div,
@@ -869,67 +869,67 @@ mask {
 .scoping-1::shadow,
 .scoping-1::content,
 .scoping-1 /deep/ span {
-	display: auto;
+  display: auto;
 }
 
 @scope .scoping-1 {
-	div {
-		display: auto;
-	}
+  div {
+    display: auto;
+  }
 }
 
 .scroll-anchoring-1 {
-	overflow-anchor: auto;
+  overflow-anchor: auto;
 }
 
 .scroll-animations-1 {
-	scroll-timeline-name: auto;
-	scroll-timeline-axis: auto;
-	scroll-timeline: auto;
-	view-timeline-name: auto;
-	view-timeline-axis: auto;
-	view-timeline-inset: auto;
-	view-timeline: auto;
-	animation-range: auto;
-	animation-delay-start: auto;
-	animation-delay-end: auto;
-	timeline-scope: auto;
-	display: entry;
-	display: exit;
-	display: defer;
-	display: ancestor;
+  scroll-timeline-name: auto;
+  scroll-timeline-axis: auto;
+  scroll-timeline: auto;
+  view-timeline-name: auto;
+  view-timeline-axis: auto;
+  view-timeline-inset: auto;
+  view-timeline: auto;
+  animation-range: auto;
+  animation-delay-start: auto;
+  animation-delay-end: auto;
+  timeline-scope: auto;
+  display: entry;
+  display: exit;
+  display: defer;
+  display: ancestor;
 }
 
 .scroll-snap-1 {
-	scroll-snap-type: auto;
-	scroll-padding: auto;
-	scroll-margin: auto;
-	scroll-snap-align: auto;
-	scroll-snap-stop: auto;
-	scroll-padding-top: auto;
-	scroll-padding-right: auto;
-	scroll-padding-bottom: auto;
-	scroll-padding-left: auto;
-	scroll-padding-inline-start: auto;
-	scroll-padding-block-start: auto;
-	scroll-padding-inline-end: auto;
-	scroll-padding-block-end: auto;
-	scroll-padding-block: auto;
-	scroll-padding-inline: auto;
-	scroll-margin-top: auto;
-	scroll-margin-right: auto;
-	scroll-margin-bottom: auto;
-	scroll-margin-left: auto;
-	scroll-margin-inline-start: auto;
-	scroll-margin-block-start: auto;
-	scroll-margin-inline-end: auto;
-	scroll-margin-block-end: auto;
-	scroll-margin-block: auto;
-	scroll-margin-inline: auto;
-	display: x;
-	display: y;
-	display: mandatory;
-	display: proximity;
+  scroll-snap-type: auto;
+  scroll-padding: auto;
+  scroll-margin: auto;
+  scroll-snap-align: auto;
+  scroll-snap-stop: auto;
+  scroll-padding-top: auto;
+  scroll-padding-right: auto;
+  scroll-padding-bottom: auto;
+  scroll-padding-left: auto;
+  scroll-padding-inline-start: auto;
+  scroll-padding-block-start: auto;
+  scroll-padding-inline-end: auto;
+  scroll-padding-block-end: auto;
+  scroll-padding-block: auto;
+  scroll-padding-inline: auto;
+  scroll-margin-top: auto;
+  scroll-margin-right: auto;
+  scroll-margin-bottom: auto;
+  scroll-margin-left: auto;
+  scroll-margin-inline-start: auto;
+  scroll-margin-block-start: auto;
+  scroll-margin-inline-end: auto;
+  scroll-margin-block-end: auto;
+  scroll-margin-block: auto;
+  scroll-margin-inline: auto;
+  display: x;
+  display: y;
+  display: mandatory;
+  display: proximity;
 }
 
 .scroll-snap-2,
@@ -938,12 +938,12 @@ mask {
 .scroll-snap-3:snapped-inline,
 .scroll-snap-2:snapped-block,
 .scroll-snap-2:snapped {
-	scroll-start-target: auto;
+  scroll-start-target: auto;
 }
 
 .scrollbars-1 {
-	scrollbar-color: auto;
-	scrollbar-width: auto;
+  scrollbar-color: auto;
+  scrollbar-width: auto;
 }
 
 .selectors-3:indeterminate,
@@ -952,7 +952,7 @@ mask {
 .selectors-3:nth-of-type(2n+1),
 .selectors-3:nth-last-of-type(n+2),
 .selectors-3:not([DISABLED]) {
-	display: auto;
+  display: auto;
 }
 
 .selectors-4 | h1,
@@ -996,66 +996,66 @@ mask {
 .selectors-4:user-valid,
 .selectors-4:open,
 .selectors-4:closed {
-	display: auto;
+  display: auto;
 }
 
 .shadow-parts::part(textspan) {
-	display: auto;
+  display: auto;
 }
 
 .shapes-1 {
-	shape-outside: auto;
-	shape-image-threshold: auto;
-	shape-margin: auto;
-	display: margin-box;
-	display: inset(50% 50% 50% 50%);
-	display: circle(100px 50px 100px);
-	display: ellipse(0 0 250px 100px);
-	display: polygon(0 0, 100% 100%, 0 100%);
+  shape-outside: auto;
+  shape-image-threshold: auto;
+  shape-margin: auto;
+  display: margin-box;
+  display: inset(50% 50% 50% 50%);
+  display: circle(100px 50px 100px);
+  display: ellipse(0 0 250px 100px);
+  display: polygon(0 0, 100% 100%, 0 100%);
 }
 
 .sizing-3 {
-	display: auto;
+  display: auto;
 }
 
 .sizing-4 {
-	contain-intrinsic-size: auto;
-	min-intrinsic-sizing: auto;
-	display: fit-content;
-	display: zero-if-scroll;
-	display: zero-if-extrinsic;
+  contain-intrinsic-size: auto;
+  min-intrinsic-sizing: auto;
+  display: fit-content;
+  display: zero-if-scroll;
+  display: zero-if-extrinsic;
 }
 
 .speech-1 {
-	voice-volume: auto;
-	voice-balance: auto;
-	rest-before: auto;
-	rest-after: auto;
-	rest: auto;
-	voice-rate: auto;
-	voice-pitch: auto;
-	voice-range: auto;
-	voice-stress: auto;
-	voice-duration: auto;
-	display: 10dB;
-	display: literal-punctuation;
-	display: no-punctuation;
-	display: x-weak;
-	display: weak;
-	display: strong;
-	display: x-strong;
-	display: young;
-	display: old;
-	display: neutral;
-	display: preserve;
-	display: 10st;
-	display: moderate;
-	display: reduced;
-	display: never;
+  voice-volume: auto;
+  voice-balance: auto;
+  rest-before: auto;
+  rest-after: auto;
+  rest: auto;
+  voice-rate: auto;
+  voice-pitch: auto;
+  voice-range: auto;
+  voice-stress: auto;
+  voice-duration: auto;
+  display: 10dB;
+  display: literal-punctuation;
+  display: no-punctuation;
+  display: x-weak;
+  display: weak;
+  display: strong;
+  display: x-strong;
+  display: young;
+  display: old;
+  display: neutral;
+  display: preserve;
+  display: 10st;
+  display: moderate;
+  display: reduced;
+  display: never;
 }
 
 .style-attr {
-	display: auto;
+  display: auto;
 }
 
 .svg2,
@@ -1126,272 +1126,272 @@ tspan,
 unknown,
 use,
 view {
-	color-interpolation: auto;
-	color-rendering: auto;
-	cx: auto;
-	cy: auto;
-	d: auto;
-	marker-end: auto;
-	marker-mid: auto;
-	marker-start: auto;
-	r: auto;
-	rx: auto;
-	ry: auto;
-	shape-rendering: auto;
-	solid-color: auto;
-	solid-opacity: auto;
-	stop-color: auto;
-	stop-opacity: auto;
-	text-anchor: auto;
-	vector-effect: auto;
-	x: auto;
-	y: auto;
-	display: crispEdges;
-	display: geometricPrecision;
-	display: optimizeQuality;
-	display: viewport;
-	display: context-fill;
-	display: context-stroke;
-	display: fixed-position;
-	display: miter;
-	display: miter-clip;
-	display: non-scaling-stroke;
-	display: non-scaling-size;
-	display: non-rotation;
-	display: child(1);
-	display: icc-color(foo);
+  color-interpolation: auto;
+  color-rendering: auto;
+  cx: auto;
+  cy: auto;
+  d: auto;
+  marker-end: auto;
+  marker-mid: auto;
+  marker-start: auto;
+  r: auto;
+  rx: auto;
+  ry: auto;
+  shape-rendering: auto;
+  solid-color: auto;
+  solid-opacity: auto;
+  stop-color: auto;
+  stop-opacity: auto;
+  text-anchor: auto;
+  vector-effect: auto;
+  x: auto;
+  y: auto;
+  display: crispEdges;
+  display: geometricPrecision;
+  display: optimizeQuality;
+  display: viewport;
+  display: context-fill;
+  display: context-stroke;
+  display: fixed-position;
+  display: miter;
+  display: miter-clip;
+  display: non-scaling-stroke;
+  display: non-scaling-size;
+  display: non-rotation;
+  display: child(1);
+  display: icc-color(foo);
 }
 
 .syntax-3 {
-	display: auto;
+  display: auto;
 }
 
 .tables-3 {
-	display: auto;
+  display: auto;
 }
 
 .text-3 {
-	tab-size: auto;
-	text-align-all: auto;
-	display: loose;
-	display: strict;
-	display: match-parent;
-	display: hanging;
-	display: each-line;
-	display: full-width;
-	display: anywhere;
-	display: justify-all;
-	display: break-spaces;
+  tab-size: auto;
+  text-align-all: auto;
+  display: loose;
+  display: strict;
+  display: match-parent;
+  display: hanging;
+  display: each-line;
+  display: full-width;
+  display: anywhere;
+  display: justify-all;
+  display: break-spaces;
 }
 
 .text-4 {
-	white-space-collapse: auto;
-	white-space-trim: auto;
-	text-wrap: auto;
-	wrap-before: auto;
-	wrap-after: auto;
-	wrap-inside: auto;
-	hyphenate-character: auto;
-	hyphenate-limit-zone: auto;
-	hyphenate-limit-chars: auto;
-	hyphenate-limit-lines: auto;
-	hyphenate-limit-last: auto;
-	text-group-align: auto;
-	line-padding: auto;
-	text-autospace: auto;
-	text-spacing-trim: auto;
-	text-spacing: auto;
-	word-boundary-detection: auto;
-	word-space-transform: auto;
-	display: math-auto;
-	display: preserve-breaks;
-	display: preserve-spaces;
-	display: discard-inner;
-	display: discard-before;
-	display: discard-after;
-	display: pretty;
-	display: avoid-line;
-	display: avoid-flex;
-	display: pre-wrap-auto;
-	display: no-limit;
-	display: spread;
-	display: space-all;
-	display: trim-both;
-	display: space-first;
-	display: trim-all;
-	display: no-compress;
-	display: ideograph-alpha;
-	display: ideograph-numeric;
-	display: punctuation;
-	display: ideographic-space;
+  white-space-collapse: auto;
+  white-space-trim: auto;
+  text-wrap: auto;
+  wrap-before: auto;
+  wrap-after: auto;
+  wrap-inside: auto;
+  hyphenate-character: auto;
+  hyphenate-limit-zone: auto;
+  hyphenate-limit-chars: auto;
+  hyphenate-limit-lines: auto;
+  hyphenate-limit-last: auto;
+  text-group-align: auto;
+  line-padding: auto;
+  text-autospace: auto;
+  text-spacing-trim: auto;
+  text-spacing: auto;
+  word-boundary-detection: auto;
+  word-space-transform: auto;
+  display: math-auto;
+  display: preserve-breaks;
+  display: preserve-spaces;
+  display: discard-inner;
+  display: discard-before;
+  display: discard-after;
+  display: pretty;
+  display: avoid-line;
+  display: avoid-flex;
+  display: pre-wrap-auto;
+  display: no-limit;
+  display: spread;
+  display: space-all;
+  display: trim-both;
+  display: space-first;
+  display: trim-all;
+  display: no-compress;
+  display: ideograph-alpha;
+  display: ideograph-numeric;
+  display: punctuation;
+  display: ideographic-space;
 }
 
 .text-decor-3 {
-	text-decoration-color: auto;
-	text-decoration-line: auto;
-	text-decoration-style: auto;
-	text-emphasis: auto;
-	text-emphasis-color: auto;
-	text-emphasis-position: auto;
-	text-emphasis-style: auto;
-	display: filled;
-	display: dot;
-	display: sesame;
-	display: alphabetic;
-	display: ink;
-	display: under;
-	display: wavy;
-	display: under;
-	display: over;
-	display: triangle;
+  text-decoration-color: auto;
+  text-decoration-line: auto;
+  text-decoration-style: auto;
+  text-emphasis: auto;
+  text-emphasis-color: auto;
+  text-emphasis-position: auto;
+  text-emphasis-style: auto;
+  display: filled;
+  display: dot;
+  display: sesame;
+  display: alphabetic;
+  display: ink;
+  display: under;
+  display: wavy;
+  display: under;
+  display: over;
+  display: triangle;
 }
 
 .text-decor-4 {
-	text-decoration-thickness: auto;
-	text-underline-offset: auto;
-	text-decoration-skip: auto;
-	text-decoration-skip-ink: auto;
-	text-emphasis-skip: auto;
-	display: spelling-error;
-	display: grammer-error;
-	display: objects;
-	display: from-font;
-	display: spaces;
-	display: leading-spaces;
-	display: trailing-spaces;
-	display: edges;
-	display: box-decoration;
-	display: symbols;
-	display: narrow;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-decoration-skip: auto;
+  text-decoration-skip-ink: auto;
+  text-emphasis-skip: auto;
+  display: spelling-error;
+  display: grammer-error;
+  display: objects;
+  display: from-font;
+  display: spaces;
+  display: leading-spaces;
+  display: trailing-spaces;
+  display: edges;
+  display: box-decoration;
+  display: symbols;
+  display: narrow;
 }
 
 .timing-1 {
-	display: frames(2);
+  display: frames(2);
 }
 
 .transforms-1 {
-	transform-box: auto;
+  transform-box: auto;
 }
 
 .tranforms-2 {
-	rotate: auto;
-	scale: auto;
-	translate: auto;
-	display: flat;
+  rotate: auto;
+  scale: auto;
+  translate: auto;
+  display: flat;
 }
 
 .transitions-1 {
-	display: auto;
+  display: auto;
 }
 
 @starting-style {
-	.transitions-2 {
-		display: auto;
-	}
+  .transitions-2 {
+    display: auto;
+  }
 }
 
 .typed-om-1 {
-	display: auto;
+  display: auto;
 }
 
 .ui-3 {
-	caret-color: auto;
-	display: grab;
-	display: grabbing;
+  caret-color: auto;
+  display: grab;
+  display: grabbing;
 }
 
 .ui-4 {
-	caret: auto;
-	caret-shape: auto;
-	display: fade;
-	display: fade(1em);
-	display: underscore;
+  caret: auto;
+  caret-shape: auto;
+  display: fade;
+  display: fade(1em);
+  display: underscore;
 }
 
 .unofficials {
-	backdrop-filter: auto;
-	display: env(safe-area-inset-top, 20px);
+  backdrop-filter: auto;
+  display: env(safe-area-inset-top, 20px);
 }
 
 .values-3 {
-	display: 1q;
-	display: 1turn;
+  display: 1q;
+  display: 1turn;
 }
 
 .values-4 {
-	display: 1vi;
-	display: 1vb;
-	display: 1rex;
-	display: 1cap;
-	display: 1rcap;
-	display: 1rch;
-	display: 1ic;
-	display: 1ric;
-	display: 1lh;
-	display: 1rlh;
-	display: 1svh;
-	display: 1svw;
-	display: 1svi;
-	display: 1svb;
-	display: 1svmin;
-	display: 1svmax;
-	display: 1lvh;
-	display: 1lvw;
-	display: 1lvi;
-	display: 1lvb;
-	display: 1lvmin;
-	display: 1lvmax;
-	display: 1dvh;
-	display: 1dvw;
-	display: 1dvi;
-	display: 1dvb;
-	display: 1dvmin;
-	display: 1dvmax;
-	display: min(0, 1);
-	display: max(0, 1);
-	display: clamp(0, 100, 2);
-	display: round(var(--width), 50px);
-	display: mod(-18px, 5px);
-	display: rem(-18px, 5px);
-	display: sin(45deg);
-	display: cos(1);
-	display: tan(1);
-	display: asin(45deg);
-	display: acos(1);
-	display: atan(1);
-	display: atan2(1, -1);
-	display: pow(1.5, -1);
-	display: sqrt(4);
-	display: hypot(30px, 40px);
-	display: log(10);
-	display: exp(1);
-	display: abs(-1);
-	display: sign(-4);
+  display: 1vi;
+  display: 1vb;
+  display: 1rex;
+  display: 1cap;
+  display: 1rcap;
+  display: 1rch;
+  display: 1ic;
+  display: 1ric;
+  display: 1lh;
+  display: 1rlh;
+  display: 1svh;
+  display: 1svw;
+  display: 1svi;
+  display: 1svb;
+  display: 1svmin;
+  display: 1svmax;
+  display: 1lvh;
+  display: 1lvw;
+  display: 1lvi;
+  display: 1lvb;
+  display: 1lvmin;
+  display: 1lvmax;
+  display: 1dvh;
+  display: 1dvw;
+  display: 1dvi;
+  display: 1dvb;
+  display: 1dvmin;
+  display: 1dvmax;
+  display: min(0, 1);
+  display: max(0, 1);
+  display: clamp(0, 100, 2);
+  display: round(var(--width), 50px);
+  display: mod(-18px, 5px);
+  display: rem(-18px, 5px);
+  display: sin(45deg);
+  display: cos(1);
+  display: tan(1);
+  display: asin(45deg);
+  display: acos(1);
+  display: atan(1);
+  display: atan2(1, -1);
+  display: pow(1.5, -1);
+  display: sqrt(4);
+  display: hypot(30px, 40px);
+  display: log(10);
+  display: exp(1);
+  display: abs(-1);
+  display: sign(-4);
 }
 
 .values-5 {
-	interpolate-size: auto;
-	display: numeric-only;
-	display: allow-keyword;
-	display: progress(1, 0, 100);
-	display: media-progress(width, 0, 100);
-	display: container-progress(width, 0, 100);
-	display: calc-mix(0.5, 0, 100);
-	display: color-mix(15%, black, white);
-	display: transform-mix(1, scale(0.5), rotate(10deg));
-	display: mix(90%, red, blue);
-	display: cross-fade(15%, url(foo.png), white);
-	display: toggle(italic, normal);
-	display: first-valid(center, none, 1px);
-	display: random(1, 10, by 1);
-	display: random-item(--x, red, yellow, green);
-	display: sibling-count();
-	display: sibling-index();
-	display: calc-size(any, 0px);
+  interpolate-size: auto;
+  display: numeric-only;
+  display: allow-keyword;
+  display: progress(1, 0, 100);
+  display: media-progress(width, 0, 100);
+  display: container-progress(width, 0, 100);
+  display: calc-mix(0.5, 0, 100);
+  display: color-mix(15%, black, white);
+  display: transform-mix(1, scale(0.5), rotate(10deg));
+  display: mix(90%, red, blue);
+  display: cross-fade(15%, url(foo.png), white);
+  display: toggle(italic, normal);
+  display: first-valid(center, none, 1px);
+  display: random(1, 10, by 1);
+  display: random-item(--x, red, yellow, green);
+  display: sibling-count();
+  display: sibling-index();
+  display: calc-size(any, 0px);
 }
 
 .variables-1 {
-	display: auto;
+  display: auto;
 }
 
 .view-transitions-1::view-transition,
@@ -1399,55 +1399,55 @@ view {
 .view-transitions-1::view-transition-image-pair(*),
 .view-transitions-1::view-transition-old(*),
 .view-transitions-1::view-transition-new(*) {
-	view-transition-name: auto;
+  view-transition-name: auto;
 }
 
 .view-transitions-2:active-view-transition,
 .view-transitions-2:active-view-transition-type(slide-in) {
-	view-transition-class: auto;
-	navigation: auto;
-	types: auto;
+  view-transition-class: auto;
+  navigation: auto;
+  types: auto;
 }
 
 .web-animations-1 {
-	display: auto;
+  display: auto;
 }
 
 .webvtt1::cue,
 .webvtt1::cue-region,
 .webvtt1::cue(#cue1),
 .webvtt1::cue-region(#scroll), {
-	display: auto;
+  display: auto;
 }
 
 .will-change-1 {
-	will-change: auto;
-	display: scroll-position;
+  will-change: auto;
+  display: scroll-position;
 }
 
 .worklets-1 {
-	display: auto;
+  display: auto;
 }
 
 .writing-modes-3 {
-	writing-mode: auto;
-	text-orientation: auto;
-	text-combine-upright: auto;
-	glyph-orientation-vertical: auto;
-	display: before;
-	display: after;
-	display: mixed;
-	display: upright;
-	display: plaintext;
-	display: sideways;
-	display: isolate;
-	display: isolate-override;
-	display: horizontal-tb;
-	display: vertical-rl;
-	display: vertical-lr;
+  writing-mode: auto;
+  text-orientation: auto;
+  text-combine-upright: auto;
+  glyph-orientation-vertical: auto;
+  display: before;
+  display: after;
+  display: mixed;
+  display: upright;
+  display: plaintext;
+  display: sideways;
+  display: isolate;
+  display: isolate-override;
+  display: horizontal-tb;
+  display: vertical-rl;
+  display: vertical-lr;
 }
 
 .writing-modes-4 {
-	display: sideways-rl;
-	display: sideways-lr;
+  display: sideways-rl;
+  display: sideways-lr;
 }
