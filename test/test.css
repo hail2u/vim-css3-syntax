@@ -1383,6 +1383,8 @@ view {
   display: cross-fade(15%, url(foo.png), white);
   display: toggle(italic, normal);
   display: first-valid(center, none, 1px);
+  display: if(media(screen): red; else: auto);
+  display: inherit(--foo, auto);
   display: random(1, 10, by 1);
   display: random-item(--x, red, yellow, green);
   display: sibling-count();
