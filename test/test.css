@@ -752,6 +752,12 @@ mask {
   display: fragments;
 }
 
+.overflow-5::scroll-marker-group,
+.overflow-5::scroll-marker,
+.overflow-5:target-current {
+	sroll-marker-group: auto;
+}
+
 .overscroll-1 {
   overscroll-behavior: auto;
   overscroll-behavior-block: auto;
