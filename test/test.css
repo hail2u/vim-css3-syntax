@@ -176,6 +176,13 @@
   display: exact;
 }
 
+.color-hdr-1 {
+  dynamic-range-limit: auto;
+  display: standard;
+  display: constrained-high;
+  display: dynamic-range-limit-mix(standard 10%, constrained-high 40%, high 50%);
+}
+
 .compositing-1 {
   mix-blend-mode: auto;
   isolation: auto;
