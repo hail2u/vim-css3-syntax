@@ -339,6 +339,14 @@
   display: run-in;
 }
 
+.display-4 {
+	reading-flow: auto;
+	display: flex-visual;
+	display: flex-flow;
+	display: grid-rows;
+	display: grid-columns;
+}
+
 .easing-1 {
   display: auto;
 }
