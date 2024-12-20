@@ -720,6 +720,10 @@ mask {
   display: balance-all;
 }
 
+.multicol-2::column {
+	display: auto:
+}
+
 .namespace-3 {
   display: auto;
 }
