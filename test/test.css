@@ -340,11 +340,11 @@
 }
 
 .display-4 {
-	reading-flow: auto;
-	display: flex-visual;
-	display: flex-flow;
-	display: grid-rows;
-	display: grid-columns;
+  reading-flow: auto;
+  display: flex-visual;
+  display: flex-flow;
+  display: grid-rows;
+  display: grid-columns;
 }
 
 .easing-1 {
@@ -536,6 +536,13 @@
   masonry-track-end: auto;
   masonry-track: auto;
   masonry-slack: auto;
+  item-track: auto;
+  item-direction: auto;
+  item-wrap: auto;
+  item-cross: auto;
+  item-pack: auto;
+  item-slack: auto;
+  item-flow: auto;
   display: masonry;
   display: inline-masonry;
 }
@@ -721,7 +728,7 @@ mask {
 }
 
 .multicol-2::column {
-	display: auto:
+  display: auto:
 }
 
 .namespace-3 {
@@ -767,7 +774,7 @@ mask {
 .overflow-5::scroll-marker-group,
 .overflow-5::scroll-marker,
 .overflow-5:target-current {
-	sroll-marker-group: auto;
+  sroll-marker-group: auto;
 }
 
 .overscroll-1 {
