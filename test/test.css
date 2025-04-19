@@ -526,6 +526,28 @@
 	display: bottom-to-top;
 }
 
+.gaps-1 {
+	column-rule-break: auto;
+	row-rule-break: auto;
+	rule-break: auto;
+	column-rule-outset: auto;
+	row-rule-outset: auto;
+	rule-outset: auto;
+	rule-paint-order: auto;
+	row-rule-color: auto;
+	row-rule-style: auto;
+	row-rule-width: auto;
+	row-rule: auto;
+	rule-color: auto;
+	rule-style: auto;
+	rule-width: auto;
+	rule: auto;
+	display: spanning-item;
+	display: intersection;
+	display: row-over-column;
+	display: column-over-row;
+}
+
 .gcpm-3::footnote-call,
 .gcpm-3::footnote-marker {
   running: auto;
