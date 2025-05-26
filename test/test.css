@@ -763,6 +763,10 @@ mask {
   mask-type: auto;
 }
 
+@function mixins-1() {
+	result: auto;
+}
+
 .motion-1 {
   offset-path: auto;
   offset-distance: auto;
