@@ -517,35 +517,35 @@
 .forms-1:low-value,
 .forms-1:high-value,
 .forms-1:optimal-value {
-	slider-orientation: auto;
-	display: base;
-	display: control-value(<number>);
-	display: left-to-right;
-	display: right-to-left;
-	display: top-to-bottom;
-	display: bottom-to-top;
+  slider-orientation: auto;
+  display: base;
+  display: control-value(<number>);
+  display: left-to-right;
+  display: right-to-left;
+  display: top-to-bottom;
+  display: bottom-to-top;
 }
 
 .gaps-1 {
-	column-rule-break: auto;
-	row-rule-break: auto;
-	rule-break: auto;
-	column-rule-outset: auto;
-	row-rule-outset: auto;
-	rule-outset: auto;
-	rule-paint-order: auto;
-	row-rule-color: auto;
-	row-rule-style: auto;
-	row-rule-width: auto;
-	row-rule: auto;
-	rule-color: auto;
-	rule-style: auto;
-	rule-width: auto;
-	rule: auto;
-	display: spanning-item;
-	display: intersection;
-	display: row-over-column;
-	display: column-over-row;
+  column-rule-break: auto;
+  row-rule-break: auto;
+  rule-break: auto;
+  column-rule-outset: auto;
+  row-rule-outset: auto;
+  rule-outset: auto;
+  rule-paint-order: auto;
+  row-rule-color: auto;
+  row-rule-style: auto;
+  row-rule-width: auto;
+  row-rule: auto;
+  rule-color: auto;
+  rule-style: auto;
+  rule-width: auto;
+  rule: auto;
+  display: spanning-item;
+  display: intersection;
+  display: row-over-column;
+  display: column-over-row;
 }
 
 .gcpm-3::footnote-call,
@@ -764,7 +764,7 @@ mask {
 }
 
 @function mixins-1() {
-	result: auto;
+  result: auto;
 }
 
 .motion-1 {
@@ -1103,7 +1103,7 @@ mask {
 }
 
 .sizing-3 {
-  display: auto;
+display: auto;
 }
 
 .sizing-4 {
