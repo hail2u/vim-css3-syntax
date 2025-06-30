@@ -886,11 +886,13 @@ mask {
 }
 
 .pseudo-4::first-letter::prefix,
-.pseudo-4::first-letter::postfix,
+.pseudo-4::first-letter::suffix,
 .pseudo-4::target-text,
 .pseudo-4::spelling-error,
 .pseudo-4::grammer-error,
-.pseudo-4::file-selectors-button {
+.pseudo-4::file-selectors-button,
+.pseudo-4::search-text,
+.pseudo-4::details-content {
   display: auto;
 }
 
