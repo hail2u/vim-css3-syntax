@@ -879,6 +879,10 @@ mask {
   inset: auto;
 }
 
+.position-4::backdrop {
+  overlay: auto;
+}
+
 .properties-values-api-1 {
   syntax: auto;
   inherits: auto;
