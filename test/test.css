@@ -84,6 +84,37 @@
   background-position-y: auto;
   background-position-inline: auto;
   background-position-block: auto;
+  display: x-start;
+  display: x-end;
+  display: y-start;
+  display: y-end;
+}
+
+.borders-4 {
+	border-top-radius: auto;
+	border-right-radius: auto;
+	border-bottom-radius: auto;
+	border-left-radius: auto;
+	border-block-start-radius: auto;
+	border-block-end-radius: auto;
+	border-inline-start-radius: auto;
+	border-inline-end-radius: auto;
+	corner-top-left-shape: auto;
+	corner-top-right-shape: auto;
+	corner-bottom-right-shape: auto;
+	corner-bottom-left-shape: auto;
+	corner-start-start-shape: auto;
+	corner-start-end-shape: auto;
+	corner-end-start-shape: auto;
+	corner-end-end-shape: auto;
+	corner-top-shape: auto;
+	corner-right-shape: auto;
+	corner-bottom-shape: auto;
+	corner-left-shape: auto;
+	corner-inline-start-shape: auto;
+	corner-inline-end-shape: auto;
+	corner-block-start-shape: auto;
+	corner-block-end-shape: auto;
   corner-shape: auto;
   corners: auto;
   border-limit: auto;
@@ -92,13 +123,19 @@
   border-clip-right: auto;
   border-clip-bottom: auto;
   border-clip-left: auto;
-  display: x-start;
-  display: x-end;
-  display: y-start;
-  display: y-end;
+	box-shadow-color: auto;
+	box-shadow-offset: auto;
+	box-shadow-blur: auto;
+	box-shadow-spread: auto;
+	box-shadow-position: auto;
+	border-shape: auto;
+	display: squircle;
   display: bevel;
   display: scoop;
   display: notch;
+	display: superellipse(1);
+	display: sides;
+	display: corners;
 }
 
 .box-3 {
