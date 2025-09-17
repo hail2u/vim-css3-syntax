@@ -354,11 +354,10 @@
 }
 
 .cssom-1 {
-  display: auto;
 }
 
 .cssom-view-1 {
-  scroll-behavior: smooth;
+  display: auto;
 }
 
 .device-adapt-1 {
@@ -840,9 +839,11 @@ mask {
   overflow-inline: auto;
   scrollbar-gutter: auto;
   block-ellipsis: auto;
+  scroll-behavior: auto;
   line-clamp: auto;
   max-lines: auto;
   continue: auto;
+  display: smooth;
 }
 
 .overflow-4::nth-fragment(1) {
