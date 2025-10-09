@@ -23,19 +23,19 @@
   display: span-right;
   display: span-x-start;
   display: span-x-end;
-  display: x-self-start;
-  display: x-self-end;
-  display: span-x-self-start;
-  display: span-x-self-end;
+  display: self-x-start;
+  display: self-x-end;
+  display: span-self-x-start;
+  display: span-self-x-end;
   display: span-all;
   display: span-top;
   display: span-bottom;
   display: span-y-start;
   display: span-y-end;
-  display: y-self-start;
-  display: y-self-end;
-  display: span-y-self-start;
-  display: span-y-self-end;
+  display: self-y-start;
+  display: self-y-end;
+  display: span-self-y-start;
+  display: span-self-y-end;
   display: span-block-start;
   display: span-block-end;
   display: self-block-start;
@@ -60,6 +60,7 @@
   display: flip-block;
   display: flip-inline;
   display: flip-start;
+  display: dialog;
   display: anchor(--x 50%);
   display: anchor-size(--foo height);
 }
