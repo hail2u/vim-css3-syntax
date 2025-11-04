@@ -273,6 +273,12 @@
   }
 }
 
+@supports-condition --thicker-underlines {
+  .conditional-5 {
+    display: auto;
+  }
+}
+
 .contain-1 {
   contain: auto;
   display: layout;
