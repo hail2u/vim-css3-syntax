@@ -85,14 +85,23 @@
 }
 
 .backgrounds-4 {
+  background-repeat-x: auto;
+  background-repeat-y: auto;
+  background-repeat-inline: auto;
+  background-repeat-block: auto;
   background-position-x: auto;
   background-position-y: auto;
   background-position-inline: auto;
   background-position-block: auto;
+  background-tbd: auto;
   display: x-start;
   display: x-end;
   display: y-start;
   display: y-end;
+  display: border-area;
+  display: text;
+  display: repeat-block;
+  display: repeat-inline;
 }
 
 .borders-4 {
