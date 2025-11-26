@@ -397,10 +397,13 @@
 
 .display-4 {
   reading-flow: auto;
+  reading-order: auto;
   display: flex-visual;
   display: flex-flow;
   display: grid-rows;
   display: grid-columns;
+  display: source-order;
+  display: force-hidden;
 }
 
 .easing-1 {
