@@ -639,26 +639,9 @@
 }
 
 .grid-3 {
-  masonry-direction: auto;
-  masonry-fill: auto;
-  masonry-flow: auto;
-  masonry: auto;
-  masonry-template-tracks: auto;
-  masonry-template-areas: auto;
-  masonry-auto-tracks: auto;
-  masonry-track-start: auto;
-  masonry-track-end: auto;
-  masonry-track: auto;
-  masonry-slack: auto;
-  item-track: auto;
-  item-direction: auto;
-  item-wrap: auto;
-  item-cross: auto;
-  item-pack: auto;
-  item-slack: auto;
-  item-flow: auto;
-  display: masonry;
-  display: inline-masonry;
+  item-tolerance: auto;
+  display: grid-lanes;
+  display: inline-grid-lanes;
 }
 
 .highlight-api-1::highlight(test) {
