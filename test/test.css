@@ -57,6 +57,8 @@
   display: most-height;
   display: most-block-size;
   display: most-inline-size;
+  display: flip-x;
+  display: flip-y;
   display: flip-block;
   display: flip-inline;
   display: flip-start;
