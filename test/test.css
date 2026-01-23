@@ -652,7 +652,13 @@
 }
 
 .grid-3 {
-  item-tolerance: auto;
+  flow-tolerance: auto;
+  item-track: auto;
+  item-direction: auto;
+  item-cross: auto;
+  item-wrap: auto;
+  item-pack: auto;
+  item-flow: auto;
   display: grid-lanes;
   display: inline-grid-lanes;
 }
