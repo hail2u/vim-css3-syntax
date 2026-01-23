@@ -1456,11 +1456,16 @@ view {
 }
 
 .ui-4 {
-  caret: auto;
   caret-shape: auto;
-  display: fade;
-  display: fade(1em);
+  caret-animation: auto;
+  caret: auto;
+  interactivity: auto;
+  interest-delay-start: auto;
+  interest-delay-end: auto;
+  interest-delay: auto;
+  accent-color: auto;
   display: underscore;
+  display: inert;
 }
 
 .unofficials {
