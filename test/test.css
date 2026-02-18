@@ -1149,6 +1149,23 @@ mask {
   display: auto;
 }
 
+.selectors-5:local-link,
+.selectors-5:interest-source,
+.selectors-5:interest-target,
+.selectors-5:blank,
+.selectors-5:current,
+.selectors-5:past,
+.selectors-5:future,
+.selectors-5:state(loading),
+.selectors-5:heading,
+.selectors-5:headings(1, 3, 5),
+.selectors-5 || .foo,
+.selectors-5:nth-col(1),
+.selectors-5:nth-last-col(1),
+.selectors-5 /for/ .foo {
+  display: auto;
+}
+
 .shadow-parts::part(textspan) {
   display: auto;
 }
