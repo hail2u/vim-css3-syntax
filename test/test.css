@@ -983,16 +983,15 @@ mask {
 }
 
 .rhythm-1 {
-  line-height-step: auto;
   block-step-size: auto;
   block-step-insert: auto;
   block-step-align: auto;
-  display: margin;
+  block-step-round: auto;
+  block-step: auto;
+  line-height-step: auto;
   display: up;
   display: down;
   display: nearest;
-  block-step-round: auto;
-  block-step: auto;
 }
 
 @media (device-radius: 50%) {
