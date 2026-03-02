@@ -1,2 +1,2 @@
-syn keyword cssFontProp contained column-rule-break row-rule-break rule-break column-rule-outset row-rule-outset rule-outset rule-paint-order row-rule-color row-rule-style row-rule-width row-rule rule-color rule-style rule-width rule
-syn keyword cssFontAttr contained spanning-item intersection row-over-column column-over-row
+syn keyword cssFontProp contained column-rule-break row-rule-break rule-break column-rule-edge-inset-start column-rule-edge-inset-end column-rule-interior-inset-start column-rule-interior-inset-end row-rule-edge-inset-start row-rule-edge-inset-end row-rule-interior-inset-start row-rule-interior-inset-end rule-overlap row-rule-color rule-color row-rule-style rule-style row-rule-width rule-width row-rule rule
+syn keyword cssFontAttr contained intersection row-over-column column-over-row
