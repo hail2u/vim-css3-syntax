@@ -539,6 +539,7 @@
   font-palette: auto;
   font-variant-emoji: auto;
   font-presentation: auto;
+  display: oblique-only;
   display: system-ui;
   display: emoji;
   display: math;
