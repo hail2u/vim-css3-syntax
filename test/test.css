@@ -245,6 +245,10 @@
   display: standard;
   display: constrained-high;
   display: dynamic-range-limit-mix(standard 10%, constrained-high 40%, high 50%);
+  display: hdr-color(
+    color(rec2100-linear 0.9 1.0 0.8) 0,
+    color(rec2100-linear 1.8 2.0 1.5) 2
+  );
 }
 
 .compositing-1 {
