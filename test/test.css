@@ -683,6 +683,11 @@ template {
   display: auto;
 }
 
+.image-animation-1:animated-image {
+  image-animation: auto;
+  display: stopped;
+}
+
 .images-3 {
   image-orientation: auto;
   display: snap;
