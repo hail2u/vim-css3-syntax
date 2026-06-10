@@ -1404,6 +1404,7 @@ view {
   display: ideograph-numeric;
   display: punctuation;
   display: ideographic-space;
+  display: avoid-orphans;
 }
 
 .text-decor-3 {
