@@ -2,7 +2,6 @@
   place-self: auto;
   place-content: auto;
   place-items: auto;
-  row-gap: auto;
   display: safe;
   display: unsafe;
   display: self-start;
@@ -608,6 +607,7 @@
 }
 
 .gaps-1 {
+  row-gap: auto;
   column-rule-break: auto;
   row-rule-break: auto;
   rule-break: auto;
@@ -630,6 +630,7 @@
   display: intersection;
   display: row-over-column;
   display: column-over-row;
+  display: overlap-join;
 }
 
 .gcpm-3::footnote-call,
