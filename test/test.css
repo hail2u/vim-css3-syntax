@@ -747,6 +747,11 @@ template {
   display: last-baseline;
 }
 
+.link-params-1 {
+  link-parameters: auto;
+  display: param(--color, green);
+}
+
 .lists-3::marker {
   marker-side: auto;
   counter-set: auto;
