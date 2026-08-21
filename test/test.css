@@ -1410,7 +1410,7 @@ view {
   display: ideograph-numeric;
   display: punctuation;
   display: ideographic-space;
-  display: avoid-orphans;
+  display: avoid-short-last-line;
 }
 
 .text-decor-3 {
