@@ -1283,16 +1283,10 @@ feTurbulence,
 filter,
 foreignObject,
 g,
-hatch,
-hatchpath,
 image,
 line,
 linearGradient,
 marker,
-mesh,
-meshgradient,
-meshpatch,
-meshrow,
 metadata,
 mpath,
 path,
@@ -1302,7 +1296,6 @@ polyline,
 radialGradient,
 rect,
 set,
-solidcolor,
 stop,
 switch,
 symbol,
@@ -1320,12 +1313,11 @@ view {
   marker-end: auto;
   marker-mid: auto;
   marker-start: auto;
+  path-length: auto;
   r: auto;
   rx: auto;
   ry: auto;
   shape-rendering: auto;
-  solid-color: auto;
-  solid-opacity: auto;
   stop-color: auto;
   stop-opacity: auto;
   text-anchor: auto;
@@ -1344,7 +1336,6 @@ view {
   display: non-scaling-stroke;
   display: non-scaling-size;
   display: non-rotation;
-  display: child(1);
   display: icc-color(foo);
 }
 
