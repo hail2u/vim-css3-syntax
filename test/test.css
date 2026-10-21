@@ -70,6 +70,10 @@
   display: anchored;
 }
 
+.animation-worklet-1 {
+  display: auto;
+}
+
 .animations-1 {
   display: auto;
 }
