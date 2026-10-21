@@ -1,0 +1,3 @@
+syn keyword cssFontProp contained trigger-scope timeline-trigger-name timeline-trigger-source timeline-trigger-activation-range timeline-trigger-activation-range-start timeline-trigger-activation-range-end timeline-trigger-active-range timeline-trigger-active-range-start timeline-trigger-active-range-end timeline-trigger-range timeline-trigger event-trigger-name event-trigger-source event-trigger animation-trigger
+syn keyword cssFontAttr contained play play-once play-forwards play-backwards pause reset replay
+syn region cssFunction contained matchgroup=cssFunctionName start="\<\(click\|dblclick\|pointerenter\|pointerleave\|pointerup\|pointerdown\|keypress\|focusin\|focusout\|input\|change\|keypress\)\s*(" end=")" oneline keepend

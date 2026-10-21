@@ -70,6 +70,42 @@
   display: anchored;
 }
 
+.animation-triggers-1 {
+  trigger-scope: auto;
+  timeline-trigger-name: auto;
+  timeline-trigger-source: auto;
+  timeline-trigger-activation-range: auto;
+  timeline-trigger-activation-range-start: auto;
+  timeline-trigger-activation-range-end: auto;
+  timeline-trigger-active-range: auto;
+  timeline-trigger-active-range-start: auto;
+  timeline-trigger-active-range-end: auto;
+  timeline-trigger-range: auto;
+  timeline-trigger: auto;
+  event-trigger-name: auto;
+  event-trigger-source: auto;
+  event-trigger: auto;
+  animation-trigger: auto;
+  display: click();
+  display: dblclick();
+  display: pointerenter();
+  display: pointerleave();
+  display: pointerup();
+  display: pointerdown();
+  display: focusin();
+  display: focusout();
+  display: input();
+  display: change();
+  display: keypress("Backspace");
+  display: play;
+  display: play-once;
+  display: play-forwards;
+  display: play-backwards;
+  display: pause;
+  display: reset;
+  display: replay;
+}
+
 .animation-worklet-1 {
   display: auto;
 }
